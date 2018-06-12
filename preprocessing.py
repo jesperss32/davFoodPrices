@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 import operator
+import copy
 
 
 ## DATA LOAD FUNCTIONS ########################################################
@@ -59,7 +60,7 @@ def list_countries(df):
 nonfoods = ['Fuel (diesel)', 'Fuel (petrol-gasoline)', 'Fuel (kerosene)', 'Fuel (gas)', \
 'Charcoal', 'Exchange rate', 'Wage (non-qualified labour, non-agricultural)', \
 'Wage (non-qualified labour)', 'Wage (qualified labour)', 'Wage (non-qualified labour, agricultural)', \
-'Exchange rate (unofficial)', 'Electricity', 'Cotton']
+'Exchange rate (unofficial)', 'Electricity', 'Cotton', 'Transport (public)']
 
 def delete_products(df, to_delete):
     df = df[~df['_product'].isin(to_delete)]
@@ -145,82 +146,3 @@ def find_country_year_entries(df, product):
 
 # find_country_year_entries(food_df_fo, 'Maize')
 #print(food_df_fo.unit.unique().tolist())
-
-
-def unit_normalization(df):
-    products = df._product.unique().tolist()
-    for product in products:
-        pr_dt = df.loc[df['_product']== product]
-        units = pr_dt.unit.unique().tolist()
-        if len(units) > 1:
-            print(product, units)
-            for unit in units:
-                unit_ind = pr_dt.loc[pr_dt['unit'] == unit].index.values
-                if 'KG' in unit:
-                    if unit == 'KG':
-                        continue
-                    measure = unit.replace('KG', '').replace(' ', '')
-                    measure = float(measure)
-
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] / measure
-                    df.loc[unit_ind, 'unit'] = 'KG'
-                elif 'MT' in unit:
-                    measure = 1000
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] / measure
-                    df.loc[unit_ind, 'unit'] = 'KG'
-                elif 'Gallon' in unit:
-                    measure = 3.78541178
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] / measure
-                    df.loc[unit_ind, 'unit'] = 'L'
-                elif 'Pound' in unit:
-                    measure = 0.45359237
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] * measure
-                    df.loc[unit_ind, 'unit'] = 'KG'
-                elif 'Libra' in unit:
-                    measure = 1 / 0.329
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] * measure
-                    df.loc[unit_ind, 'unit'] = 'KG'
-                elif 'Cuartilla' in unit:
-                    measure = 2.875575 ##?????
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] / measure
-                    df.loc[unit_ind, 'unit'] = 'KG'
-                elif 'pcs' in unit:
-                    if unit == 'pcs':
-                        df.loc[unit_ind, 'unit'] = 'Unit'
-                        continue
-                    measure = float(unit.replace(' pcs', ''))
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] / measure
-                    df.loc[unit_ind, 'unit'] = 'Unit'
-                elif 'Dozen' in unit:
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] / 12
-                    df.loc[unit_ind, 'unit'] = 'Unit'
-                elif 'Head' in unit:
-                    df.loc[unit_ind, 'unit'] = 'Unit'
-                elif 'Loaf' in unit:
-                    df.loc[unit_ind, 'unit'] = 'Unit'
-                elif ' G' in unit:
-                    if unit == 'G':
-                        continue
-                    measure = unit.replace('G', '')
-                    measure = float(measure)
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] *(1000 / measure)
-                    df.loc[unit_ind, 'unit'] = 'KG'
-                elif 'ML' in unit:
-                    if unit == 'ML':
-                        continue
-                    measure = unit.replace('ML', '').replace(' ', '')
-                    measure = float(measure)
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] *(1000 / measure)
-                    df.loc[unit_ind, 'unit'] = 'L'
-                elif ' L' in unit:
-                    if unit == 'L':
-                        continue
-                    measure = unit.replace(' L', '')
-                    measure = float(measure)
-                    df.loc[unit_ind, 'price'] = df.loc[unit_ind, 'price'] / measure
-                    df.loc[unit_ind, 'unit'] = 'L'
-
-    return df
-newdf = unit_normalization(food_df_fo)
-print('\n\n\n')
-unit_normalization(newdf)
