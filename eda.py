@@ -44,8 +44,16 @@ def fullEDA(dataFrame, query):
 
 def boxPlot(dataFrame, query):
 	dataFrame = dataFrame.query(query)
-	dataFrame.boxplot("price")
-	plt.show()
+	fig = dataFrame.boxplot("price")
+	print("figure created")
+	#plt.show(fig)
+	try: 
+		fig.figure.savefig('plots/ "{}".png' .format(query))  # save the figure to file
+	except:
+		print("failed to save file")
+	print("figure saved")
+	plt.close()
+	return
 
 
 
