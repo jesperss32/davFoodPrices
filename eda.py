@@ -11,7 +11,7 @@ def calcMean(dataFrame, query=None):
 def calcStandardDev(dataFrame, query=None):
 	if(query):
 		dataFrame = dataFrame.query(query) 
-	return dataFrame.price.std()
+	return dataFrame.price.std()/calcMean(dataFrame, query)
 
 def findOutliers(dataFrame, threshold):
 	mean = dataFrame.price.mean()
@@ -45,10 +45,12 @@ def fullEDA(dataFrame, query):
 def boxPlot(dataFrame, query):
 	dataFrame = dataFrame.query(query)
 	fig = dataFrame.boxplot("price")
-	print("figure created")
-	#plt.show(fig)
+	saveToFile(fig, query, "boxplot")
+	return
+
+def saveToFile(fig, query, sort):
 	try: 
-		fig.figure.savefig('plots/ "{}".png' .format(query))  # save the figure to file
+		fig.figure.savefig('plots/ {}--"{}".png' .format(sort, query))  # save the figure to file
 	except:
 		print("failed to save file")
 	print("figure saved")
