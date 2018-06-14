@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import operator
 import copy
+import matplotlib.ticker as ticker
 
 
 ## DATA LOAD FUNCTIONS ########################################################
@@ -120,6 +121,8 @@ def find_country_year_entries(df, product):
     # best_countries = None
     cs = []
     ys = []
+    best_cs = len(prod_data.country.unique())
+    best_ys = 0
     while thres <= len(prod_data.year.unique().tolist()):
         tempdf = delete_years_below_thres(prod_data, thres)
         countries = tempdf.country.unique().tolist()
@@ -130,19 +133,19 @@ def find_country_year_entries(df, product):
             years_available = country_data.year.unique().tolist()
             overlap = [y for y in years_available if y in overlapping]
             overlapping = overlap
-        ys.append(len(overlapping))
-        cs.append(len(countries))
-        # if len(countries) > best_countries_count:
-        #     best_countries_count = len(countries)
-        #     best_countries = countries
-        # if len(year) > best_years_count:
-        #     best_years_count = len(year)
-        #     best_years = year
+        ys.append( len(overlapping))
+        cs.append( len(countries))
         thres += 1
-    l1, = plt.plot(range(len(prod_data.year.unique().tolist())+1),cs, label='countries')
-    l2, =plt.plot(range(len(prod_data.year.unique().tolist())+1),ys, label='years_available')
+    fig, ax = plt.subplots(1,1)
+    l1, = ax.plot(range(len(prod_data.year.unique().tolist())+1),cs, label='countries')
+    l2, = ax.plot(range(len(prod_data.year.unique().tolist())+1),ys, label='years_available')
+    ax.xaxis.set_major_locator(ticker.MultipleLocator(1.0))
+    plt.title(product)
+    plt.xlabel('threshold')
+    plt.ylabel('year/country frequency')
     plt.legend(handles=[l1, l2])
     plt.show()
 
-# find_country_year_entries(food_df_fo, 'Maize')
+for product in food_df_fo._product.unique().tolist():
+    find_country_year_entries(food_df_fo, product)
 #print(food_df_fo.unit.unique().tolist())
