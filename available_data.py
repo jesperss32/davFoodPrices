@@ -214,20 +214,19 @@ def compute_average_over_markets_2(df):
     s = 0
     c = 0
     newdf = pd.DataFrame(columns = [x for x in df.columns.values if x != 'month'])
-    countries = df.country.unique().tolist()
-
-
     markets = df.market_ID.unique().tolist()
     for market in markets:
         products = df.product_ID.unique().tolist()
         for product in products:
-            years_market = df.loc[(df['product_ID'] == product) & df['market_ID'] == market] # product for all years
+            years_market = df.loc[(df['market_ID'] == market) & (df['product_ID'] == product)] # product for all years
             years = years_market.year.unique().tolist() # unique years
             for year in years:
                 complete, years_market = handle_months_2(years_market, year,product)
+
                 if complete:
-                    print(years_market.month.unique(), len(years_market.loc[years_market['year'] == year,'price']))
-                    year_average = years_market['price'].mean()
+                    if len(years_market.loc[years_market['year'] == year,'price']) != 12:
+                        print(len(years_market.loc[years_market['year'] == year,'price']))
+                    year_average = years_market.loc[years_market['year'] == year,'price'].mean()
                     row = years_market.loc[years_market['year'] == year].iloc[0].drop('month')
                     row['price'] = year_average
                     newdf = newdf.append(row).reset_index(drop=True)
@@ -241,8 +240,8 @@ def compute_average_over_markets_2(df):
 
 
 # print([x for x in data.columns.values if x != 'month'])
-av = compute_average_over_markets_2(data)
-av.to_csv('yearly_average_data.csv')
+av = compute_average_over_markets_2(data.loc[data['country'] == 'Afghanistan'])
+av.to_csv('afghan_average_data.csv')
 # for market in data.market.unique().tolist():
 #     countries = data.loc[data['market'] == market].country.unique().tolist()
 #     for country in countries

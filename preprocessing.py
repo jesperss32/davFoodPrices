@@ -4,6 +4,7 @@ import numpy as np
 import operator
 import copy
 import matplotlib.ticker as ticker
+from scipy.stats import spearmanr
 
 
 ## DATA LOAD FUNCTIONS ########################################################
@@ -146,6 +147,64 @@ def find_country_year_entries(df, product):
     plt.legend(handles=[l1, l2])
     plt.show()
 
-for product in food_df_fo._product.unique().tolist():
-    find_country_year_entries(food_df_fo, product)
+# for product in food_df_fo._product.unique().tolist():
+#     find_country_year_entries(food_df_fo, product)
 #print(food_df_fo.unit.unique().tolist())
+
+# badakhshan_bread = food_df_fo.loc[(food_df_fo['country'] == 'Afghanistan') & (food_df_fo['market'] == 'Fayzabad') & (food_df_fo['_product'] == 'Bread')]
+# badakhshan_wheat = food_df_fo.loc[(food_df_fo['country'] == 'Afghanistan') & (food_df_fo['market'] == 'Fayzabad') & (food_df_fo['_product'] == 'Wheat')]
+# bb_years = badakhshan_bread.year.unique().tolist()
+# bw_years = badakhshan_wheat.year.unique().tolist()
+#
+# overlap = [x for x in bb_years if x in bw_years]
+# bb_yearprices = []
+# for year in overlap:
+#     sumyear = 0
+#     yeardata = badakhshan_bread.loc[badakhshan_bread['year'] == year]
+#     for month in yeardata.month.unique().tolist():
+#         sumyear += int(yeardata.loc[yeardata['month'] == month]['price'])
+#     mean_year = sumyear / len(yeardata.month.unique().tolist())
+#     bb_yearprices.append(mean_year)
+#
+# bw_yearprices = []
+# for year in overlap:
+#     sumyear = 0
+#     yeardata = badakhshan_wheat.loc[badakhshan_wheat['year'] == year]
+#     for month in yeardata.month.unique().tolist():
+#         sumyear += int(yeardata.loc[yeardata['month'] == month]['price'])
+#     mean_year = sumyear / len(yeardata.month.unique().tolist())
+#     bw_yearprices.append(mean_year)
+#
+# print(bb_yearprices)
+# print(bw_yearprices)
+#
+# print(spearmanr(bb_yearprices,bw_yearprices))
+
+badakhshan_bread = food_df_fo.loc[(food_df_fo['country'] == 'Afghanistan') & (food_df_fo['market'] == 'Fayzabad') & (food_df_fo['_product'] == 'Bread')]
+badakhshan_wheat = food_df_fo.loc[(food_df_fo['country'] == 'Afghanistan') & (food_df_fo['market'] == 'Fayzabad') & (food_df_fo['_product'] == 'Wheat')]
+bb_years = badakhshan_bread.year.unique().tolist()
+bw_years = badakhshan_wheat.year.unique().tolist()
+
+overlap = [x for x in bb_years if x in bw_years]
+bb_yearprices = []
+for year in overlap:
+    sumyear = 0
+    yeardata = badakhshan_bread.loc[badakhshan_bread['year'] == year]
+    for month in yeardata.month.unique().tolist():
+        sumyear += int(yeardata.loc[yeardata['month'] == month]['price'])
+    mean_year = sumyear / len(yeardata.month.unique().tolist())
+    bb_yearprices.append(mean_year)
+
+bw_yearprices = []
+for year in overlap:
+    sumyear = 0
+    yeardata = badakhshan_wheat.loc[badakhshan_wheat['year'] == year]
+    for month in yeardata.month.unique().tolist():
+        sumyear += int(yeardata.loc[yeardata['month'] == month]['price'])
+    mean_year = sumyear / len(yeardata.month.unique().tolist())
+    bw_yearprices.append(mean_year)
+
+print(bb_yearprices)
+print(bw_yearprices)
+
+print(spearmanr(bb_yearprices,bw_yearprices))

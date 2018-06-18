@@ -103,5 +103,5 @@ def unit_normalization(df):
 
 food_df_un = unit_normalization(food_df_fo)
 
-print(food_df_un.unit.unique().tolist())
-food_df_un.to_csv('firstclean_foodprices_data.csv')
+# print(food_df_un.unit.unique().tolist())
+# food_df_un.to_csv('firstclean_foodprices_data.csv')
