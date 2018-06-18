@@ -115,7 +115,37 @@ def chartPriceHistory(dataFrame, query, ax=None):
 	plt.legend()
 	plt.show()
 	return
-	
+
+def getMissingYears(df):
+	years = sorted(df.Year.unique())
+	missing_years = []
+	# print("Years: {}".format(df.Year.unique()))
+	for year in range(min(years), max(years)):
+		if not year in years:
+			missing_years.append(year)
+	# print("Missing years: {}".format(missing_years))
+	return missing_years
+
+def getProductionStats(df, query):
+	df = df.query(query)
+	print("Statistics for " + query + ":")
+	print("Number of rows: {}".format(df.shape[0]))
+	print("Mean production: {}".format(df.Value.mean()))
+	print("Standard Deviation: {}".format(df.Value.std()))
+	print(getMissingYears(df))
+	return
+
+def findAllMissingYears(df):
+	countries = df.Area.unique()
+	for country in countries:
+		this_country = df.query("Area ==\"" + country + "\"")
+		products = this_country.Item.unique()
+		for product in products:
+			this_product = this_country.query("Item == \"" + product + "\"")
+			missing_years = getMissingYears(this_product)
+			if missing_years:
+				print("Missing years for ({}, {}): {}".format(country, product, missing_years))
+
 def getLinkedProducts(product):
 	linked_products = pd.read_csv('Linked_products.csv', encoding='UTF-8', delimiter=";")
 	prod = linked_products.query('price_df_product == \"' + product + '\"')
@@ -175,6 +205,10 @@ if __name__ == '__main__':
 
 	links_df = pd.read_csv('Linked_products.csv', delimiter=";")
 
+	findAllMissingYears(prod_df)
+
+	# getProductionStats(prod_df, "Area == \"Afghanistan\" & Item == \"Cotton lint\"")
+
 	# chartPriceProductionHistory(price_df, prod_df, links_df, "Wheat", "India")
 
-	chartPriceHistory(price_df, "country == \"India\"")
+	# chartPriceHistory(price_df, "country == \"India\"")
