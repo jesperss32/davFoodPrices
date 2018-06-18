@@ -39,7 +39,7 @@ def fullEDA(dataFrame, query):
 		P_inliers = round(float((N_inliers-prevN_inliers) * 100) / df.shape[0], 1)
 		print("Rows between {} and {} standard deviations: {} ({}%), cumulative: {} rows ({} %)".format(t-1, t, N_inliers-prevN_inliers, P_inliers, N_inliers, P_inliers_cumul))
 		t = t + 1
-		prevN_inliers = N_inliers
+		prevN_inliers = N_inliersn
 		outliers = findOutliers(df, t)
 	print("Rows between {} and {} standard deviations: {} ({}%), cumulative: {} rows (100 %)".format(t-1, t, df.shape[0]-prevN_inliers, round(float((df.shape[0]-prevN_inliers)*100)/df.shape[0], 1), df.shape[0]))
 
@@ -87,7 +87,8 @@ def chartPriceHistory(dataFrame, query, ax=None):
 				if(ax):
 					plt.plot(year_months, month_means, label=product, ax=ax)
 				else:
-					plt.plot(year_months, month_means, label=product)
+					country = this_currency.country.unique()[0]
+					plt.plot(year_months, month_means, label=str(country)+", " + str(product))
 			plt.legend()
 			# plt.show()
 
@@ -110,7 +111,7 @@ def chartPriceHistory(dataFrame, query, ax=None):
 				if(ax):
 					ax.plot(year_months, month_means, label=str(country)+", " + str(product))
 				else:
-					ax.plot(year_months, month_means, label=str(country)+", " + str(product))
+					plt.plot(year_months, month_means, label=str(country)+", " + str(product))
 			plt.legend()
 	plt.legend()
 	plt.show()
@@ -205,10 +206,10 @@ if __name__ == '__main__':
 
 	links_df = pd.read_csv('Linked_products.csv', delimiter=";")
 
-	findAllMissingYears(prod_df)
+	# findAllMissingYears(prod_df)
 
 	# getProductionStats(prod_df, "Area == \"Afghanistan\" & Item == \"Cotton lint\"")
 
-	# chartPriceProductionHistory(price_df, prod_df, links_df, "Wheat", "India")
+	chartPriceProductionHistory(price_df, prod_df, links_df, "Wheat", "Nepal")
 
-	# chartPriceHistory(price_df, "country == \"India\"")
+	chartPriceHistory(price_df, "country == \"Nepal\" & (_product == \"Wheat\" | _product == \"Rice\")")
