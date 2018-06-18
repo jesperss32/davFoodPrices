@@ -91,6 +91,64 @@ def handle_months(df, country, district, market, year, product):
     else:
         return False, df
 
+
+def handle_months_2(df, year, product):
+    relevant = df.loc[(df['product_ID'] == product) & (df['year'] == year)]
+    months = relevant.month.unique().tolist()
+    if len(months) == 12:
+        return True, df
+    elif len(months) >= 10:
+        missing = [m for m in range(1, 12) if m not in months]
+        for m in missing:
+            if m-1 in months and m+1 in months:
+                mm1 = df.loc[(df['product_ID'] == product) &  \
+                         (df['month'] == m-1), 'price']
+                mp1 = df.loc[(df['product_ID'] == product) & \
+                         (df['month'] == m+1),'price']
+                new_p = (mm1.values[0]+mp1.values[0])/2
+                row = df.loc[(df['product_ID'] == product) & \
+                         (df['month'] == m+1)]
+                row['month'] = m
+                row['price'] = new_p
+                df = pd.concat([df.ix[:mm1.index.values[0]], row, df.ix[mp1.index.values[0]:]]).reset_index(drop=True)
+                months.append(m)
+            elif m-1 == 0:
+                prev_year = year-1
+                prev_month = df.loc[(df['product_ID'] == product) & (df['year'] == prev_year)\
+                        & (df['month'] == 12), 'price']
+                mp1 =  df.loc[(df['product_ID'] == product) & (df['year'] == year)\
+                        & (df['month'] == m+1),'price']
+                if prev_month.any() and mp1.any():
+                    new_p = (prev_month.values[0] + mp1.values[0])/2
+                    row = df.loc[(df['product_ID'] == product) & (df['year'] == year)\
+                            & (df['month'] == 12)]
+                    row['month'] = m
+                    row['price'] = new_p
+                    df = pd.concat([df.ix[:prev_month.index.values[0]], row, df.ix[mp1.index.values[0]:]]).reset_index(drop=True)
+                    months.append(m)
+            elif m+1 == 13:
+                next_year = year+1
+                next_month = df.loc[(df['product_ID'] == product) & (df['year'] == prev_year)\
+                        & (df['month'] == 1), 'price']
+                mm1 =  df.loc[(df['product_ID'] == product) & (df['year'] == year)\
+                        & (df['month'] == m-1),'price']
+                if next_month.any() and mm.any():
+                    new_m = (next_month.values[0] + mm1.values[0])/2
+                    row = df.loc[(df['product_ID'] == product) & (df['year'] == year)\
+                            & (df['month'] == 1)]
+                    row['month'] = m
+                    row['price'] = new_p
+                    df = pd.concat([df.ix[:next_month.index.values[0]], row, df.ix[mm1.index.values[0]:]]).reset_index(drop=True)
+                    months.append(m)
+        if len(months) == 12:
+            return True, df
+        else:
+            return False, df
+
+    else:
+        return False, df
+
+
 data = pd.read_csv('firstclean_foodprices_data.csv')
 # prod1 = get_years(data, 'India', 'Rice')
 # prod2 = get_years(data, 'India', 'Wheat')
@@ -157,36 +215,33 @@ def compute_average_over_markets_2(df):
     c = 0
     newdf = pd.DataFrame(columns = [x for x in df.columns.values if x != 'month'])
     countries = df.country.unique().tolist()
-    for country in countries:
-        districts = df.loc[df['country'] == country].district.unique().tolist()
-        for dis in districts:
-            markets = df.loc[(df['country'] == country) & (df['district'] == dis)].market.unique().tolist()
-            for market in markets:
-                products = df.loc[(df['country'] == country) & \
-                    (df['district'] == dis) & (df['market'] == market)]._product.unique().tolist()
-                for product in products:
-                    years_market = df.loc[(df['country'] == country) & \
-                        (df['district'] == dis) & (df['market'] == market) \
-                            & (df['_product'] == product)]
-                    years = years_market.year.unique().tolist()
-                    for year in years:
-                        complete, years_market = handle_months(years_market, country, dis, market, year, product)
-                        if complete:
-                            year_average = years_market['price'].mean()
-                            row = years_market.loc[years_market['year'] == year].iloc[0].drop('month')
-                            row['price'] = year_average
-                            newdf = newdf.append(row).reset_index(drop=True)
-                        else:
-                            s +=1
+
+
+    markets = df.market_ID.unique().tolist()
+    for market in markets:
+        products = df.product_ID.unique().tolist()
+        for product in products:
+            years_market = df.loc[(df['product_ID'] == product) & df['market_ID'] == market] # product for all years
+            years = years_market.year.unique().tolist() # unique years
+            for year in years:
+                complete, years_market = handle_months_2(years_market, year,product)
+                if complete:
+                    print(years_market.month.unique(), len(years_market.loc[years_market['year'] == year,'price']))
+                    year_average = years_market['price'].mean()
+                    row = years_market.loc[years_market['year'] == year].iloc[0].drop('month')
+                    row['price'] = year_average
+                    newdf = newdf.append(row).reset_index(drop=True)
+                else:
+                    s +=1
         c+=1
-        print((c/len(countries)) * 100, '%')
+        print((c/len(markets)) * 100, '%')
     print('Fails:', s)
     print(newdf)
     return newdf
 
 
 # print([x for x in data.columns.values if x != 'month'])
-av = compute_average_over_markets(data)
+av = compute_average_over_markets_2(data)
 av.to_csv('yearly_average_data.csv')
 # for market in data.market.unique().tolist():
 #     countries = data.loc[data['market'] == market].country.unique().tolist()
