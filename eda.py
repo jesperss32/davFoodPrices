@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import datetime as dt
 import math
+import numpy  as np
 def calcMean(dataFrame, query=None):
 	if(query):
 		dataFrame = dataFrame.query(query)
@@ -53,7 +54,7 @@ def boxPlot(dataFrame, query):
 # For every unique currency included in the query, a different plot is generated.
 # If such a plot includes multiple products, it takes the mean price of each product (from all countries)
 # If such a plot includes only one product, it takes the mean price of the product per country (from all districts)
-def chartPriceHistory(dataFrame, query):
+def chartPriceHistory(dataFrame, query, ax=None):
 	dataFrame = dataFrame.query(query)
 	unique_currencies = dataFrame.currency.unique()
 	N_currencies = len(unique_currencies)
@@ -83,44 +84,97 @@ def chartPriceHistory(dataFrame, query):
 						print(month)
 						month_means.append(this_month.price.mean())
 						year_months.append(dt.datetime(year=year, month=month, day=1))
-
-				plt.plot(year_months, month_means, label=product)
+				if(ax):
+					plt.plot(year_months, month_means, label=product, ax=ax)
+				else:
+					plt.plot(year_months, month_means, label=product)
 			plt.legend()
 			# plt.show()
 
 		else:
-			# for product in this_currency._product.unique():
-			# 	print(product)
-			# 	this_product = this_currency.query("_product==\"" + product + "\"")
-			for country in this_product.country.unique():
-				print(country)
-				this_country = this_product.query("country==\"" + country + "\"")
-				this_country = this_country.sort_values(by=['year', 'month'])
-				month_means = []
-				year_months = []
-				for year in this_country.year.unique():
-					this_year = this_country.query("year==" + str(year))
-					for month in this_year.month.unique():
-						this_month = this_year.query("month==" + str(month))
-						month_means.append(this_month.price.mean())
-						year_months.append(dt.datetime(year=year, month=month, day=1))
-
-				plt.plot(year_months, month_means, label=str(country)+", " + str(product))
+			for product in this_currency._product.unique():
+				print(product)
+				this_product = this_currency.query("_product==\"" + product + "\"")
+				for country in this_product.country.unique():
+					print(country)
+					this_country = this_product.query("country==\"" + country + "\"")
+					this_country = this_country.sort_values(by=['year', 'month'])
+					month_means = []
+					year_months = []
+					for year in this_country.year.unique():
+						this_year = this_country.query("year==" + str(year))
+						for month in this_year.month.unique():
+							this_month = this_year.query("month==" + str(month))
+							month_means.append(this_month.price.mean())
+							year_months.append(dt.datetime(year=year, month=month, day=1))
+				if(ax):
+					ax.plot(year_months, month_means, label=str(country)+", " + str(product))
+				else:
+					ax.plot(year_months, month_means, label=str(country)+", " + str(product))
 			plt.legend()
-	# plt.legend()
+	plt.legend()
 	plt.show()
+	return
+	
+def getLinkedProducts(product):
+	linked_products = pd.read_csv('Linked_products.csv', encoding='UTF-8', delimiter=";")
+	prod = linked_products.query('price_df_product == \"' + product + '\"')
+	return prod.production_df_product.unique()
+
+def getYearMean(df, year): 
+	df = df.query("year ==" + str(year))
+	return df.price.mean()
+
+def chartPriceProductionHistory(price_df, prod_df, links_df, product, country):
+	price_df = price_df.query("_product== \"" + product + "\" & country==\"" + country + "\"")
+	price_df = price_df.sort_values(by=['year', 'month'])
+	month_means = []
+	year_months = []
+	for year in price_df.year.unique():
+		this_year = price_df.query("year==" + str(year))
+		for month in this_year.month.unique():
+			this_month = this_year.query("month==" + str(month))
+			month_means.append(this_month.price.mean())
+			year_months.append(dt.datetime(year=year, month=month, day=1))
+
+	linked_products = getLinkedProducts(product)
+	print(linked_products)
+	for linked_prod in linked_products:
+		prod_df = prod_df.query("Item == \"" + linked_prod + "\" & Area == \"" + country + "\"")
+		year_prods = []
+		years = []
+		for year in prod_df.Year.unique():
+			this_year = prod_df.query("Year==" + str(year))
+			year_prods.append((this_year.iloc[0]["Value"]))
+			years.append(dt.datetime(year=year, month=6, day= 30))
+
+	fig, ax1 = plt.subplots()
+	ax1.plot(year_months, month_means, label=str(country)+", " + str(product))
+	ax1.set_ylabel('Price', color='b')
+	ax1.tick_params('y', colors='b')
+
+	ax2 = ax1.twinx()
+	ax2.set_ylabel('Production (Tonnes)')
+	ax2.plot(years, year_prods, label=str(country)+", " + str(product))
+
+	fig.tight_layout()
+	plt.show()
+	return
 
 if __name__ == '__main__':
-	df = pd.read_csv('WFPVAM_FoodPrices_05-12-2017.csv', encoding='latin-1')
+	price_df = pd.read_csv('WFPVAM_FoodPrices_05-12-2017.csv', encoding='latin-1')
 
-	df.rename(columns={'adm0_id': 'country_ID', 'adm0_name': 'country', 'adm1_id' : 'district_ID', \
+	price_df.rename(columns={'adm0_id': 'country_ID', 'adm0_name': 'country', 'adm1_id' : 'district_ID', \
 	                   'adm1_name' : 'district', 'mkt_id' : 'market_ID', 'mkt_name' : 'market' , \
 	                   'cm_id' : 'product_ID','cm_name' : '_product', 'cur_id' : 'currency_ID', \
 	                   'cur_name' : 'currency', 'pt_id' : 'sale_ID', 'pt_name' : 'sale', 'um_id' : 'unit_ID', \
 	                   'um_name' : 'unit', 'mp_month' : 'month', 'mp_year' : 'year', 'mp_price' : 'price', \
 	                   'mp_commoditysource' : 'source'}, inplace=True)
 
-	query = 'currency=="USD"' 
-	# fullEDA(df, query)
-	# boxPlot(df, query)
-	chartPriceHistory(df, query)
+	prod_df = pd.read_csv('cleaned_reduced_production.csv')
+
+	links_df = pd.read_csv('Linked_products.csv', delimiter=";")
+
+	# chartPriceProductionHistory(price_df, prod_df, links_df, "Wheat", "India")
+
+	chartPriceHistory(price_df, "country == \"India\"")
