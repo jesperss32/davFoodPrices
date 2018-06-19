@@ -20,17 +20,6 @@ def delete_products(df, to_delete):
     df = df[~df['_product'].isin(to_delete)]
     return df
 
-food_df = load_food_data()
-
-nonfoods = ['Fuel (diesel)', 'Fuel (petrol-gasoline)', 'Fuel (kerosene)', 'Fuel (gas)', \
-'Charcoal', 'Exchange rate', 'Wage (non-qualified labour, non-agricultural)', \
-'Wage (non-qualified labour)', 'Wage (qualified labour)', 'Wage (non-qualified labour, agricultural)', \
-'Exchange rate (unofficial)', 'Electricity', 'Cotton', 'Transport (public)']
-
-food_df_fo = delete_products(food_df, nonfoods)
-
-
-
 def unit_normalization(df):
     units = df.unit.unique().tolist()
     for unit in units:
@@ -101,7 +90,14 @@ def unit_normalization(df):
             df.loc[unit_ind, 'unit'] = 'L'
     return copy.deepcopy(df)
 
-food_df_un = unit_normalization(food_df_fo)
 
-# print(food_df_un.unit.unique().tolist())
-# food_df_un.to_csv('firstclean_foodprices_data.csv')
+
+if __name__ == '__main__':
+    food_df = load_food_data()
+    nonfoods = ['Fuel (diesel)', 'Fuel (petrol-gasoline)', 'Fuel (kerosene)', 'Fuel (gas)', \
+    'Charcoal', 'Exchange rate', 'Wage (non-qualified labour, non-agricultural)', \
+    'Wage (non-qualified labour)', 'Wage (qualified labour)', 'Wage (non-qualified labour, agricultural)', \
+    'Exchange rate (unofficial)', 'Electricity', 'Cotton', 'Transport (public)']
+    food_df_fo = delete_products(food_df, nonfoods)
+    food_df_un = unit_normalization(food_df_fo)
+    food_df_un.to_csv('secondclean_foodprices_data.csv')
