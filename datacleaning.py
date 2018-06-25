@@ -6,7 +6,7 @@ import copy
 
 def load_food_data():
     ''' Loads foodprices table and renames its columns'''
-    df = pd.read_csv('WFPVAM_FoodPrices_05-12-2017.csv', encoding='latin-1')
+    df = pd.read_csv('/home/student/Documents/Projecten/davFoodPrices/fooddatasets/WFPVAM_FoodPrices_05-12-2017.csv', encoding='latin-1')
     df.rename(columns={'adm0_id': 'country_ID', 'adm0_name': 'country', 'adm1_id' : 'district_ID', \
                        'adm1_name' : 'district', 'mkt_id' : 'market_ID', 'mkt_name' : 'market' , \
                        'cm_id' : 'product_ID','cm_name' : '_product', 'cur_id' : 'currency_ID', \
@@ -100,4 +100,6 @@ if __name__ == '__main__':
     'Exchange rate (unofficial)', 'Electricity', 'Cotton', 'Transport (public)']
     food_df_fo = delete_products(food_df, nonfoods)
     food_df_un = unit_normalization(food_df_fo)
-    food_df_un.to_csv('secondclean_foodprices_data.csv')
+    print(food_df_fo.unit.unique())
+    print(food_df_un.unit.unique())
+    # food_df_un.to_csv('secondclean_foodprices_data.csv')
