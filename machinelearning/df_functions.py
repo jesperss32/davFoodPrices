@@ -2,11 +2,14 @@ import pandas as pd
 
 def load_production_data():
     '''Loads production table and renames its columns'''
-    production_df = pd.read_csv('/home/student/Documents/Projecten/davFoodPrices/fooddatasets/cleaned_reduced_production.csv', encoding='latin-1')
+    production_df = pd.read_csv('../data/productiondata/cleaned_reduced_production.csv', encoding='latin-1')
     production_df.rename(columns={'Area' : 'country', 'Item' : '_product', 'Year' : 'year', \
                         'Unit' : 'unit', 'Value' : 'value'}, inplace=True)
     return production_df
 
+def load_price_data():
+    price_df = pd.read_csv('../data/fooddatasets/country_year_average_percentage_data.csv')
+    return price_df
 
 def getLinkedProduct(product):
 	linked_products = pd.read_csv('/home/student/Documents/Projecten/davFoodPrices/fooddatasets/linked_products.csv', encoding='UTF-8', delimiter=";")
