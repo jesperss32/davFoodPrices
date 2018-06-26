@@ -8,11 +8,15 @@ def load_production_data():
     return production_df
 
 def load_price_data():
-    price_df = pd.read_csv('../data/fooddatasets/country_year_average_percentage_data.csv')
+    price_df = pd.read_csv('../data/fooddatasets/only_complete_years_data_percentages.csv')
     return price_df
 
+def load_linked_data():
+    links_df = pd.read_csv('../data/Linked_products.csv', delimiter = ';')
+    return links_df
+
 def getLinkedProduct(product):
-	linked_products = pd.read_csv('/home/student/Documents/Projecten/davFoodPrices/fooddatasets/linked_products.csv', encoding='UTF-8', delimiter=";")
+	linked_products = load_linked_data()
 	prod = linked_products.query('price_df_product == \"' + product + '\"')
 	return prod.production_df_product.unique()
 
