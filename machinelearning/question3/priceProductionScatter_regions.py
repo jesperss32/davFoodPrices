@@ -43,10 +43,10 @@ def getLinkedProduct(product):
 def plotScatter(productionDf, priceDf, countries, priceProduct, region):
     priceDf = priceDf.query("_product==\"" + str(priceProduct) + '\"')
     priceDf = priceDf.loc[priceDf['country'].isin(countries)]
-    print(priceProduct)
+    #print(priceProduct)
 
     productionProducts = getLinkedProduct(priceProduct)
-    print(productionProducts)
+    #print(productionProducts)
 
     priceYears = priceDf.year.unique()
     for productionProduct in productionProducts:
@@ -60,22 +60,23 @@ def plotScatter(productionDf, priceDf, countries, priceProduct, region):
             yearlyProduction = prodPerProdDf.query('year=="' + str(year) + '"')
             productions.append(yearlyProduction.iloc[0]['value_change'])
             prices.append(getYearMean(priceDf, year))
-        print(commonYears)
+        #print(commonYears)
 
         corr, pval = spearmanr(productions, prices)
-        print(corr, pval)
+
         if pval <= 0.1 and (corr > 0.4 or corr < -0.4) :
             print('significant correlation detected between', priceProduct, 'and', productionProducts)
-            cwd = os.getcwd()
-            os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/correlated_region/corr0.4pvalue0.1')
-            save_df = pd.DataFrame({'production':productions, 'price': prices})
-            save_df.to_csv(region + '_'+priceProduct + '.csv')
-            os.chdir(cwd)
-            plt.scatter(productions, prices)
-            plt.title("Relation between {} price and {} production in {}".format(priceProduct, productionProduct, region))
-            plt.xlabel('{} production change'.format(productionProduct))
-            plt.ylabel('{} price change (tonnes)'.format(priceProduct))
-            plt.show()
+            print(corr, pval)
+            # cwd = os.getcwd()
+            # os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/correlated_region/corr0.4pvalue0.1')
+            # save_df = pd.DataFrame({'production':productions, 'price': prices})
+            # save_df.to_csv(region + '_'+priceProduct + '.csv')
+            # os.chdir(cwd)
+            # plt.scatter(productions, prices)
+            # plt.title("Relation between {} price and {} production in {}".format(priceProduct, productionProduct, region))
+            # plt.xlabel('{} production change'.format(productionProduct))
+            # plt.ylabel('{} price change (tonnes)'.format(priceProduct))
+            # plt.show()
     return
 
 def findBestProducts(minimumData):
@@ -99,6 +100,7 @@ def findBestProducts(minimumData):
     return availableData
 
 def plotBest(minimum, region, rname):
+    print(rname)
     combinations = [(22, 'India', 'Wheat', 'Wheat'), (21, 'Niger', 'Maize', 'Maize'), (21, 'Niger', 'Sorghum', 'Sorghum'), (16, 'Senegal', 'Sorghum', 'Sorghum'), (14, 'Afghanistan', 'Wheat', 'Wheat'), (14, 'Burkina Faso', 'Maize', 'Maize'), (14, 'Burkina Faso', 'Sorghum', 'Sorghum'), (14, 'Mozambique', 'Maize (white)', 'Maize'), (14, 'Nepal', 'Wheat', 'Wheat'), (14, 'Senegal', 'Maize (imported)', 'Maize'), (14, 'Tajikistan', 'Cabbage', 'Cabbages and other brassicas'), (14, 'Tajikistan', 'Carrots', 'Carrots and turnips'), (14, 'Tajikistan', 'Maize', 'Maize'), (14, 'Tajikistan', 'Potatoes', 'Potatoes'), (14, 'Tajikistan', 'Wheat', 'Wheat'), (13, 'Guatemala', 'Maize (white)', 'Maize'), (13, 'Guatemala', 'Maize (yellow)', 'Maize'), (13, 'Mali', 'Maize', 'Maize'), (13, 'Mali', 'Sorghum', 'Sorghum'), (12, 'Burundi', 'Cassava flour', 'Cassava'), (12, 'Burundi', 'Sweet potatoes', 'Sweet potatoes'), (12, 'Chad', 'Maize (white)', 'Maize'), (12, 'Chad', 'Sorghum (red)', 'Sorghum'), (12, 'Malawi', 'Maize', 'Maize'), (12, 'Mozambique', 'Beans (dry)', 'Beans, dry'), (11, 'Bangladesh', 'Lentils (masur)', 'Lentils'), (11, 'Colombia', 'Maize (white)', 'Maize'), (11, 'Kenya', 'Beans (dry)', 'Beans, dry'), (11, 'Kenya', 'Maize (white)', 'Maize'), (11, 'Kenya', 'Potatoes (Irish)', 'Potatoes'), (11, 'Kenya', 'Sorghum', 'Sorghum'), (11, 'Kyrgyzstan', 'Potatoes', 'Potatoes'), (11, 'Peru', 'Potatoes', 'Potatoes'), (11, 'Tajikistan', 'Onions', 'Onions, dry'), (11, 'United Republic of Tanzania', 'Maize', 'Maize'), (11, 'Zambia', 'Maize (white)', 'Maize'), (10, 'Benin', 'Sorghum', 'Sorghum'), (10, 'Central African Republic', 'Cassava (cossette)', 'Cassava'), (10, 'Central African Republic', 'Maize', 'Maize'), (10, 'El Salvador', 'Maize (white)', 'Maize'), (10, 'Ethiopia', 'Maize (white)', 'Maize'), (10, 'Ethiopia', 'Wheat', 'Wheat'), (10, 'Indonesia', 'Chili (green)', 'Chillies and peppers, green'), (10, 'Peru', 'Maize (local)', 'Maize'), (10, 'Senegal', 'Maize (local)', 'Maize')]
     relevant = [(c[1], c[2]) for c in combinations if c[1] in region]
 
