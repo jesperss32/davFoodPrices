@@ -27,17 +27,13 @@ def years_train_test_split_old(data, ratio):
 
 def years_train_test_split(data, ratio):
     np.random.shuffle(data)
-    slicer = int(data.shape[0] * ratio)
-    train_years = data[:slicer,:]
-    test_years = data[slicer:,:]
-    return train_years, test_years
+    set_1_ind = int(len(data)*ratio)
+    set_1 = data[:set_1_ind,:]
+    set_1 = set_1[np.argsort(set_1[:, 0])]
+    set_2 = data[set_1_ind:,:]
+    set_2 = set_2[np.argsort(set_2[:,0])]
+    return set_1,set_2
 
-def select_traintest_data(X_data, Y_data, training_years, testing_years):
-    train_X = X_data[X_data['year'].isin(training_years)]
-    test_X = X_data[X_data['year'].isin(testing_years)]
-    train_Y = Y_data[Y_data['year'].isin(training_years)]
-    test_Y = Y_data[Y_data['year'].isin(testing_years)]
-    return train_X, train_Y, test_X, test_Y
 
 def align_X_Y_data(food_data, prod_data):
     X_data = []
@@ -70,10 +66,11 @@ def linear_regression(X_Y_data, N):
     # Y_data_train = trainyears[:,1]
     # X_data_test = testyears[:,0].reshape(-1,1)
     # Y_data_test = testyears[:,1]
-    X_data_train = X_Y_data[:,0].reshape(-1,1)
-    Y_data_train = X_Y_data[:,1]
-    X_data_test = X_Y_data[:,0].reshape(-1,1)
-    Y_data_test = X_Y_data[:,1]
+    traindata, testdata = years_train_test_split(X_Y_data, 0.5)
+    X_data_train = traindata[:,0].reshape(-1,1)
+    Y_data_train = traindata[:,1]
+    X_data_test = testdata[:,0].reshape(-1,1)
+    Y_data_test = testdata[:,1]
 
     regr = linear_model.LinearRegression()
 
@@ -107,10 +104,12 @@ if __name__ == '__main__':
     cwd = os.getcwd()
     os.chdir(path)
     for filename in os.listdir(path):
+        print(filename)
         df = pd.read_csv(filename)
         X_data = df.ix[:,0]
         Y_data = df.ix[:,1]
         X_Y_data = np.array(pd.concat([X_data, Y_data], axis=1))
+        print(X_Y_data)
         linear_regression(X_Y_data, 1)
     os.chdir(cwd)
 #

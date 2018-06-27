@@ -24,6 +24,7 @@ def getLinkedProduct(product):
     return prod.production_df_product.unique()
 
 def plotScatter(productionDf, priceDf, country, priceProduct):
+
     priceDf = priceDf.query("_product==\"" + str(priceProduct) + "\" &country==\"" +str(country) + "\"")
     #print(priceProduct)
     productionProducts = getLinkedProduct(priceProduct)
@@ -45,20 +46,20 @@ def plotScatter(productionDf, priceDf, country, priceProduct):
         corr, pval = spearmanr(productions, prices)
 
         if pval <= 0.05 and (corr > 0.4 or corr < -0.4) :
-            print('significant correlation detected between', priceProduct, 'and', productionProducts)
-            print(country)
-            print(corr, pval)
+            #print(country)
+            #print('significant correlation detected between', priceProduct, 'and', productionProducts)
+            #print(corr, pval)
             cwd = os.getcwd()
             os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/correlated_country')
             save_df = pd.DataFrame({'production':productions, 'price': prices})
-            save_df.to_csv(country + '_'+priceProduct + '.csv')
+            save_df.to_csv(country.replace(' ', '') + '_'+priceProduct.replace(' ', '') + '.csv')
             os.chdir(cwd)
             # plt.scatter(productions, prices)
             # plt.title("Relation between {} price and {} production in {}".format(priceProduct, productionProduct, country))
             # plt.xlabel('{} production change'.format(productionProduct))
             # plt.ylabel('{} price change (tonnes)'.format(priceProduct))
             # plt.show()
-    return
+    return (country, priceProduct, productions, prices)
 
 def findBestProducts(minimumData):
     priceProducts = linkedProductsDf.price_df_product.unique()
@@ -84,10 +85,20 @@ def findBestProducts(minimumData):
 def plotBest(minimum):
     combinations = [(22, 'India', 'Wheat', 'Wheat'), (21, 'Niger', 'Maize', 'Maize'), (21, 'Niger', 'Sorghum', 'Sorghum'), (16, 'Senegal', 'Sorghum', 'Sorghum'), (14, 'Afghanistan', 'Wheat', 'Wheat'), (14, 'Burkina Faso', 'Maize', 'Maize'), (14, 'Burkina Faso', 'Sorghum', 'Sorghum'), (14, 'Mozambique', 'Maize (white)', 'Maize'), (14, 'Nepal', 'Wheat', 'Wheat'), (14, 'Senegal', 'Maize (imported)', 'Maize'), (14, 'Tajikistan', 'Cabbage', 'Cabbages and other brassicas'), (14, 'Tajikistan', 'Carrots', 'Carrots and turnips'), (14, 'Tajikistan', 'Maize', 'Maize'), (14, 'Tajikistan', 'Potatoes', 'Potatoes'), (14, 'Tajikistan', 'Wheat', 'Wheat'), (13, 'Guatemala', 'Maize (white)', 'Maize'), (13, 'Guatemala', 'Maize (yellow)', 'Maize'), (13, 'Mali', 'Maize', 'Maize'), (13, 'Mali', 'Sorghum', 'Sorghum'), (12, 'Burundi', 'Cassava flour', 'Cassava'), (12, 'Burundi', 'Sweet potatoes', 'Sweet potatoes'), (12, 'Chad', 'Maize (white)', 'Maize'), (12, 'Chad', 'Sorghum (red)', 'Sorghum'), (12, 'Malawi', 'Maize', 'Maize'), (12, 'Mozambique', 'Beans (dry)', 'Beans, dry'), (11, 'Bangladesh', 'Lentils (masur)', 'Lentils'), (11, 'Colombia', 'Maize (white)', 'Maize'), (11, 'Kenya', 'Beans (dry)', 'Beans, dry'), (11, 'Kenya', 'Maize (white)', 'Maize'), (11, 'Kenya', 'Potatoes (Irish)', 'Potatoes'), (11, 'Kenya', 'Sorghum', 'Sorghum'), (11, 'Kyrgyzstan', 'Potatoes', 'Potatoes'), (11, 'Peru', 'Potatoes', 'Potatoes'), (11, 'Tajikistan', 'Onions', 'Onions, dry'), (11, 'United Republic of Tanzania', 'Maize', 'Maize'), (11, 'Zambia', 'Maize (white)', 'Maize'), (10, 'Benin', 'Sorghum', 'Sorghum'), (10, 'Central African Republic', 'Cassava (cossette)', 'Cassava'), (10, 'Central African Republic', 'Maize', 'Maize'), (10, 'El Salvador', 'Maize (white)', 'Maize'), (10, 'Ethiopia', 'Maize (white)', 'Maize'), (10, 'Ethiopia', 'Wheat', 'Wheat'), (10, 'Indonesia', 'Chili (green)', 'Chillies and peppers, green'), (10, 'Peru', 'Maize (local)', 'Maize'), (10, 'Senegal', 'Maize (local)', 'Maize')]
     #combinations = findBestProducts(5)
+    sign = []
     for combination in combinations:
         #print(combination)
-        plotScatter(productionDf, priceDf, combination[1], combination[2])
+        sign.append(plotScatter(productionDf, priceDf, combination[1], combination[2]))
 
+
+def subPlots(sign):
+    number_of_subplots = 4
+    for i,v in enumerate(range(number_of_subplots)):
+        v = v+1
+        ax1 = plt.subplot(number_of_subplots,1,v)
+        ax1.scatter(sign[i][2],sign[i][3])
+
+    plt.show()
 
 if __name__ == "__main__":
     linkedProductsDf = pd.read_csv('/home/student/Documents/Projecten/davFoodPrices/data/Linked_products.csv', encoding='UTF-8', delimiter=";")
