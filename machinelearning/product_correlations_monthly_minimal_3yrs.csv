@@ -1,0 +1,1605 @@
+combo,spearman,countries,num_countries
+"['Bread', 'Wheat']",0.3893258522172834,"['Afghanistan', 'Kyrgyzstan', 'Nigeria', 'Tajikistan']",4
+"['Bread', 'Milk']",-0.2272725198354466,"['Gambia', 'Guatemala', 'Tajikistan']",3
+"['Bread', 'Potatoes']",0.1449658859529775,"['Guatemala', 'Kyrgyzstan', 'Tajikistan']",3
+"['Bread', 'Eggs']",-0.22322301161382577,"['Gambia', 'Guatemala', 'Kyrgyzstan', 'State of Palestine', 'Tajikistan']",5
+"['Bread', 'Oil (vegetable)']",0.17581928325596807,"['Congo', 'Djibouti', 'Gambia', 'Guatemala', 'Kenya', 'Tajikistan']",6
+"['Bread', 'Sugar']",0.005415960499506008,"['Djibouti', 'Gambia', 'Guatemala', 'Guinea', 'Kyrgyzstan', 'State of Palestine', 'Tajikistan']",7
+"['Bread', 'Meat (beef)']",0.2665638439674323,"['Congo', 'Gambia', 'Guinea', 'Kyrgyzstan', 'Tajikistan']",5
+"['Bread', 'Carrots']",0.16618842692244884,"['Gambia', 'Kyrgyzstan', 'Tajikistan']",3
+"['Bread', 'Onions']",-0.26482712282636905,"['Gambia', 'Guatemala', 'Kyrgyzstan', 'Tajikistan']",4
+"['Bread', 'Cabbage']",-0.04851012899299895,"['Gambia', 'Kyrgyzstan', 'Tajikistan']",3
+"['Bread', 'Maize']",0.11326125757960878,"['Gambia', 'Kyrgyzstan', 'Nigeria', 'Tajikistan']",4
+"['Bread', 'Rice']",0.2767856300357182,"['Kyrgyzstan', 'Tajikistan']",2
+"['Bread', 'Coffee']",0.37062675445454296,['Guatemala'],1
+"['Bread', 'Salt']",0.2509605479367042,"['Gambia', 'Guatemala', 'Guinea', 'Kyrgyzstan', 'State of Palestine', 'Tajikistan']",6
+"['Bread', 'Oil (sunflower)']",0.40919230393893713,['Kyrgyzstan'],1
+"['Bread', 'Meat (chicken, frozen)']",0.20415312497885718,"['Congo', 'Tajikistan']",2
+"['Bread', 'Meat (mutton)']",0.3895199746816981,"['Gambia', 'Kyrgyzstan', 'Tajikistan']",3
+"['Bread', 'Rice (ordinary, second quality)']",0.18716578053741237,['Guatemala'],1
+"['Bread', 'Tortilla (maize)']",0.1741733221234294,['Guatemala'],1
+"['Bread', 'Tea (black)']",-0.12500997476529477,"['Kyrgyzstan', 'Tajikistan']",2
+"['Bread', 'Milk (cow, pasteurized)']",0.26274069349265317,['Kenya'],1
+"['Bread', 'Oil (cotton)']",0.2970619875539557,"['Kyrgyzstan', 'Tajikistan']",2
+"['Bread', 'Tea (green)']",-0.040132794725578486,"['Kyrgyzstan', 'Tajikistan']",2
+"['Bread', 'Wheat flour (first grade)']",0.24467947273764415,"['Kyrgyzstan', 'Tajikistan']",2
+"['Bread', 'Wheat flour (high quality)']",0.2829465261822859,"['Kyrgyzstan', 'Tajikistan']",2
+"['Bread', 'Wheat flour (local)']",0.3733674944889757,['Tajikistan'],1
+"['Wheat', 'Rice (low quality)']",0.29127019607664256,['Afghanistan'],1
+"['Wheat', 'Wheat flour']",0.38603727173280455,"['India', 'Pakistan', 'Rwanda', 'Yemen']",4
+"['Wheat', 'Milk']",0.41345837820462583,"['Pakistan', 'Rwanda', 'Tajikistan']",3
+"['Wheat', 'Potatoes']",0.2679898290821336,"['India', 'Kyrgyzstan', 'Tajikistan', 'Yemen']",4
+"['Wheat', 'Eggs']",0.4009842588260386,"['Indonesia', 'Kyrgyzstan', 'Pakistan', 'Rwanda', 'Tajikistan', 'Yemen']",6
+"['Wheat', 'Oil (vegetable)']",0.33095950942761726,"['Indonesia', 'Mauritania', 'Tajikistan', 'Yemen', 'Zimbabwe']",5
+"['Wheat', 'Sugar']",0.1421541323232753,"['Ethiopia', 'Guinea-Bissau', 'India', 'Indonesia', 'Kyrgyzstan', 'Mauritania', 'Pakistan', 'Tajikistan', 'Yemen']",9
+"['Wheat', 'Lentils']",0.09516023566016213,"['Ethiopia', 'India', 'Yemen']",3
+"['Wheat', 'Tomatoes']",0.3826009818965512,"['India', 'Rwanda', 'Yemen']",3
+"['Wheat', 'Meat (beef)']",0.3502866993758726,"['Indonesia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan']",4
+"['Wheat', 'Carrots']",0.3307702439210489,"['Kyrgyzstan', 'Rwanda', 'Tajikistan']",3
+"['Wheat', 'Onions']",0.3130588336589071,"['India', 'Kyrgyzstan', 'Tajikistan', 'Yemen']",4
+"['Wheat', 'Milk (non-pasteurized)']",0.5653524631152098,['Kyrgyzstan'],1
+"['Wheat', 'Lentils (masur)']",0.05332618376710662,"['India', 'Pakistan']",2
+"['Wheat', 'Oil (palm)']",-0.07908172841392017,"['Guinea-Bissau', 'India', 'Nigeria']",3
+"['Wheat', 'Rice (imported)']",0.4404690205938423,"['Ethiopia', 'Guinea-Bissau', 'Mauritania', 'Nigeria', 'Yemen']",5
+"['Wheat', 'Sorghum']",0.2510974158773949,"['Ethiopia', 'Guinea-Bissau', 'Nigeria', 'Rwanda', 'Sudan', 'Zimbabwe']",6
+"['Wheat', 'Maize (white)']",0.35696661010238934,"['Ethiopia', 'Nigeria']",2
+"['Wheat', 'Maize']",0.4396018339340881,"['Guinea-Bissau', 'Kyrgyzstan', 'Nigeria', 'Rwanda', 'Tajikistan', 'Zimbabwe']",6
+"['Wheat', 'Millet']",0.3704389707552489,"['Guinea-Bissau', 'Nigeria', 'Sudan', 'Zimbabwe']",4
+"['Wheat', 'Rice']",0.11571571935601112,"['India', 'Indonesia', 'Kyrgyzstan', 'Nepal', 'Rwanda', 'Tajikistan']",6
+"['Wheat', 'Cassava flour']",0.42875402928634265,['Rwanda'],1
+"['Wheat', 'Sweet potatoes']",-0.011937230796939341,['Rwanda'],1
+"['Wheat', 'Rice (imported, Tanzanian)']",0.06914180794621838,['Rwanda'],1
+"['Wheat', 'Rice (local)']",0.5658916511123302,"['Guinea-Bissau', 'Mauritania', 'Nigeria', 'Rwanda']",4
+"['Wheat', 'Oil (groundnut)']",0.2107128537106037,['India'],1
+"['Wheat', 'Maize flour']",0.2861350905481195,['Rwanda'],1
+"['Wheat', 'Salt']",0.4262296142923694,"['Guinea-Bissau', 'Kyrgyzstan', 'Pakistan', 'Tajikistan', 'Yemen']",5
+"['Wheat', 'Bananas']",0.4068345594287511,['Rwanda'],1
+"['Wheat', 'Milk (pasteurized)']",-0.0037779357213285625,['India'],1
+"['Wheat', 'Oil (sunflower)']",0.4413950830031899,"['India', 'Kyrgyzstan']",2
+"['Wheat', 'Meat (chicken, frozen)']",0.43129263551848074,['Tajikistan'],1
+"['Wheat', 'Livestock (Goat)']",0.3418275418275419,"['Ethiopia', 'Rwanda']",2
+"['Wheat', 'Livestock (Sheep)']",0.25673798277299253,"['Ethiopia', 'Rwanda']",2
+"['Wheat', 'Meat (mutton)']",0.3016511653890294,"['Kyrgyzstan', 'Rwanda', 'Tajikistan']",3
+"['Wheat', 'Beans (dry)']",0.5531291974099335,['Rwanda'],1
+"['Wheat', 'Tea (black)']",0.05389036772986157,"['India', 'Kyrgyzstan', 'Tajikistan']",3
+"['Wheat', 'Oil (mustard)']",0.008352742037667818,['India'],1
+"['Wheat', 'Salt (iodised)']",-0.33273576879577904,['India'],1
+"['Wheat', 'Meat (chicken, broiler)']",0.2152791041213457,['Indonesia'],1
+"['Wheat', 'Milk (condensed)']",0.47612813619469424,['Indonesia'],1
+"['Wheat', 'Oil (cotton)']",0.22263560418084494,"['Kyrgyzstan', 'Tajikistan']",2
+"['Wheat', 'Tea (green)']",-0.2500309108816678,"['Kyrgyzstan', 'Tajikistan']",2
+"['Wheat', 'Wheat flour (first grade)']",0.46599084446291467,"['Kyrgyzstan', 'Tajikistan']",2
+"['Wheat', 'Wheat flour (high quality)']",0.37215019564933455,"['Kyrgyzstan', 'Tajikistan']",2
+"['Wheat', 'Sorghum (taghalit)']",0.4433605550919889,['Mauritania'],1
+"['Wheat', 'Wheat flour (local)']",0.3617036563446373,['Tajikistan'],1
+"['Wheat', 'Eggplants']",0.3129640180095188,['Rwanda'],1
+"['Wheat', 'Passion fruit']",0.282770645436756,['Rwanda'],1
+"['Wheat', 'Zucchini']",0.4032110654251248,['Rwanda'],1
+"['Wheat', 'Avocados']",-0.4,['Rwanda'],1
+"['Wheat', 'Cassava leaves']",0.40720720720720727,['Rwanda'],1
+"['Rice (low quality)', 'Potatoes']",-0.5317002140953795,['Myanmar'],1
+"['Rice (low quality)', 'Meat (pork)']",0.5964364547437949,['Myanmar'],1
+"['Rice (low quality)', 'Oil (palm)']",0.5915172513042523,['Myanmar'],1
+"['Rice (low quality)', 'Salt']",0.3317404026435489,['Myanmar'],1
+"['Rice (low quality)', 'Pulses']",0.06720736479373021,['Myanmar'],1
+"['Rice (low quality)', 'Chickpeas (local)']",0.4100496784636569,['Myanmar'],1
+"['Wheat flour', 'Potatoes']",-0.3865916887677121,"['Armenia', 'Azerbaijan', 'Colombia', 'Egypt', 'India', 'Turkey', 'Yemen']",7
+"['Wheat flour', 'Meat (chicken)']",0.5140613141852575,"['Armenia', 'Colombia', 'Democratic Republic of the Congo', 'Turkey']",4
+"['Wheat flour', 'Oil (vegetable)']",0.4073040554363172,"['Armenia', 'Colombia', 'Congo', 'Democratic Republic of the Congo', 'Djibouti', 'Madagascar', 'South Sudan', 'Yemen']",8
+"['Wheat flour', 'Sugar']",0.1714464404449499,"['Armenia', 'Azerbaijan', 'Colombia', 'Democratic Republic of the Congo', 'Djibouti', 'Egypt', 'India', 'Iraq', 'Lebanon', 'Madagascar', 'Pakistan', 'Sri Lanka', 'Syrian Arab Republic', 'Turkey', 'Yemen']",15
+"['Wheat flour', 'Lentils']",0.4585094101727344,"['Armenia', 'Egypt', 'India', 'Lebanon', 'Syrian Arab Republic', 'Turkey', 'Yemen']",7
+"['Wheat flour', 'Pasta']",0.37284016813259935,"['Armenia', 'Colombia', 'Djibouti', 'Egypt', 'Lebanon', 'Turkey']",6
+"['Wheat flour', 'Tomatoes']",-0.30205981932565906,"['Armenia', 'Colombia', 'Egypt', 'India', 'Rwanda', 'Syrian Arab Republic', 'Turkey', 'Yemen']",8
+"['Wheat flour', 'Rice (white)']",-0.45582110347127974,"['Armenia', 'Colombia']",2
+"['Wheat flour', 'Meat (beef)']",0.043274911523679585,"['Armenia', 'Colombia', 'Congo', 'Democratic Republic of the Congo', 'Egypt', 'Rwanda']",6
+"['Wheat flour', 'Onions']",-0.1235971573230681,"['Armenia', 'India', 'Turkey', 'Yemen']",4
+"['Wheat flour', 'Apples (red)']",0.36954563006821983,"['Armenia', 'Colombia', 'Rwanda', 'Turkey']",4
+"['Wheat flour', 'Fish (fresh)']",0.1561941090804833,"['Armenia', 'Congo', 'Democratic Republic of the Congo', 'Turkey']",4
+"['Wheat flour', 'Rice (coarse)']",0.20205777392262664,"['Bangladesh', 'Pakistan']",2
+"['Wheat flour', 'Lentils (masur)']",-0.3124099477344131,"['Bangladesh', 'India', 'Pakistan']",3
+"['Wheat flour', 'Oil (palm)']",0.0010940685117255544,"['Bangladesh', 'Congo', 'Democratic Republic of the Congo', 'India']",4
+"['Wheat flour', 'Rice (imported)']",0.30005152279967445,"['Democratic Republic of the Congo', 'Djibouti', 'Somalia', 'Yemen']",4
+"['Wheat flour', 'Sorghum']",0.11013942077245359,['Rwanda'],1
+"['Wheat flour', 'Maize']",0.28607644707392926,"['Central African Republic', 'Democratic Republic of the Congo', 'Rwanda']",3
+"['Wheat flour', 'Rice (long grain)']",0.42029364318280754,"['Cape Verde', 'Sri Lanka']",2
+"['Wheat flour', 'Rice']",0.3551557835483954,"['Central African Republic', 'Egypt', 'India', 'Iraq', 'Rwanda', 'Swaziland', 'Syrian Arab Republic', 'Turkey']",8
+"['Wheat flour', 'Beans']",0.5058050026263956,['Democratic Republic of the Congo'],1
+"['Wheat flour', 'Cassava flour']",0.2483161495890299,"['Congo', 'Democratic Republic of the Congo', 'Rwanda']",3
+"['Wheat flour', 'Sweet potatoes']",0.16124862814294655,"['Democratic Republic of the Congo', 'Rwanda']",2
+"['Wheat flour', 'Rice (local)']",0.2539260143968821,"['Democratic Republic of the Congo', 'Madagascar', 'Rwanda']",3
+"['Wheat flour', 'Groundnuts (shelled)']",-0.48480752300881236,"['Congo', 'Democratic Republic of the Congo', 'Rwanda', 'South Sudan', 'Turkey']",5
+"['Wheat flour', 'Sorghum (white)']",0.38070274936358645,['South Sudan'],1
+"['Wheat flour', 'Cassava (cossette)']",0.4156469429791971,"['Central African Republic', 'Democratic Republic of the Congo']",2
+"['Wheat flour', 'Oil (groundnut)']",-0.10497173117271935,"['Central African Republic', 'India']",2
+"['Wheat flour', 'Maize flour']",-0.36158678163567176,"['Colombia', 'Democratic Republic of the Congo', 'Georgia', 'Rwanda']",4
+"['Wheat flour', 'Beans (red)']",-0.16765548866948846,"['Colombia', 'South Sudan']",2
+"['Wheat flour', 'Onions (red)']",0.42416334998059807,"['Colombia', 'Egypt', 'Rwanda']",3
+"['Wheat flour', 'Plantains']",0.12218736514827375,"['Colombia', 'Congo', 'Democratic Republic of the Congo']",3
+"['Wheat flour', 'Salt']",0.40505773354326063,"['Colombia', 'Democratic Republic of the Congo', 'Lebanon', 'Pakistan', 'Swaziland', 'Turkey', 'Yemen']",7
+"['Wheat flour', 'Chickpeas (imported)']",0.05616243461739545,['Colombia'],1
+"['Wheat flour', 'Meat (beef, minced)']",-0.46803146736324147,"['Colombia', 'Syrian Arab Republic']",2
+"['Wheat flour', 'Peas (green, dry)']",-0.5839743888528361,['Colombia'],1
+"['Wheat flour', 'Sugar (brown)']",0.48944323648659904,"['Colombia', 'Swaziland']",2
+"['Wheat flour', 'Bananas']",-0.3273234367104114,"['Colombia', 'Rwanda', 'Turkey']",3
+"['Wheat flour', 'Cassava (dry)']",0.4620460914233329,"['Colombia', 'South Sudan']",2
+"['Wheat flour', 'Spinach']",-0.05384347982009814,"['Colombia', 'Lebanon', 'Rwanda']",3
+"['Wheat flour', 'Papaya']",0.23999015962511203,"['Colombia', 'Rwanda']",2
+"['Wheat flour', 'Mangoes']",-0.432200664804194,"['Colombia', 'Rwanda']",2
+"['Wheat flour', 'Milk (pasteurized)']",0.5546634966380654,"['Colombia', 'India', 'Turkey']",3
+"['Wheat flour', 'Oil (sunflower)']",-0.12213860407697465,"['Colombia', 'Egypt', 'India', 'Lebanon', 'Lesotho', 'Swaziland', 'Turkey']",7
+"['Wheat flour', 'Fish (smoked)']",0.4276379212314876,"['Congo', 'Democratic Republic of the Congo']",2
+"['Wheat flour', 'Fish (salted)']",0.14346113857175716,"['Congo', 'Democratic Republic of the Congo']",2
+"['Wheat flour', 'Maize meal']",-0.12730893304292148,"['Democratic Republic of the Congo', 'Lesotho', 'Swaziland']",3
+"['Wheat flour', 'Cassava']",0.023668632772274045,"['Democratic Republic of the Congo', 'Rwanda', 'South Sudan']",3
+"['Wheat flour', 'Meat (goat, with bones)']",0.24205362488646226,['Democratic Republic of the Congo'],1
+"['Wheat flour', 'Cassava (chikwangue)']",-0.08946076899929156,['Democratic Republic of the Congo'],1
+"['Wheat flour', 'Livestock (Goat)']",0.43558396921114806,['Rwanda'],1
+"['Wheat flour', 'Livestock (Sheep)']",0.3492444967843848,['Rwanda'],1
+"['Wheat flour', 'Tea']",0.518910829611409,"['Syrian Arab Republic', 'Turkey']",2
+"['Wheat flour', 'Potatoes (Irish)']",0.28663842538374873,['Rwanda'],1
+"['Wheat flour', 'Beans (dry)']",-0.09952441788027629,['Rwanda'],1
+"['Wheat flour', 'Oil (mustard)']",0.037838047318107,['India'],1
+"['Wheat flour', 'Salt (iodised)']",0.40379139524865726,['India'],1
+"['Wheat flour', 'Bulgur']",0.4246684800386355,"['Lebanon', 'Turkey']",2
+"['Wheat flour', 'Bread (brown)']",0.4061286522045746,['Lesotho'],1
+"['Wheat flour', 'Peas (split, dry)']",0.3882792142069052,['Lesotho'],1
+"['Wheat flour', 'Beans (sugar-red)']",0.3748916316948828,['Lesotho'],1
+"['Wheat flour', 'Oil (cooking)']",0.3963269556157165,['Pakistan'],1
+"['Wheat flour', 'Ghee (artificial)']",0.39649808072376463,"['Egypt', 'Pakistan']",2
+"['Wheat flour', 'Rice (basmati, broken)']",-0.2966653452793466,['Pakistan'],1
+"['Wheat flour', 'Sorghum flour']",-0.10357168185905286,['Rwanda'],1
+"['Wheat flour', 'Peppers (green)']",-0.0738928402405652,['Rwanda'],1
+"['Wheat flour', 'Eggplants']",-0.32518642866031106,"['Rwanda', 'Turkey']",2
+"['Wheat flour', 'Passion fruit']",-0.3529213338518592,['Rwanda'],1
+"['Wheat flour', 'Zucchini']",0.09781755059811419,['Rwanda'],1
+"['Wheat flour', 'Avocados']",0.032577519449442344,['Rwanda'],1
+"['Wheat flour', 'Cassava leaves']",0.41661295340170806,['Rwanda'],1
+"['Wheat flour', 'Peas (fresh)']",-0.128278804161634,['Rwanda'],1
+"['Wheat flour', 'Meat (goat)']",0.4662122561176847,['Rwanda'],1
+"['Wheat flour', 'Beans (green, fresh)']",0.3277185003302708,['Rwanda'],1
+"['Wheat flour', 'Oil']",0.24666656198279405,['Syrian Arab Republic'],1
+"['Wheat flour', 'Bread (bakery)']",-0.08367689184867422,['Syrian Arab Republic'],1
+"['Wheat flour', 'Bread (shop)']",0.4440574801913196,['Syrian Arab Republic'],1
+"['Wheat flour', 'Bread (common)']",0.5022861298199652,['Turkey'],1
+"['Wheat flour', 'Beans (kidney red)']",0.382322440327289,['Yemen'],1
+"['Milk', 'Potatoes']",0.28386114698247894,"['Armenia', 'Guatemala', 'Tajikistan', 'Ukraine']",4
+"['Milk', 'Eggs']",0.3175639536451405,"['Armenia', 'Gambia', 'Guatemala', 'Pakistan', 'Rwanda', 'Tajikistan', 'Ukraine']",7
+"['Milk', 'Oil (vegetable)']",0.5592121243114574,"['Armenia', 'Gambia', 'Guatemala', 'Tajikistan']",4
+"['Milk', 'Sugar']",0.20746887037983014,"['Armenia', 'Gambia', 'Guatemala', 'Pakistan', 'Tajikistan', 'Ukraine']",6
+"['Milk', 'Pasta']",0.3066649379599637,"['Armenia', 'Guatemala', 'Ukraine']",3
+"['Milk', 'Meat (beef)']",-0.008877219872688566,"['Armenia', 'Gambia', 'Rwanda', 'Tajikistan', 'Ukraine']",5
+"['Milk', 'Carrots']",0.1986926370365758,"['Armenia', 'Gambia', 'Rwanda', 'Tajikistan', 'Ukraine']",5
+"['Milk', 'Cabbage']",0.2644919131886579,"['Armenia', 'Gambia', 'Rwanda', 'Tajikistan', 'Ukraine']",5
+"['Milk', 'Rice']",0.32217976705310897,"['Rwanda', 'Tajikistan', 'Ukraine']",3
+"['Milk', 'Salt']",0.06265598465170129,"['Gambia', 'Guatemala', 'Pakistan', 'Tajikistan']",4
+"['Milk', 'Meat (chicken, frozen)']",0.2696912885713214,['Tajikistan'],1
+"['Milk', 'Meat (mutton)']",0.18287404977291125,"['Gambia', 'Rwanda', 'Tajikistan']",3
+"['Milk', 'Tea (black)']",0.12414553580718209,['Tajikistan'],1
+"['Milk', 'Oil (cotton)']",-0.2506322270320937,['Tajikistan'],1
+"['Milk', 'Tea (green)']",-0.039176404252034724,['Tajikistan'],1
+"['Milk', 'Wheat flour (first grade)']",0.026597999343652243,"['Tajikistan', 'Ukraine']",2
+"['Milk', 'Wheat flour (high quality)']",-0.14130522209962856,['Tajikistan'],1
+"['Milk', 'Wheat flour (local)']",-0.34284398322375964,['Tajikistan'],1
+"['Potatoes', 'Eggs']",0.19737415436407607,"['Armenia', 'Egypt', 'Guatemala', 'Jordan', 'Kyrgyzstan', 'Tajikistan', 'Turkey', 'Ukraine', 'Yemen']",9
+"['Potatoes', 'Oil (vegetable)']",0.19688428220758109,"['Armenia', 'Colombia', 'Guatemala', 'Jordan', 'Peru', 'Tajikistan', 'Yemen']",7
+"['Potatoes', 'Sugar']",0.33331330549667065,"['Armenia', 'Azerbaijan', 'Colombia', 'Egypt', 'Guatemala', 'India', 'Jordan', 'Kyrgyzstan', 'Peru', 'Tajikistan', 'Turkey', 'Ukraine', 'Yemen']",13
+"['Potatoes', 'Lentils']",0.3666836470464546,"['Armenia', 'Egypt', 'India', 'Jordan', 'Turkey', 'Yemen']",6
+"['Potatoes', 'Tomatoes']",0.40596660839344645,"['Armenia', 'Colombia', 'Egypt', 'Guatemala', 'India', 'Jordan', 'Myanmar', 'Turkey', 'Yemen']",9
+"['Potatoes', 'Meat (beef)']",0.27612151023020715,"['Armenia', 'Colombia', 'Egypt', 'Jordan', 'Kyrgyzstan', 'Myanmar', 'Tajikistan', 'Ukraine']",8
+"['Potatoes', 'Carrots']",0.2841082061876752,"['Armenia', 'Colombia', 'Kyrgyzstan', 'Tajikistan', 'Ukraine']",5
+"['Potatoes', 'Onions']",0.39098877931084663,"['Armenia', 'Guatemala', 'India', 'Jordan', 'Kyrgyzstan', 'Myanmar', 'Tajikistan', 'Turkey', 'Ukraine', 'Yemen']",10
+"['Potatoes', 'Cabbage']",0.25069653818267196,"['Armenia', 'Colombia', 'Kyrgyzstan', 'Tajikistan', 'Ukraine']",5
+"['Potatoes', 'Milk (non-pasteurized)']",0.4872354571616834,"['Azerbaijan', 'Kyrgyzstan']",2
+"['Potatoes', 'Lentils (masur)']",0.3810036567774835,['India'],1
+"['Potatoes', 'Oil (palm)']",0.27264060991632744,"['India', 'Myanmar']",2
+"['Potatoes', 'Maize']",0.056775004222226595,"['Kyrgyzstan', 'Myanmar', 'Tajikistan']",3
+"['Potatoes', 'Rice']",0.3737439441743102,"['Egypt', 'India', 'Kyrgyzstan', 'Tajikistan', 'Turkey', 'Ukraine']",6
+"['Potatoes', 'Oil (groundnut)']",0.5120715392111925,"['India', 'Myanmar']",2
+"['Potatoes', 'Garlic']",0.4076505787067967,"['Colombia', 'Egypt', 'Jordan', 'Myanmar', 'Turkey']",5
+"['Potatoes', 'Onions (red)']",0.3423361127381027,"['Colombia', 'Egypt']",2
+"['Potatoes', 'Onions (white)']",0.41648431042515255,"['Colombia', 'Egypt']",2
+"['Potatoes', 'Salt']",0.31447353385274407,"['Colombia', 'Guatemala', 'Kyrgyzstan', 'Myanmar', 'Tajikistan', 'Turkey', 'Yemen']",7
+"['Potatoes', 'Milk (pasteurized)']",-0.12544369697965288,"['Colombia', 'India', 'Jordan', 'Turkey']",4
+"['Potatoes', 'Oil (sunflower)']",0.051451164357277396,"['Colombia', 'Egypt', 'India', 'Kyrgyzstan', 'Turkey', 'Ukraine']",6
+"['Potatoes', 'Meat (chicken, frozen)']",0.4481576678113462,"['Egypt', 'Tajikistan']",2
+"['Potatoes', 'Meat (mutton)']",0.3398241540292254,"['Kyrgyzstan', 'Tajikistan', 'Turkey']",3
+"['Potatoes', 'Tea (black)']",0.42391387471375236,"['India', 'Kyrgyzstan', 'Tajikistan']",3
+"['Potatoes', 'Oil (mustard)']",0.42367321437426203,['India'],1
+"['Potatoes', 'Salt (iodised)']",-0.02126585963253788,['India'],1
+"['Potatoes', 'Cucumbers']",0.3467216673903604,['Jordan'],1
+"['Potatoes', 'Oil (cotton)']",0.1725045643721436,"['Kyrgyzstan', 'Tajikistan']",2
+"['Potatoes', 'Wheat flour (first grade)']",0.2794658105235159,"['Kyrgyzstan', 'Tajikistan', 'Ukraine']",3
+"['Potatoes', 'Wheat flour (high quality)']",0.2362374327757611,"['Kyrgyzstan', 'Tajikistan']",2
+"['Potatoes', 'Wheat flour (local)']",0.006070832725213637,['Tajikistan'],1
+"['Eggs', 'Meat (chicken)']",-0.5501553566161211,"['Armenia', 'Gambia', 'Guatemala', 'Jordan', 'Kyrgyzstan', ""Lao People's Democratic Republic"", 'Turkey']",7
+"['Eggs', 'Oil (vegetable)']",0.40903119942807636,"['Armenia', 'Gambia', 'Guatemala', 'Indonesia', 'Iran  (Islamic Republic of)', 'Jordan', 'Tajikistan', 'Yemen']",8
+"['Eggs', 'Sugar']",0.43517958565841874,"['Armenia', 'Bolivia', 'Egypt', 'Gambia', 'Guatemala', 'Indonesia', 'Iran  (Islamic Republic of)', 'Jordan', 'Kyrgyzstan', 'Lebanon', 'Pakistan', 'State of Palestine', 'Tajikistan', 'Turkey', 'Ukraine', 'Yemen']",16
+"['Eggs', 'Pasta']",-0.4178245766391663,"['Armenia', 'Egypt', 'Guatemala', 'Lebanon', 'Turkey', 'Ukraine']",6
+"['Eggs', 'Meat (beef)']",0.14099678378196517,"['Armenia', 'Egypt', 'Gambia', 'Indonesia', 'Jordan', 'Kyrgyzstan', 'Rwanda', 'Tajikistan', 'Ukraine']",9
+"['Eggs', 'Carrots']",-0.1056928195658605,"['Armenia', 'Gambia', 'Kyrgyzstan', 'Philippines', 'Rwanda', 'Tajikistan', 'Ukraine']",7
+"['Eggs', 'Onions']",0.15036261272454218,"['Armenia', 'Gambia', 'Guatemala', 'Jordan', 'Kyrgyzstan', 'Tajikistan', 'Turkey', 'Ukraine', 'Yemen']",9
+"['Eggs', 'Cabbage']",0.023456444971061596,"['Armenia', 'Gambia', 'Kyrgyzstan', 'Lebanon', 'Philippines', 'Rwanda', 'Tajikistan', 'Ukraine']",8
+"['Eggs', 'Apples (red)']",0.3687681495102463,"['Armenia', 'Gambia', 'Jordan', 'Rwanda', 'Turkey']",5
+"['Eggs', 'Cucumbers (greenhouse)']",0.34036943394987323,"['Armenia', 'Lebanon', 'Rwanda', 'Turkey']",4
+"['Eggs', 'Fish (fresh)']",-0.30545196923758106,"['Armenia', 'Philippines', 'Turkey']",3
+"['Eggs', 'Milk (non-pasteurized)']",0.4293664445520294,['Kyrgyzstan'],1
+"['Eggs', 'Beans (white)']",0.29743812418584453,"['Lebanon', 'Turkey', 'Yemen']",3
+"['Eggs', 'Maize']",0.2790372024619122,"['Gambia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan']",4
+"['Eggs', 'Meat (beef, chops with bones)']",-0.14127276734954244,"['Bolivia', 'Guatemala', 'Philippines']",3
+"['Eggs', 'Meat (chicken, whole)']",0.492922430126982,"['Bolivia', 'Jordan', 'Lebanon', 'Philippines', 'Ukraine']",5
+"['Eggs', 'Rice']",0.30837471397444627,"['Egypt', 'Indonesia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan', 'Turkey', 'Ukraine']",7
+"['Eggs', 'Sweet potatoes']",-0.7274405740961132,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Eggs', 'Onions (red)']",-0.2254500372540198,"['Egypt', 'Philippines', 'Rwanda']",3
+"['Eggs', 'Onions (white)']",0.11747077761062409,"['Egypt', 'Philippines', 'Rwanda']",3
+"['Eggs', 'Salt']",0.3542138459177031,"['Gambia', 'Guatemala', 'Kyrgyzstan', 'Lebanon', 'Pakistan', 'State of Palestine', 'Tajikistan', 'Turkey', 'Yemen']",9
+"['Eggs', 'Oil (sunflower)']",0.39931208621385045,"['Egypt', 'Kyrgyzstan', 'Lebanon', 'Turkey', 'Ukraine']",5
+"['Eggs', 'Meat (chicken, frozen)']",0.12983007221925985,"['Egypt', 'Tajikistan']",2
+"['Eggs', 'Meat (mutton)']",0.030203852015622562,"['Gambia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan', 'Turkey']",5
+"['Eggs', 'Potatoes (Irish)']",-0.44357136472901904,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Eggs', 'Milk (powder)']",-0.2845201910551454,"['Gambia', 'Guatemala', 'Lebanon']",3
+"['Eggs', 'Rice (ordinary, second quality)']",-0.08567246752641858,"['Guatemala', ""Lao People's Democratic Republic""]",2
+"['Eggs', 'Rice (ordinary, first quality)']",-0.4060302884678886,"['Guatemala', ""Lao People's Democratic Republic""]",2
+"['Eggs', 'Tea (black)']",-0.36670432917030726,"['Kyrgyzstan', 'Tajikistan']",2
+"['Eggs', 'Meat (chicken, broiler)']",0.6221334814917701,['Indonesia'],1
+"['Eggs', 'Oil (olive)']",0.2876200702700044,"['Jordan', 'Turkey']",2
+"['Eggs', 'Bread (pita)']",-0.40072799200397147,"['Jordan', 'Lebanon', 'Turkey']",3
+"['Eggs', 'Oil (cotton)']",0.3898792341015165,"['Kyrgyzstan', 'Tajikistan']",2
+"['Eggs', 'Tea (green)']",-0.20856926746167043,"['Kyrgyzstan', 'Tajikistan', 'Turkey']",3
+"['Eggs', 'Wheat flour (first grade)']",0.40189044692998294,"['Kyrgyzstan', 'Tajikistan', 'Ukraine']",3
+"['Eggs', 'Wheat flour (high quality)']",0.2992587961337998,"['Kyrgyzstan', 'Tajikistan']",2
+"['Eggs', 'Meat (beef, first quality)']",-0.6306951316048628,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Meat (beef, second quality)']",-0.661849647883481,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Meat (buffalo, first quality)']",-0.6306951316048628,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Meat (buffalo, second quality)']",-0.7065692186864189,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Meat (pork, first quality)']",-0.04029388523392263,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Meat (pork, second quality)']",-0.06340712758178266,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Rice (glutinous, first quality)']",0.01783219597637259,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Rice (glutinous, unmilled)']",0.46928934531774785,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Rice (ordinary, unmilled)']",0.4561446487157522,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Garlic (small)']",-0.5024614736151743,"[""Lao People's Democratic Republic""]",1
+"['Eggs', 'Tomatoes (paste)']",0.4018018018018018,"['Lebanon', 'Turkey']",2
+"['Eggs', 'Fish (tuna, canned)']",0.294398610508033,['Lebanon'],1
+"['Eggs', 'Wheat flour (local)']",0.34337577431913213,['Tajikistan'],1
+"['Eggs', 'Rice (regular, milled)']",-0.5840381186953651,['Philippines'],1
+"['Eggs', 'Cocoa (powder)']",0.3805807618936463,['Turkey'],1
+"['Meat (chicken)', 'Oil (vegetable)']",0.049579466291240784,"['Armenia', 'Colombia', 'Democratic Republic of the Congo', 'Gambia', 'Guatemala', 'Jordan', 'Peru']",7
+"['Meat (chicken)', 'Sugar']",0.33914061234537735,"['Armenia', 'Colombia', 'Democratic Republic of the Congo', 'Gambia', 'Guatemala', 'Jordan', 'Kyrgyzstan', 'Peru', 'Turkey']",9
+"['Meat (chicken)', 'Meat (beef)']",0.21566437965985505,"['Armenia', 'Colombia', 'Democratic Republic of the Congo', 'Gambia', 'Jordan', 'Kyrgyzstan', 'Myanmar']",7
+"['Meat (chicken)', 'Apples (red)']",0.37747023555463366,"['Armenia', 'Colombia', 'Gambia', 'Jordan', 'Turkey']",5
+"['Meat (chicken)', 'Fish (fresh)']",0.4433682970407136,"['Armenia', 'Democratic Republic of the Congo', 'Turkey']",3
+"['Meat (chicken)', 'Oil (palm)']",0.22411019380194036,"['Democratic Republic of the Congo', ""Lao People's Democratic Republic"", 'Myanmar']",3
+"['Meat (chicken)', 'Rice (imported)']",0.5251270053071984,"['Democratic Republic of the Congo', 'Jordan']",2
+"['Meat (chicken)', 'Maize']",0.3788150241064759,"['Democratic Republic of the Congo', 'Gambia', 'Kyrgyzstan', 'Myanmar']",4
+"['Meat (chicken)', 'Meat (chicken, whole)']",0.3970033388178406,['Jordan'],1
+"['Meat (chicken)', 'Beans']",0.5218591383346658,['Democratic Republic of the Congo'],1
+"['Meat (chicken)', 'Cassava flour']",0.43593066231472377,['Democratic Republic of the Congo'],1
+"['Meat (chicken)', 'Rice (local)']",0.2889568937776644,"['Democratic Republic of the Congo', 'Peru']",2
+"['Meat (chicken)', 'Cassava (cossette)']",0.24515809224681598,['Democratic Republic of the Congo'],1
+"['Meat (chicken)', 'Maize flour']",-0.34487987013018323,"['Colombia', 'Democratic Republic of the Congo', 'Gambia']",3
+"['Meat (chicken)', 'Plantains']",0.4288188785133185,"['Colombia', 'Democratic Republic of the Congo', 'Guatemala']",3
+"['Meat (chicken)', 'Coffee']",0.24661472596367678,"['Colombia', 'Guatemala', 'Turkey']",3
+"['Meat (chicken)', 'Salt']",-0.33192183193035557,"['Colombia', 'Democratic Republic of the Congo', 'Gambia', 'Guatemala', 'Kyrgyzstan', 'Myanmar', 'Turkey']",7
+"['Meat (chicken)', 'Rice (paddy)']",0.353427304199551,['Colombia'],1
+"['Meat (chicken)', 'Eggs (white, AA)']",-0.49909909909909916,['Colombia'],1
+"['Meat (chicken)', 'Sugar (brown)']",-0.47349687248832784,"['Colombia', ""Lao People's Democratic Republic""]",2
+"['Meat (chicken)', 'Bananas']",0.43282910366121363,"['Colombia', 'Gambia', 'Guatemala', 'Jordan', 'Turkey']",5
+"['Meat (chicken)', 'Fish (tilapia)']",-0.55374205144224,['Colombia'],1
+"['Meat (chicken)', 'Lentils (imported)']",0.5221636960543151,['Colombia'],1
+"['Meat (chicken)', 'Fish (smoked)']",0.5521518973485416,['Democratic Republic of the Congo'],1
+"['Meat (chicken)', 'Fish (salted)']",0.37351548764326753,['Democratic Republic of the Congo'],1
+"['Meat (chicken)', 'Maize meal']",-0.3052233026342127,['Democratic Republic of the Congo'],1
+"['Meat (chicken)', 'Cassava']",0.24305254016500216,"['Democratic Republic of the Congo', 'Gambia']",2
+"['Meat (chicken)', 'Meat (goat, with bones)']",0.33824963085714677,['Democratic Republic of the Congo'],1
+"['Meat (chicken)', 'Cassava (chikwangue)']",-0.4571489144304714,['Democratic Republic of the Congo'],1
+"['Meat (chicken)', 'Meat (mutton)']",0.7037013327222469,"['Gambia', 'Kyrgyzstan', 'Turkey']",3
+"['Meat (chicken)', 'Milk (powder)']",0.29175611390284295,"['Gambia', 'Guatemala']",2
+"['Meat (chicken)', 'Rice (ordinary, second quality)']",-0.03718966223307746,"['Guatemala', ""Lao People's Democratic Republic""]",2
+"['Meat (chicken)', 'Rice (ordinary, first quality)']",0.13598285090366005,"['Guatemala', ""Lao People's Democratic Republic""]",2
+"['Meat (chicken)', 'Oil (olive)']",0.41918249896517296,"['Jordan', 'Turkey']",2
+"['Meat (chicken)', 'Meat (beef, first quality)']",0.45300256805950645,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Meat (beef, second quality)']",0.5091184403091962,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Meat (buffalo, first quality)']",0.45300256805950645,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Meat (buffalo, second quality)']",-0.6996164505436897,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Meat (pork, first quality)']",0.6551828171210655,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Meat (pork, second quality)']",0.5425229341391311,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Rice (glutinous, first quality)']",-0.5360601087745265,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Rice (glutinous, second quality)']",-0.5902941078395049,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Rice (glutinous, unmilled)']",0.015758131426845762,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Rice (ordinary, unmilled)']",0.0800375834410488,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Fish (snake head)']",0.47349687248832784,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Fish (catfish)']",-0.47349687248832784,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Fish (tilapia, farmed)']",0.19501329599262915,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken)', 'Meat (veal)']",0.3427798787453538,['Turkey'],1
+"['Oil (vegetable)', 'Sugar']",0.127409298022497,"['Armenia', 'Colombia', 'Democratic Republic of the Congo', 'Djibouti', 'Gambia', 'Guatemala', 'Indonesia', 'Iran  (Islamic Republic of)', 'Jordan', 'Madagascar', 'Mauritania', 'Peru', 'Tajikistan', 'Yemen']",14
+"['Oil (vegetable)', 'Pasta']",0.35159633668971324,"['Armenia', 'Colombia', 'Djibouti', 'Guatemala']",4
+"['Oil (vegetable)', 'Rice (white)']",0.2994750885654641,"['Armenia', 'Colombia']",2
+"['Oil (vegetable)', 'Meat (pork)']",0.6953600421279102,"['Armenia', 'Colombia']",2
+"['Oil (vegetable)', 'Meat (beef)']",0.22402127187556048,"['Armenia', 'Colombia', 'Congo', 'Democratic Republic of the Congo', 'Gambia', 'Indonesia', 'Jordan', 'Tajikistan']",8
+"['Oil (vegetable)', 'Carrots']",0.23087789488932647,"['Armenia', 'Colombia', 'Gambia', 'Tajikistan']",4
+"['Oil (vegetable)', 'Onions']",0.4526249098415219,"['Armenia', 'Gambia', 'Guatemala', 'Jordan', 'Tajikistan', 'Yemen']",6
+"['Oil (vegetable)', 'Cabbage']",0.259549747452903,"['Armenia', 'Colombia', 'Gambia', 'Tajikistan']",4
+"['Oil (vegetable)', 'Rice (imported)']",0.5862695427028477,"['Democratic Republic of the Congo', 'Djibouti', 'Jordan', 'Mauritania', 'Yemen']",5
+"['Oil (vegetable)', 'Maize']",0.20467856439724436,"['Democratic Republic of the Congo', 'Gambia', 'Tajikistan', 'Zimbabwe']",4
+"['Oil (vegetable)', 'Meat (beef, chops with bones)']",0.38938949931728906,['Guatemala'],1
+"['Oil (vegetable)', 'Rice']",0.21415192617201279,"['Indonesia', 'Tajikistan']",2
+"['Oil (vegetable)', 'Rice (local)']",0.39719269791292844,"['Democratic Republic of the Congo', 'Iran  (Islamic Republic of)', 'Madagascar', 'Mauritania', 'Peru']",5
+"['Oil (vegetable)', 'Sesame']",0.5588548487785746,['South Sudan'],1
+"['Oil (vegetable)', 'Sorghum (white)']",0.3619441047433126,['South Sudan'],1
+"['Oil (vegetable)', 'Plantains']",-0.37868351729085764,"['Colombia', 'Congo', 'Democratic Republic of the Congo', 'Guatemala']",4
+"['Oil (vegetable)', 'Coffee']",0.21866532188583757,"['Colombia', 'Guatemala']",2
+"['Oil (vegetable)', 'Salt']",0.21619893915140204,"['Colombia', 'Democratic Republic of the Congo', 'Gambia', 'Guatemala', 'Tajikistan', 'Yemen']",6
+"['Oil (vegetable)', 'Rice (paddy)']",0.3348408451915515,['Colombia'],1
+"['Oil (vegetable)', 'Oranges (big size)']",-0.3348699963451485,"['Colombia', 'Jordan']",2
+"['Oil (vegetable)', 'Bananas']",-0.4034240059630067,"['Colombia', 'Gambia', 'Guatemala', 'Jordan']",4
+"['Oil (vegetable)', 'Cassava (dry)']",0.3515472940516643,"['Colombia', 'South Sudan']",2
+"['Oil (vegetable)', 'Meat (chicken, frozen)']",0.2462573491206244,"['Congo', 'Tajikistan']",2
+"['Oil (vegetable)', 'Maize meal']",0.5291505401609954,['Democratic Republic of the Congo'],1
+"['Oil (vegetable)', 'Meat (mutton)']",0.30332195390729766,"['Gambia', 'Tajikistan']",2
+"['Oil (vegetable)', 'Milk (powder)']",0.40811589791110336,"['Gambia', 'Guatemala']",2
+"['Oil (vegetable)', 'Rice (ordinary, second quality)']",0.2449080525855991,['Guatemala'],1
+"['Oil (vegetable)', 'Tortilla (maize)']",0.32921464066877865,['Guatemala'],1
+"['Oil (vegetable)', 'Tea (black)']",0.18913669976078326,['Tajikistan'],1
+"['Oil (vegetable)', 'Milk (condensed)']",0.41520244461420924,['Indonesia'],1
+"['Oil (vegetable)', 'Bread (pita)']",0.27976424207274553,['Jordan'],1
+"['Oil (vegetable)', 'Cucumbers']",-0.36138627309967913,['Jordan'],1
+"['Oil (vegetable)', 'Oil (cotton)']",0.4736692847028137,['Tajikistan'],1
+"['Oil (vegetable)', 'Tea (green)']",0.014086898113342988,['Tajikistan'],1
+"['Oil (vegetable)', 'Wheat flour (first grade)']",0.27180503501986764,['Tajikistan'],1
+"['Oil (vegetable)', 'Wheat flour (high quality)']",0.33599910636481667,['Tajikistan'],1
+"['Oil (vegetable)', 'Sorghum (taghalit)']",0.34531159283636,['Mauritania'],1
+"['Oil (vegetable)', 'Wheat flour (locally processed)']",0.3702278018747418,['Peru'],1
+"['Oil (vegetable)', 'Beans (kidney red)']",0.40465019431958354,['Yemen'],1
+"['Sugar', 'Lentils']",0.2736774374325078,"['Armenia', 'Egypt', 'Ethiopia', 'India', 'Iran  (Islamic Republic of)', 'Jordan', 'Lebanon', 'Syrian Arab Republic', 'Turkey', 'Yemen']",10
+"['Sugar', 'Pasta']",0.36667509092968087,"['Armenia', 'Colombia', 'Djibouti', 'Egypt', 'Ethiopia', 'Guatemala', 'Lebanon', 'Turkey', 'Ukraine']",9
+"['Sugar', 'Tomatoes']",0.15550965663627814,"['Armenia', 'Colombia', 'Egypt', 'Gambia', 'Guatemala', 'Guinea', 'India', 'Jordan', 'Syrian Arab Republic', 'Turkey', 'Yemen']",11
+"['Sugar', 'Meat (beef)']",0.23715162951496796,"['Armenia', 'Colombia', 'Democratic Republic of the Congo', 'Egypt', 'Gambia', 'Guinea', 'Indonesia', 'Jordan', 'Kyrgyzstan', 'Tajikistan', 'Ukraine']",11
+"['Sugar', 'Carrots']",0.020218773649368776,"['Armenia', 'Colombia', 'Gambia', 'Kyrgyzstan', 'Tajikistan', 'Ukraine']",6
+"['Sugar', 'Onions']",0.33103230703712977,"['Armenia', 'Gambia', 'Guatemala', 'India', 'Jordan', 'Kyrgyzstan', 'Tajikistan', 'Turkey', 'Ukraine', 'Yemen']",10
+"['Sugar', 'Cabbage']",0.08738567174365963,"['Armenia', 'Colombia', 'Gambia', 'Kyrgyzstan', 'Lebanon', 'Tajikistan', 'Ukraine']",7
+"['Sugar', 'Apples (red)']",-0.3049053908351979,"['Armenia', 'Colombia', 'Gambia', 'Jordan', 'Turkey']",5
+"['Sugar', 'Fish (fresh)']",0.060514812053403366,"['Armenia', 'Democratic Republic of the Congo', 'Turkey']",3
+"['Sugar', 'Lentils (masur)']",0.31019459969520446,"['India', 'Pakistan']",2
+"['Sugar', 'Oil (palm)']",0.1891599581864805,"['Democratic Republic of the Congo', 'Guinea', 'Guinea-Bissau', 'India']",4
+"['Sugar', 'Rice (imported)']",0.29613230398690743,"['Democratic Republic of the Congo', 'Djibouti', 'Ethiopia', 'Guinea', 'Guinea-Bissau', 'Jordan', 'Mauritania', 'Yemen']",8
+"['Sugar', 'Sorghum']",0.40885928073408867,"['Ethiopia', 'Gambia', 'Guinea-Bissau']",3
+"['Sugar', 'Beans (white)']",0.41369952236213636,"['Djibouti', 'Lebanon', 'Turkey', 'Yemen']",4
+"['Sugar', 'Maize']",0.41902141241819657,"['Democratic Republic of the Congo', 'Gambia', 'Guinea-Bissau', 'Kyrgyzstan', 'Tajikistan']",5
+"['Sugar', 'Millet']",0.4986525655416711,"['Djibouti', 'Gambia', 'Guinea-Bissau']",3
+"['Sugar', 'Rice']",0.2503928724505009,"['Egypt', 'India', 'Indonesia', 'Iraq', 'Kyrgyzstan', 'Syrian Arab Republic', 'Tajikistan', 'Turkey', 'Ukraine']",9
+"['Sugar', 'Beans']",0.5320727421300253,['Democratic Republic of the Congo'],1
+"['Sugar', 'Cassava flour']",0.5437777039528423,['Democratic Republic of the Congo'],1
+"['Sugar', 'Rice (local)']",-0.032358747143179954,"['Democratic Republic of the Congo', 'Guinea', 'Guinea-Bissau', 'Iran  (Islamic Republic of)', 'Madagascar', 'Mauritania', 'Peru']",7
+"['Sugar', 'Cassava (cossette)']",0.5321703029505417,['Democratic Republic of the Congo'],1
+"['Sugar', 'Oil (groundnut)']",0.09917902618852004,['India'],1
+"['Sugar', 'Maize flour']",-0.5003219119188433,"['Colombia', 'Democratic Republic of the Congo', 'Gambia']",3
+"['Sugar', 'Beans (red)']",0.45325018059079664,['Colombia'],1
+"['Sugar', 'Plantains']",-0.447972471953528,"['Colombia', 'Democratic Republic of the Congo', 'Guatemala']",3
+"['Sugar', 'Salt']",0.3521298528546449,"['Colombia', 'Democratic Republic of the Congo', 'Gambia', 'Guatemala', 'Guinea', 'Guinea-Bissau', 'Kyrgyzstan', 'Lebanon', 'Pakistan', 'State of Palestine', 'Tajikistan', 'Turkey', 'Yemen']",13
+"['Sugar', 'Oranges (big size)']",0.3295375705786127,"['Colombia', 'Jordan']",2
+"['Sugar', 'Milk (pasteurized)']",-0.31833303876527436,"['Colombia', 'India', 'Jordan', 'Turkey']",4
+"['Sugar', 'Oil (sunflower)']",0.12630381114274905,"['Colombia', 'Egypt', 'India', 'Kyrgyzstan', 'Lebanon', 'Turkey', 'Ukraine']",7
+"['Sugar', 'Fish (smoked)']",0.5050152102369619,['Democratic Republic of the Congo'],1
+"['Sugar', 'Meat (chicken, frozen)']",0.2139202729975196,"['Egypt', 'Tajikistan']",2
+"['Sugar', 'Maize meal']",-0.40784484937121146,['Democratic Republic of the Congo'],1
+"['Sugar', 'Cassava']",0.48911118050000785,"['Democratic Republic of the Congo', 'Gambia']",2
+"['Sugar', 'Meat (goat, with bones)']",0.43475149402506896,['Democratic Republic of the Congo'],1
+"['Sugar', 'Tea']",0.5243905409179739,"['Gambia', 'State of Palestine', 'Syrian Arab Republic', 'Turkey']",4
+"['Sugar', 'Meat (mutton)']",0.30566107850925406,"['Gambia', 'Kyrgyzstan', 'Tajikistan', 'Turkey']",4
+"['Sugar', 'Fonio']",0.2978602364369693,['Guinea-Bissau'],1
+"['Sugar', 'Oil (vegetable, imported)']",0.5411650494630202,['Guinea-Bissau'],1
+"['Sugar', 'Tea (black)']",0.2654149697607919,"['India', 'Kyrgyzstan', 'Tajikistan']",3
+"['Sugar', 'Oil (mustard)']",-0.08270477410600412,['India'],1
+"['Sugar', 'Salt (iodised)']",-0.06865517095336598,['India'],1
+"['Sugar', 'Oil (olive)']",0.36622895080551493,"['Jordan', 'Turkey']",2
+"['Sugar', 'Bread (pita)']",0.36456279233369193,"['Jordan', 'Lebanon', 'Turkey']",3
+"['Sugar', 'Meat (lamb)']",-0.36284152042512213,['Jordan'],1
+"['Sugar', 'Cheese (white, boiled)']",-0.49931642113631386,['Jordan'],1
+"['Sugar', 'Oil (cotton)']",0.2883571520808933,"['Kyrgyzstan', 'Tajikistan']",2
+"['Sugar', 'Tea (green)']",0.3919100843217395,"['Kyrgyzstan', 'Tajikistan', 'Turkey']",3
+"['Sugar', 'Wheat flour (first grade)']",0.22371490492844906,"['Kyrgyzstan', 'Tajikistan', 'Ukraine']",3
+"['Sugar', 'Wheat flour (high quality)']",0.21468128132904363,"['Kyrgyzstan', 'Tajikistan']",2
+"['Sugar', 'Bulgur']",0.28755970473295706,"['Lebanon', 'Turkey']",2
+"['Sugar', 'Rice (imported, Egyptian)']",0.4575553625705601,['Lebanon'],1
+"['Sugar', 'Tomatoes (paste)']",0.5534105534105533,"['Lebanon', 'Turkey']",2
+"['Sugar', 'Cheese (picon)']",0.33043855840208425,"['Egypt', 'Lebanon']",2
+"['Sugar', 'Meat (beef, canned)']",0.33716891011723843,['Lebanon'],1
+"['Sugar', 'Sorghum (taghalit)']",0.3679573305452451,['Mauritania'],1
+"['Sugar', 'Rice (basmati, broken)']",0.3496819484824727,['Pakistan'],1
+"['Sugar', 'Oil']",0.6545810108440584,['Syrian Arab Republic'],1
+"['Sugar', 'Bread (bakery)']",-0.02881390502492337,['Syrian Arab Republic'],1
+"['Sugar', 'Bread (shop)']",-0.00888265814806767,['Syrian Arab Republic'],1
+"['Sugar', 'Beans (kidney red)']",0.4455785160686321,['Yemen'],1
+"['Lentils', 'Pasta']",0.43669855138645874,"['Armenia', 'Egypt', 'Ethiopia', 'Lebanon', 'Turkey']",5
+"['Lentils', 'Tomatoes']",0.45017568365788374,"['Armenia', 'Egypt', 'India', 'Jordan', 'Syrian Arab Republic', 'Turkey', 'Yemen']",7
+"['Lentils', 'Meat (beef)']",-0.4020433483248545,"['Armenia', 'Egypt', 'Jordan']",3
+"['Lentils', 'Onions']",-0.098233519471549,"['Armenia', 'India', 'Jordan', 'Turkey', 'Yemen']",5
+"['Lentils', 'Lentils (masur)']",-0.31152771826935416,['India'],1
+"['Lentils', 'Rice (imported)']",0.42450902624382164,"['Ethiopia', 'Jordan', 'Yemen']",3
+"['Lentils', 'Rice']",0.48278116748923944,"['Egypt', 'India', 'Syrian Arab Republic', 'Turkey']",4
+"['Lentils', 'Rice (local)']",0.36263357944658503,['Iran  (Islamic Republic of)'],1
+"['Lentils', 'Groundnuts (shelled)']",0.3545770597175061,['Turkey'],1
+"['Lentils', 'Garlic']",0.3541908101971166,"['Egypt', 'Jordan', 'Turkey']",3
+"['Lentils', 'Bananas']",0.1329071761997825,"['Jordan', 'Turkey']",2
+"['Lentils', 'Milk (pasteurized)']",0.1381304844632121,"['India', 'Jordan', 'Turkey']",3
+"['Lentils', 'Beans (fava, dry)']",0.46447596273167735,"['Egypt', 'Ethiopia', 'Jordan']",3
+"['Lentils', 'Tea']",0.4009185655967642,"['Syrian Arab Republic', 'Turkey']",2
+"['Lentils', 'Meat (mutton)']",0.48284739753740297,['Turkey'],1
+"['Lentils', 'Tea (black)']",-0.31714604718032474,['India'],1
+"['Lentils', 'Oil (mustard)']",0.26602004368201126,['India'],1
+"['Lentils', 'Salt (iodised)']",-0.04852755368911327,['India'],1
+"['Lentils', 'Chickpeas']",0.3181273813554609,"['Jordan', 'Lebanon', 'Turkey']",3
+"['Lentils', 'Bread (pita)']",0.47814756128304303,"['Jordan', 'Lebanon', 'Turkey']",3
+"['Lentils', 'Bulgur']",0.47454903117917885,"['Lebanon', 'Turkey']",2
+"['Lentils', 'Tomatoes (paste)']",0.33564993564993567,"['Lebanon', 'Turkey']",2
+"['Lentils', 'Cheese (picon)']",0.3590733590733591,"['Egypt', 'Lebanon']",2
+"['Lentils', 'Fish (tuna, canned)']",0.45405405405405413,"['Lebanon', 'Syrian Arab Republic']",2
+"['Lentils', 'Oil']",0.5564772379961361,['Syrian Arab Republic'],1
+"['Lentils', 'Bread (bakery)']",0.5516207207257894,['Syrian Arab Republic'],1
+"['Lentils', 'Bread (shop)']",0.16437779581817627,['Syrian Arab Republic'],1
+"['Lentils', 'Oil (maize)']",0.47479423025513023,['Egypt'],1
+"['Pasta', 'Tomatoes']",0.40015461675657227,"['Armenia', 'Colombia', 'Egypt', 'Guatemala', 'Turkey']",5
+"['Pasta', 'Cabbage']",-0.37093764154293707,"['Armenia', 'Colombia', 'Lebanon', 'Ukraine']",4
+"['Pasta', 'Beans (white)']",-0.4520191055145462,"['Djibouti', 'Lebanon', 'Turkey']",3
+"['Pasta', 'Coffee']",0.331572870308358,"['Colombia', 'Guatemala', 'Turkey']",3
+"['Pasta', 'Tea']",0.3731084405354972,['Turkey'],1
+"['Pasta', 'Milk (powder)']",-0.038107157215138854,"['Guatemala', 'Lebanon']",2
+"['Pasta', 'Tortilla (maize)']",0.21489748336329154,['Guatemala'],1
+"['Pasta', 'Bread (pita)']",0.3245890290422627,"['Lebanon', 'Turkey']",2
+"['Pasta', 'Bulgur']",0.4026050403344284,"['Lebanon', 'Turkey']",2
+"['Pasta', 'Cheese (picon)']",0.3343939570382197,"['Egypt', 'Lebanon']",2
+"['Pasta', 'Meat (beef, canned)']",0.4831402831402832,['Lebanon'],1
+"['Pasta', 'Fish (tuna, canned)']",-0.37700825010855404,['Lebanon'],1
+"['Tomatoes', 'Meat (pork)']",-0.2152178760427895,"['Armenia', 'Colombia', 'Myanmar', 'Philippines', 'Rwanda']",5
+"['Tomatoes', 'Carrots']",0.5152686756916124,"['Armenia', 'Colombia', 'Gambia', 'Philippines', 'Rwanda']",5
+"['Tomatoes', 'Onions']",0.3931331063414724,"['Armenia', 'Gambia', 'Guatemala', 'India', 'Jordan', 'Myanmar', 'Turkey', 'Yemen']",8
+"['Tomatoes', 'Cabbage']",0.5193803078332507,"['Armenia', 'Colombia', 'Gambia', 'Philippines', 'Rwanda']",5
+"['Tomatoes', 'Cucumbers (greenhouse)']",0.4563006821984811,"['Armenia', 'Colombia', 'Rwanda', 'Turkey']",4
+"['Tomatoes', 'Fish (fresh)']",0.3918167620902811,"['Armenia', 'Philippines', 'Turkey']",3
+"['Tomatoes', 'Lentils (masur)']",0.3862227274621239,['India'],1
+"['Tomatoes', 'Oil (palm)']",-0.4664845637260052,"['Guinea', 'India', 'Myanmar']",3
+"['Tomatoes', 'Meat (beef, chops with bones)']",-0.45152148273745324,"['Guatemala', 'Philippines']",2
+"['Tomatoes', 'Meat (chicken, whole)']",-0.04466316518308226,"['Jordan', 'Philippines']",2
+"['Tomatoes', 'Rice']",0.38342381730702224,"['Egypt', 'India', 'Rwanda', 'Syrian Arab Republic', 'Turkey']",5
+"['Tomatoes', 'Sweet potatoes']",0.02047938032934643,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Tomatoes', 'Oil (groundnut)']",0.37572403451936903,"['India', 'Myanmar']",2
+"['Tomatoes', 'Garlic']",0.08801933477769733,"['Colombia', 'Egypt', 'Gambia', 'Jordan', 'Myanmar', 'Philippines', 'Rwanda', 'Turkey']",8
+"['Tomatoes', 'Onions (red)']",-0.01634704615236708,"['Colombia', 'Egypt', 'Philippines', 'Rwanda']",4
+"['Tomatoes', 'Onions (white)']",0.1983890930082926,"['Colombia', 'Egypt', 'Philippines', 'Rwanda']",4
+"['Tomatoes', 'Maize (yellow)']",0.3448407153527695,"['Colombia', 'Guatemala']",2
+"['Tomatoes', 'Coffee']",0.3833923470265004,"['Colombia', 'Guatemala', 'Turkey']",3
+"['Tomatoes', 'Rice (paddy)']",-0.3777591873450799,"['Colombia', 'Philippines']",2
+"['Tomatoes', 'Milk (pasteurized)']",0.34656583491553,"['Colombia', 'India', 'Jordan', 'Turkey']",4
+"['Tomatoes', 'Beans (fava, dry)']",-0.42647849944816035,"['Egypt', 'Jordan']",2
+"['Tomatoes', 'Potatoes (Irish)']",0.31838474295304453,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Tomatoes', 'Oil (mustard)']",0.35012915561285096,['India'],1
+"['Tomatoes', 'Salt (iodised)']",0.13623882890517647,['India'],1
+"['Rice (white)', 'Rice (paddy)']",0.6112543550377015,['Colombia'],1
+"['Meat (pork)', 'Carrots']",-0.17568511947952034,"['Armenia', 'Colombia', 'Philippines', 'Rwanda', 'Ukraine']",5
+"['Meat (pork)', 'Cabbage']",-0.20343618144177217,"['Armenia', 'Colombia', 'Philippines', 'Rwanda', 'Ukraine']",5
+"['Meat (pork)', 'Fish (fresh)']",-0.2604737907700599,"['Armenia', 'Philippines']",2
+"['Meat (pork)', 'Meat (beef, chops with bones)']",0.019481625895417982,['Philippines'],1
+"['Meat (pork)', 'Meat (chicken, whole)']",0.5912969203250774,"['Philippines', 'Ukraine']",2
+"['Meat (pork)', 'Sweet potatoes']",0.2993265619748914,"['Philippines', 'Rwanda']",2
+"['Meat (pork)', 'Beans (red)']",0.33466444615925156,['Colombia'],1
+"['Meat (pork)', 'Garlic']",-0.08003778091441333,"['Colombia', 'Myanmar', 'Philippines', 'Rwanda']",4
+"['Meat (pork)', 'Onions (red)']",0.5049972939983904,"['Colombia', 'Philippines', 'Rwanda']",3
+"['Meat (pork)', 'Onions (white)']",0.33317259921507264,"['Colombia', 'Philippines', 'Rwanda']",3
+"['Meat (pork)', 'Plantains']",-0.347789289460357,['Colombia'],1
+"['Meat (pork)', 'Salt']",-0.5040383689825942,"['Colombia', 'Myanmar']",2
+"['Meat (pork)', 'Eggs (white, AA)']",0.3738481667658578,['Colombia'],1
+"['Meat (pork)', 'Bananas']",-0.40392829040698264,"['Colombia', 'Rwanda']",2
+"['Meat (pork)', 'Cassava (dry)']",0.35364653091476866,['Colombia'],1
+"['Meat (pork)', 'Potatoes (Irish)']",-0.269053458986008,"['Philippines', 'Rwanda']",2
+"['Meat (beef)', 'Carrots']",0.3099206717865377,"['Armenia', 'Colombia', 'Gambia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan', 'Ukraine']",7
+"['Meat (beef)', 'Cabbage']",-0.051243560704759585,"['Armenia', 'Colombia', 'Gambia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan', 'Ukraine']",7
+"['Meat (beef)', 'Apples (red)']",0.30743751885416,"['Armenia', 'Colombia', 'Gambia', 'Jordan', 'Rwanda']",5
+"['Meat (beef)', 'Fish (fresh)']",0.524630871314333,"['Armenia', 'Congo', 'Democratic Republic of the Congo']",3
+"['Meat (beef)', 'Milk (non-pasteurized)']",-0.4232681637043206,['Kyrgyzstan'],1
+"['Meat (beef)', 'Oil (palm)']",-0.08128364863507352,"['Congo', ""Cote d'Ivoire"", 'Democratic Republic of the Congo', 'Guinea', 'Myanmar']",5
+"['Meat (beef)', 'Rice (imported)']",-0.21297244921972033,"['Democratic Republic of the Congo', 'Guinea', 'Jordan']",3
+"['Meat (beef)', 'Sorghum']",-0.33393915499875704,"['Gambia', 'Rwanda']",2
+"['Meat (beef)', 'Maize']",0.40644896485092696,"[""Cote d'Ivoire"", 'Democratic Republic of the Congo', 'Gambia', 'Kyrgyzstan', 'Myanmar', 'Rwanda', 'Tajikistan']",7
+"['Meat (beef)', 'Rice']",-0.22361437541036228,"['Egypt', 'Indonesia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan', 'Ukraine']",6
+"['Meat (beef)', 'Beans']",-0.09288999164734647,['Democratic Republic of the Congo'],1
+"['Meat (beef)', 'Cassava flour']",-0.0903154961554438,"['Congo', 'Democratic Republic of the Congo', 'Rwanda']",3
+"['Meat (beef)', 'Sweet potatoes']",-0.1876352765063592,"['Democratic Republic of the Congo', 'Gambia', 'Rwanda']",3
+"['Meat (beef)', 'Rice (local)']",-0.07137369678549578,"[""Cote d'Ivoire"", 'Democratic Republic of the Congo', 'Guinea', 'Rwanda']",4
+"['Meat (beef)', 'Cassava (cossette)']",0.06499499319884737,['Democratic Republic of the Congo'],1
+"['Meat (beef)', 'Maize flour']",-0.3575258078484974,"['Colombia', 'Democratic Republic of the Congo', 'Gambia', 'Rwanda']",4
+"['Meat (beef)', 'Plantains']",0.08777475836927552,"['Colombia', 'Congo', ""Cote d'Ivoire"", 'Democratic Republic of the Congo']",4
+"['Meat (beef)', 'Fish (dry)']",0.6828754012787467,"['Colombia', ""Cote d'Ivoire"", 'Gambia']",3
+"['Meat (beef)', 'Salt']",0.10719383637439091,"['Colombia', 'Democratic Republic of the Congo', 'Gambia', 'Guinea', 'Kyrgyzstan', 'Myanmar', 'Tajikistan']",7
+"['Meat (beef)', 'Bananas']",0.28918221975900904,"['Colombia', 'Gambia', 'Jordan', 'Rwanda']",4
+"['Meat (beef)', 'Spinach']",0.39770720829652206,"['Colombia', 'Rwanda']",2
+"['Meat (beef)', 'Papaya']",-0.35043231542633346,"['Colombia', 'Rwanda']",2
+"['Meat (beef)', 'Mangoes']",0.3757735078894409,"['Colombia', 'Rwanda']",2
+"['Meat (beef)', 'Milk (pasteurized)']",0.28627836420445507,"['Colombia', 'Jordan']",2
+"['Meat (beef)', 'Oil (sunflower)']",0.42995475982047504,"['Colombia', 'Egypt', 'Kyrgyzstan', 'Ukraine']",4
+"['Meat (beef)', 'Cassava (fresh)']",-0.5336789694719194,"['Congo', ""Cote d'Ivoire""]",2
+"['Meat (beef)', 'Fish (smoked)']",0.017398423982895317,"['Congo', 'Democratic Republic of the Congo']",2
+"['Meat (beef)', 'Meat (chicken, frozen)']",0.2469238718043304,"['Congo', 'Egypt', 'Tajikistan']",3
+"['Meat (beef)', 'Fish (salted)']",-0.13373464138770524,"['Congo', 'Democratic Republic of the Congo']",2
+"['Meat (beef)', 'Cornstarch']",0.432401176824132,"[""Cote d'Ivoire""]",1
+"['Meat (beef)', 'Fish (appolo)']",0.47441376638504673,"[""Cote d'Ivoire""]",1
+"['Meat (beef)', 'Maize meal']",-0.28163832189181165,['Democratic Republic of the Congo'],1
+"['Meat (beef)', 'Cassava']",-0.10931246363225226,"['Democratic Republic of the Congo', 'Gambia', 'Rwanda']",3
+"['Meat (beef)', 'Meat (goat, with bones)']",0.6347602552333936,['Democratic Republic of the Congo'],1
+"['Meat (beef)', 'Cassava (chikwangue)']",0.12755280849005005,['Democratic Republic of the Congo'],1
+"['Meat (beef)', 'Livestock (Goat)']",0.23677157158454004,['Rwanda'],1
+"['Meat (beef)', 'Livestock (Sheep)']",0.40380845495955875,['Rwanda'],1
+"['Meat (beef)', 'Meat (mutton)']",0.5968528489660472,"['Gambia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan']",4
+"['Meat (beef)', 'Potatoes (Irish)']",0.37900765481066356,"['Gambia', 'Rwanda']",2
+"['Meat (beef)', 'Beans (dry)']",0.37915057915057915,"['Gambia', 'Rwanda']",2
+"['Meat (beef)', 'Tea (black)']",0.2359328729570372,"['Kyrgyzstan', 'Tajikistan']",2
+"['Meat (beef)', 'Meat (chicken, broiler)']",0.4618800991049727,['Indonesia'],1
+"['Meat (beef)', 'Chili (green)']",0.18032533565784464,['Indonesia'],1
+"['Meat (beef)', 'Milk (condensed)']",0.21603968338056626,['Indonesia'],1
+"['Meat (beef)', 'Bread (pita)']",-0.40974811999969313,['Jordan'],1
+"['Meat (beef)', 'Oil (cotton)']",0.276886952281497,"['Kyrgyzstan', 'Tajikistan']",2
+"['Meat (beef)', 'Tea (green)']",0.23054353314809745,"['Kyrgyzstan', 'Tajikistan']",2
+"['Meat (beef)', 'Wheat flour (first grade)']",0.3429887277782378,"['Kyrgyzstan', 'Tajikistan', 'Ukraine']",3
+"['Meat (beef)', 'Wheat flour (high quality)']",0.39058663936201,"['Kyrgyzstan', 'Tajikistan']",2
+"['Meat (beef)', 'Wheat flour (local)']",-0.22168197963229572,['Tajikistan'],1
+"['Meat (beef)', 'Sorghum flour']",0.01067044643438583,['Rwanda'],1
+"['Meat (beef)', 'Peppers (green)']",0.32940440042145874,['Rwanda'],1
+"['Meat (beef)', 'Eggplants']",0.19801598977975346,['Rwanda'],1
+"['Meat (beef)', 'Passion fruit']",0.42275458000623833,['Rwanda'],1
+"['Meat (beef)', 'Zucchini']",0.20078762506950423,['Rwanda'],1
+"['Meat (beef)', 'Avocados']",-0.09848059743566975,['Rwanda'],1
+"['Meat (beef)', 'Cassava leaves']",-0.020608399456752764,['Rwanda'],1
+"['Meat (beef)', 'Meat (goat)']",-0.09665457314691223,['Rwanda'],1
+"['Meat (beef)', 'Beans (green, fresh)']",0.35315315315315315,['Rwanda'],1
+"['Meat (beef)', 'Ghee (natural)']",0.3505672257504207,['Egypt'],1
+"['Carrots', 'Onions']",0.30625164461079857,"['Armenia', 'Gambia', 'Kyrgyzstan', 'Tajikistan', 'Ukraine']",5
+"['Carrots', 'Cabbage']",0.4301106997719676,"['Armenia', 'Colombia', 'Gambia', 'Kyrgyzstan', 'Philippines', 'Rwanda', 'Tajikistan', 'Ukraine']",8
+"['Carrots', 'Fish (fresh)']",0.32634675491818355,"['Armenia', 'Philippines']",2
+"['Carrots', 'Milk (non-pasteurized)']",-0.32455687533874916,['Kyrgyzstan'],1
+"['Carrots', 'Maize']",0.31772967334354285,"['Gambia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan']",4
+"['Carrots', 'Meat (beef, chops with bones)']",0.0731417573248256,['Philippines'],1
+"['Carrots', 'Meat (chicken, whole)']",-0.4318333401432849,"['Philippines', 'Ukraine']",2
+"['Carrots', 'Rice']",0.16556670015166855,"['Kyrgyzstan', 'Rwanda', 'Tajikistan', 'Ukraine']",4
+"['Carrots', 'Sweet potatoes']",-0.3481092776198494,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Carrots', 'Onions (red)']",-0.13334860437938115,"['Colombia', 'Philippines', 'Rwanda']",3
+"['Carrots', 'Onions (white)']",0.1753200823763418,"['Colombia', 'Philippines', 'Rwanda']",3
+"['Carrots', 'Salt']",0.2943920607254751,"['Colombia', 'Gambia', 'Kyrgyzstan', 'Tajikistan']",4
+"['Carrots', 'Peas (green, dry)']",0.3552585843626446,"['Colombia', 'Gambia']",2
+"['Carrots', 'Bananas']",0.3505514870838119,"['Colombia', 'Gambia', 'Rwanda']",3
+"['Carrots', 'Beans (red, fresh)']",-0.41451484841680974,['Colombia'],1
+"['Carrots', 'Meat (chicken, frozen)']",0.2616949449826966,['Tajikistan'],1
+"['Carrots', 'Meat (mutton)']",0.12084562646005505,"['Gambia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan']",4
+"['Carrots', 'Potatoes (Irish)']",0.34720366290293203,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Carrots', 'Tea (black)']",0.18684867162288232,"['Kyrgyzstan', 'Tajikistan']",2
+"['Carrots', 'Tea (green)']",-0.2513253035108966,"['Kyrgyzstan', 'Tajikistan']",2
+"['Carrots', 'Wheat flour (first grade)']",0.07636650553536782,"['Kyrgyzstan', 'Tajikistan', 'Ukraine']",3
+"['Carrots', 'Wheat flour (high quality)']",0.279142747977886,"['Kyrgyzstan', 'Tajikistan']",2
+"['Onions', 'Cabbage']",0.3019420878090184,"['Armenia', 'Gambia', 'Kyrgyzstan', 'Tajikistan', 'Ukraine']",5
+"['Onions', 'Cucumbers (greenhouse)']",0.4520575168379686,"['Armenia', 'Turkey']",2
+"['Onions', 'Milk (non-pasteurized)']",0.4183284645560339,['Kyrgyzstan'],1
+"['Onions', 'Lentils (masur)']",0.4193888364890446,['India'],1
+"['Onions', 'Oil (palm)']",-0.4927723679196678,"['India', 'Myanmar']",2
+"['Onions', 'Rice']",0.4555273367146762,"['India', 'Kyrgyzstan', 'Tajikistan', 'Turkey', 'Ukraine']",5
+"['Onions', 'Groundnuts (shelled)']",-0.3334620859362167,"['Cameroon', 'Gambia', 'Turkey']",3
+"['Onions', 'Oil (groundnut)']",0.10283547632743872,"['India', 'Myanmar']",2
+"['Onions', 'Garlic']",0.5196445061475976,"['Gambia', 'Jordan', 'Myanmar', 'Turkey']",4
+"['Onions', 'Milk (pasteurized)']",0.3534219950762341,"['India', 'Jordan', 'Turkey']",3
+"['Onions', 'Oil (sunflower)']",0.39727974268556404,"['India', 'Kyrgyzstan', 'Turkey', 'Ukraine']",4
+"['Onions', 'Tea (black)']",0.43037074415170257,"['India', 'Kyrgyzstan', 'Tajikistan']",3
+"['Onions', 'Oil (mustard)']",0.4131738514242788,['India'],1
+"['Onions', 'Salt (iodised)']",0.07821523948509895,['India'],1
+"['Onions', 'Tea (green)']",-0.17751706480657742,"['Kyrgyzstan', 'Tajikistan', 'Turkey']",3
+"['Onions', 'Wheat flour (high quality)']",0.20396687893753393,"['Kyrgyzstan', 'Tajikistan']",2
+"['Onions', 'Beans (kidney red)']",0.3975103147577007,['Yemen'],1
+"['Cabbage', 'Fish (fresh)']",0.4735343525399974,"['Armenia', 'Philippines']",2
+"['Cabbage', 'Milk (non-pasteurized)']",0.3619671314003119,['Kyrgyzstan'],1
+"['Cabbage', 'Beans (white)']",0.3494318819253773,['Lebanon'],1
+"['Cabbage', 'Meat (beef, chops with bones)']",-0.20604115224944053,['Philippines'],1
+"['Cabbage', 'Meat (chicken, whole)']",-0.23139074762703737,"['Lebanon', 'Philippines', 'Ukraine']",3
+"['Cabbage', 'Rice']",-0.149442000875246,"['Kyrgyzstan', 'Rwanda', 'Tajikistan', 'Ukraine']",4
+"['Cabbage', 'Sweet potatoes']",-0.1739140710603394,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Cabbage', 'Onions (red)']",-0.03840924615753766,"['Colombia', 'Philippines', 'Rwanda']",3
+"['Cabbage', 'Onions (white)']",-0.07815754321750601,"['Colombia', 'Philippines', 'Rwanda']",3
+"['Cabbage', 'Salt']",-0.18280208550520882,"['Colombia', 'Gambia', 'Kyrgyzstan', 'Lebanon', 'Tajikistan']",5
+"['Cabbage', 'Oil (sunflower)']",-0.36507319450410036,"['Colombia', 'Kyrgyzstan', 'Lebanon', 'Ukraine']",4
+"['Cabbage', 'Meat (chicken, frozen)']",0.023529190800186922,['Tajikistan'],1
+"['Cabbage', 'Meat (mutton)']",-0.060046361070844184,"['Gambia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan']",4
+"['Cabbage', 'Potatoes (Irish)']",0.417157471540275,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Cabbage', 'Tea (black)']",-0.0014653151760464962,"['Kyrgyzstan', 'Tajikistan']",2
+"['Cabbage', 'Oil (cotton)']",0.2673559937118985,"['Kyrgyzstan', 'Tajikistan']",2
+"['Cabbage', 'Tea (green)']",0.15740730643042608,"['Kyrgyzstan', 'Tajikistan']",2
+"['Cabbage', 'Wheat flour (first grade)']",-0.1403301435343443,"['Kyrgyzstan', 'Tajikistan', 'Ukraine']",3
+"['Cabbage', 'Rice (imported, Egyptian)']",0.37474705305340583,['Lebanon'],1
+"['Cabbage', 'Meat (beef, canned)']",-0.39567245199951245,['Lebanon'],1
+"['Apples (red)', 'Cucumbers (greenhouse)']",-0.38215986613463765,"['Armenia', 'Colombia', 'Rwanda', 'Turkey']",4
+"['Apples (red)', 'Fish (fresh)']",0.3468914918264899,"['Armenia', 'Turkey']",2
+"['Apples (red)', 'Rice']",0.35899086111468653,"['Rwanda', 'Turkey']",2
+"['Apples (red)', 'Bananas']",0.28971937252347607,"['Colombia', 'Gambia', 'Jordan', 'Rwanda', 'Turkey']",5
+"['Apples (red)', 'Milk (pasteurized)']",0.37268006364607165,"['Colombia', 'Jordan', 'Turkey']",3
+"['Apples (red)', 'Bread (pita)']",-0.342280804655217,"['Jordan', 'Turkey']",2
+"['Apples (red)', 'Cheese (white, boiled)']",0.43554907756154454,['Jordan'],1
+"['Apples (red)', 'Bulgur']",0.40958920472315136,['Turkey'],1
+"['Cucumbers (greenhouse)', 'Garlic']",0.33756035389640154,"['Colombia', 'Rwanda', 'Turkey']",3
+"['Cucumbers (greenhouse)', 'Milk (pasteurized)']",0.3662825008225592,"['Colombia', 'Turkey']",2
+"['Cucumbers (greenhouse)', 'Oil (sunflower)']",0.4693155530933213,"['Colombia', 'Lebanon', 'Turkey']",3
+"['Fish (fresh)', 'Oil (palm)']",0.1003155746974392,"['Congo', 'Democratic Republic of the Congo']",2
+"['Fish (fresh)', 'Rice (imported)']",-0.44808302154171853,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Maize']",0.3411688342526475,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Meat (beef, chops with bones)']",-0.3475493067033698,['Philippines'],1
+"['Fish (fresh)', 'Meat (chicken, whole)']",-0.5043680795109586,['Philippines'],1
+"['Fish (fresh)', 'Beans']",-0.04209324790428517,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Cassava flour']",0.21696249516663588,"['Congo', 'Democratic Republic of the Congo']",2
+"['Fish (fresh)', 'Sweet potatoes']",-0.364712198778763,"['Democratic Republic of the Congo', 'Philippines']",2
+"['Fish (fresh)', 'Rice (local)']",-0.3464459210890922,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Cassava (cossette)']",-0.21203442494549746,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Maize flour']",-0.35660008684324795,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Garlic']",0.6156064932903024,"['Philippines', 'Turkey']",2
+"['Fish (fresh)', 'Onions (red)']",-0.19851770922164172,['Philippines'],1
+"['Fish (fresh)', 'Onions (white)']",-0.24211759333191937,['Philippines'],1
+"['Fish (fresh)', 'Plantains']",0.16135539941383628,"['Congo', 'Democratic Republic of the Congo']",2
+"['Fish (fresh)', 'Salt']",0.42918059856637836,"['Democratic Republic of the Congo', 'Turkey']",2
+"['Fish (fresh)', 'Fish (smoked)']",0.5763930868630126,"['Congo', 'Democratic Republic of the Congo']",2
+"['Fish (fresh)', 'Fish (salted)']",0.4611348465348168,"['Congo', 'Democratic Republic of the Congo']",2
+"['Fish (fresh)', 'Maize meal']",-0.4482025984294986,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Cassava']",0.337083450001442,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Meat (goat, with bones)']",0.5274713534194837,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Cassava (chikwangue)']",0.44098698431233246,['Democratic Republic of the Congo'],1
+"['Fish (fresh)', 'Potatoes (Irish)']",-0.07833547833547834,['Philippines'],1
+"['Milk (non-pasteurized)', 'Rice']",0.31521321318203605,['Kyrgyzstan'],1
+"['Milk (non-pasteurized)', 'Oil (sunflower)']",0.3174689212528309,['Kyrgyzstan'],1
+"['Milk (non-pasteurized)', 'Meat (mutton)']",-0.3054070171319639,['Kyrgyzstan'],1
+"['Milk (non-pasteurized)', 'Wheat flour (first grade)']",0.2940006040992037,['Kyrgyzstan'],1
+"['Rice (coarse)', 'Oil (cooking)']",0.11032181455536613,['Pakistan'],1
+"['Rice (coarse)', 'Ghee (artificial)']",-0.7748339951028305,['Pakistan'],1
+"['Rice (coarse)', 'Rice (basmati, broken)']",0.8163238019368414,['Pakistan'],1
+"['Lentils (masur)', 'Oil (palm)']",-0.28689253673906734,"['Bangladesh', 'India']",2
+"['Lentils (masur)', 'Rice']",0.11918515707991552,['India'],1
+"['Lentils (masur)', 'Oil (groundnut)']",0.4541160103672888,['India'],1
+"['Lentils (masur)', 'Milk (pasteurized)']",-0.15560916845001807,['India'],1
+"['Lentils (masur)', 'Oil (sunflower)']",0.2056121789357749,['India'],1
+"['Lentils (masur)', 'Tea (black)']",0.4640209552550404,['India'],1
+"['Lentils (masur)', 'Oil (mustard)']",0.14160938972914228,['India'],1
+"['Lentils (masur)', 'Salt (iodised)']",0.4455968573374789,['India'],1
+"['Oil (palm)', 'Rice (imported)']",0.1889574070027276,"['Democratic Republic of the Congo', 'Guinea', 'Guinea-Bissau', 'Liberia', 'Nigeria']",5
+"['Oil (palm)', 'Sorghum']",0.3823715109845383,"['Guinea-Bissau', 'Nigeria']",2
+"['Oil (palm)', 'Maize']",-0.02637072516413528,"[""Cote d'Ivoire"", 'Democratic Republic of the Congo', 'Guinea-Bissau', 'Myanmar', 'Nigeria']",5
+"['Oil (palm)', 'Rice']",0.20781013994452519,['India'],1
+"['Oil (palm)', 'Beans']",-0.03571601703995272,['Democratic Republic of the Congo'],1
+"['Oil (palm)', 'Cassava flour']",0.39438463058778117,"['Congo', 'Democratic Republic of the Congo']",2
+"['Oil (palm)', 'Rice (local)']",-0.30528155538883955,"[""Cote d'Ivoire"", 'Democratic Republic of the Congo', 'Guinea', 'Guinea-Bissau', 'Nigeria']",5
+"['Oil (palm)', 'Cassava (cossette)']",0.4465016017615531,['Democratic Republic of the Congo'],1
+"['Oil (palm)', 'Oil (groundnut)']",-0.32071263778378484,"['India', 'Myanmar']",2
+"['Oil (palm)', 'Maize flour']",0.45454300023731264,['Democratic Republic of the Congo'],1
+"['Oil (palm)', 'Plantains']",0.5441693372549469,"['Congo', ""Cote d'Ivoire"", 'Democratic Republic of the Congo']",3
+"['Oil (palm)', 'Fish (dry)']",-0.5309678738577251,"[""Cote d'Ivoire""]",1
+"['Oil (palm)', 'Salt']",0.13857985948440024,"['Democratic Republic of the Congo', 'Guinea', 'Guinea-Bissau', 'Myanmar']",4
+"['Oil (palm)', 'Milk (pasteurized)']",-0.3108608834499733,['India'],1
+"['Oil (palm)', 'Oil (sunflower)']",-0.05142035134374006,['India'],1
+"['Oil (palm)', 'Fish (smoked)']",0.23367116225916634,"['Congo', 'Democratic Republic of the Congo']",2
+"['Oil (palm)', 'Fish (salted)']",0.3466109849715381,"['Congo', 'Democratic Republic of the Congo']",2
+"['Oil (palm)', 'Cornstarch']",-0.3620903764755668,"[""Cote d'Ivoire""]",1
+"['Oil (palm)', 'Maize meal']",-0.18511508568736224,['Democratic Republic of the Congo'],1
+"['Oil (palm)', 'Cassava']",0.30070648426502694,['Democratic Republic of the Congo'],1
+"['Oil (palm)', 'Meat (goat, with bones)']",0.009347492992062223,['Democratic Republic of the Congo'],1
+"['Oil (palm)', 'Cassava (chikwangue)']",0.20030950457737884,['Democratic Republic of the Congo'],1
+"['Oil (palm)', 'Fonio']",0.2688259296120271,['Guinea-Bissau'],1
+"['Oil (palm)', 'Oil (mustard)']",0.5753967289108074,['India'],1
+"['Oil (palm)', 'Oil (soybean)']",0.9055763063342291,"['India', ""Lao People's Democratic Republic""]",2
+"['Oil (palm)', 'Salt (iodised)']",0.004106910819105705,['India'],1
+"['Oil (palm)', 'Pulses']",0.48209854286638737,['Myanmar'],1
+"['Oil (palm)', 'Garlic (small)']",0.7171371656006361,"[""Lao People's Democratic Republic""]",1
+"['Oil (palm)', 'Rice (white, imported)']",0.3284198099570269,['Liberia'],1
+"['Rice (imported)', 'Sorghum']",0.2880802482636394,"['Benin', 'Ethiopia', 'Guinea-Bissau', 'Mali', 'Niger', 'Nigeria', 'Senegal']",7
+"['Rice (imported)', 'Maize (white)']",0.3032784986190024,"['Benin', 'Chad', 'Ethiopia', 'Mozambique', 'Nigeria', 'Somalia']",6
+"['Rice (imported)', 'Maize']",0.22654924743660732,"['Benin', 'Democratic Republic of the Congo', 'Guinea-Bissau', 'Mali', 'Niger', 'Nigeria', 'Timor-Leste']",7
+"['Rice (imported)', 'Millet']",0.3053410436520543,"['Benin', 'Chad', 'Djibouti', 'Guinea-Bissau', 'Mali', 'Niger', 'Nigeria', 'Senegal']",8
+"['Rice (imported)', 'Beans (niebe)']",0.40831192872803834,"['Niger', 'Nigeria']",2
+"['Rice (imported)', 'Beans']",0.6010812490444962,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Cassava flour']",0.4273556102077734,"['Democratic Republic of the Congo', 'Mozambique']",2
+"['Rice (imported)', 'Rice (local)']",0.481311804813132,"['Chad', 'Democratic Republic of the Congo', 'Guinea', 'Guinea-Bissau', 'Mali', 'Mauritania', 'Mozambique', 'Niger', 'Nigeria', 'Senegal', 'Timor-Leste']",11
+"['Rice (imported)', 'Cassava (cossette)']",0.3215587971191296,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Maize flour']",0.1974714866143942,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Plantains']",0.4751036841616129,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Salt']",-0.4027874301257055,"['Democratic Republic of the Congo', 'Guinea', 'Guinea-Bissau', 'Yemen']",4
+"['Rice (imported)', 'Rice (paddy)']",0.34377796022130425,['Mali'],1
+"['Rice (imported)', 'Fish (smoked)']",0.23294362196613783,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Fish (salted)']",0.36018988515295475,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Maize meal']",0.4510954199952426,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Cassava']",-0.03023717856395075,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Meat (goat, with bones)']",0.1348881546697854,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Cassava (chikwangue)']",-0.499306757176093,['Democratic Republic of the Congo'],1
+"['Rice (imported)', 'Maize (local)']",-0.416406111229477,['Senegal'],1
+"['Rice (imported)', 'Beans (dry)']",0.403650342860242,['Mozambique'],1
+"['Rice (imported)', 'Cowpeas']",-0.10194171983182865,"['Liberia', 'Mozambique']",2
+"['Rice (imported)', 'Sorghum (taghalit)']",-0.09329976501826086,['Mauritania'],1
+"['Rice (imported)', 'Wheat flour (local)']",0.4106053105494472,['Mozambique'],1
+"['Rice (imported)', 'Maize meal (white, first grade)']",0.037333934579056115,['Mozambique'],1
+"['Rice (imported)', 'Oil (vegetable, local)']",0.0657852035042137,['Mozambique'],1
+"['Rice (imported)', 'Sugar (brown, local)']",0.2054536686829737,['Mozambique'],1
+"['Rice (imported)', 'Groundnuts (Mix)']",-0.30840531934684673,['Mozambique'],1
+"['Rice (imported)', 'Groundnuts (large, shelled)']",0.47202587789929074,['Mozambique'],1
+"['Rice (imported)', 'Groundnuts (small, shelled)']",0.41940229280309005,['Mozambique'],1
+"['Rice (imported)', 'Maize meal (white, without bran) ']",0.38632813971761076,['Mozambique'],1
+"['Rice (imported)', 'Maize meal (white, with bran)']",0.6200477033625967,['Mozambique'],1
+"['Rice (imported)', 'Maize (imported)']",0.34773758265275434,['Senegal'],1
+"['Sorghum', 'Maize (white)']",0.41775176472896025,"['Benin', 'Ethiopia', 'Kenya', 'Nigeria', 'Uganda', 'Zambia']",6
+"['Sorghum', 'Maize']",0.5051934019252415,"['Benin', 'Burkina Faso', 'Gambia', 'Guinea-Bissau', 'Mali', 'Niger', 'Nigeria', 'Rwanda', 'Zimbabwe']",9
+"['Sorghum', 'Millet']",0.52919355765256,"['Benin', 'Burkina Faso', 'Gambia', 'Guinea-Bissau', 'Mali', 'Niger', 'Nigeria', 'Senegal', 'Sudan', 'Uganda', 'Zambia', 'Zimbabwe']",12
+"['Sorghum', 'Beans (niebe)']",0.40198643161705105,"['Burkina Faso', 'Niger', 'Nigeria']",3
+"['Sorghum', 'Rice']",0.41750256321716916,"['Burkina Faso', 'Rwanda']",2
+"['Sorghum', 'Beans']",0.6373206548792167,"['Uganda', 'Zimbabwe']",2
+"['Sorghum', 'Cassava flour']",0.39568739990564383,"['Rwanda', 'Uganda']",2
+"['Sorghum', 'Sweet potatoes']",-0.2735584140081084,"['Gambia', 'Rwanda']",2
+"['Sorghum', 'Rice (imported, Tanzanian)']",0.3486096922960001,['Rwanda'],1
+"['Sorghum', 'Rice (local)']",0.3030549119912173,"['Guinea-Bissau', 'Mali', 'Niger', 'Nigeria', 'Rwanda', 'Senegal', 'Zambia']",7
+"['Sorghum', 'Groundnuts (shelled)']",0.013036781408777023,"['Gambia', 'Nigeria', 'Rwanda', 'Zambia', 'Zimbabwe']",5
+"['Sorghum', 'Maize flour']",-0.12580909092517045,"['Gambia', 'Rwanda', 'Uganda']",3
+"['Sorghum', 'Rice (paddy)']",0.5037946792841923,['Mali'],1
+"['Sorghum', 'Bananas']",0.11580606295474082,"['Gambia', 'Rwanda']",2
+"['Sorghum', 'Spinach']",-0.3343867575897711,['Rwanda'],1
+"['Sorghum', 'Papaya']",0.3951930253973818,['Rwanda'],1
+"['Sorghum', 'Mangoes']",0.3616496109657204,['Rwanda'],1
+"['Sorghum', 'Cassava']",-0.1267555982357361,"['Gambia', 'Rwanda']",2
+"['Sorghum', 'Livestock (Goat)']",0.07361242011121011,"['Ethiopia', 'Rwanda']",2
+"['Sorghum', 'Maize (local)']",0.46895173890805114,"['Gambia', 'Senegal']",2
+"['Sorghum', 'Groundnuts (unshelled)']",0.4852856776242931,['Gambia'],1
+"['Sorghum', 'Rice (long grain, imported)']",0.40863799936148,['Gambia'],1
+"['Sorghum', 'Potatoes (Irish)']",0.18241235538963782,"['Gambia', 'Kenya', 'Rwanda']",3
+"['Sorghum', 'Beans (dry)']",0.2857738793482967,"['Gambia', 'Kenya', 'Rwanda', 'Zambia']",4
+"['Sorghum', 'Oil (vegetable, imported)']",0.53114931393082,['Guinea-Bissau'],1
+"['Sorghum', 'Sorghum flour']",0.5205614861629425,['Rwanda'],1
+"['Sorghum', 'Peppers (green)']",0.3858429858429859,['Rwanda'],1
+"['Sorghum', 'Eggplants']",0.09457678331868069,['Rwanda'],1
+"['Sorghum', 'Passion fruit']",0.0267508795552914,['Rwanda'],1
+"['Sorghum', 'Zucchini']",-0.3508245460820099,['Rwanda'],1
+"['Sorghum', 'Avocados']",0.42114166522652174,['Rwanda'],1
+"['Sorghum', 'Cassava leaves']",0.34028314028314033,['Rwanda'],1
+"['Sorghum', 'Meat (goat)']",0.2579535783267063,['Rwanda'],1
+"['Sorghum', 'Beans (green, fresh)']",0.36068739811201167,['Rwanda'],1
+"['Sorghum', 'Maize (imported)']",-0.09434483094933829,['Senegal'],1
+"['Sorghum', 'Sorghum (food aid)']",0.3776701677562117,['Sudan'],1
+"['Beans (white)', 'Rice']",0.3929720684772815,['Turkey'],1
+"['Beans (white)', 'Salt']",0.335223948173138,"['Lebanon', 'Turkey', 'Yemen']",3
+"['Beans (white)', 'Oil (sunflower)']",-0.4234234234234235,"['Lebanon', 'Turkey']",2
+"['Beans (white)', 'Tea']",-0.34611919165915817,['Turkey'],1
+"['Beans (white)', 'Milk (powder)']",0.3089448545375597,['Lebanon'],1
+"['Beans (white)', 'Chickpeas']",0.39487417282769566,"['Lebanon', 'Turkey']",2
+"['Beans (white)', 'Bread (pita)']",-0.3547100172283573,"['Lebanon', 'Turkey']",2
+"['Beans (white)', 'Bulgur']",0.4881133304385584,"['Lebanon', 'Turkey']",2
+"['Beans (white)', 'Tomatoes (paste)']",0.5075075075075076,"['Lebanon', 'Turkey']",2
+"['Beans (white)', 'Cheese (picon)']",-0.34357359965262696,['Lebanon'],1
+"['Beans (white)', 'Meat (beef, canned)']",0.3534520191055145,['Lebanon'],1
+"['Beans (white)', 'Fish (sardine, canned)']",0.44842010518237085,['Lebanon'],1
+"['Maize (white)', 'Cassava meal (gari)']",0.2286586014267029,['Benin'],1
+"['Maize (white)', 'Millet']",-0.4248218258884758,"['Benin', 'Chad', 'Nigeria', 'Uganda', 'Zambia']",5
+"['Maize (white)', 'Rice']",0.22902536651410899,"['El Salvador', 'Swaziland']",2
+"['Maize (white)', 'Beans']",0.5572052290071225,"['Burundi', 'Uganda']",2
+"['Maize (white)', 'Cassava flour']",0.4316858755634856,"['Burundi', 'Mozambique', 'Uganda']",3
+"['Maize (white)', 'Sweet potatoes']",0.4455312107679254,['Burundi'],1
+"['Maize (white)', 'Rice (low quality, local)']",0.5071073768229091,['Burundi'],1
+"['Maize (white)', 'Rice (local)']",0.36690923588853097,"['Chad', 'Mozambique', 'Nigeria', 'Zambia']",4
+"['Maize (white)', 'Groundnuts (shelled)']",0.45433457652200987,"['Nigeria', 'South Sudan', 'Zambia']",3
+"['Maize (white)', 'Sorghum (white)']",0.44754562197331804,"['Chad', 'Honduras', 'Nigeria', 'South Sudan']",4
+"['Maize (white)', 'Maize flour']",-0.3885922010307174,"['Colombia', 'Uganda']",2
+"['Maize (white)', 'Beans (red)']",0.13600811066091723,"['Colombia', 'El Salvador', 'Honduras', 'South Sudan']",4
+"['Maize (white)', 'Maize (yellow)']",0.7035452050080941,"['Colombia', 'Guatemala', 'Nigeria']",3
+"['Maize (white)', 'Cocoa']",0.39202736992995774,['Colombia'],1
+"['Maize (white)', 'Cassava (dry)']",0.3453114513112034,"['Colombia', 'South Sudan']",2
+"['Maize (white)', 'Beans (silk red)']",0.24618050166084435,['El Salvador'],1
+"['Maize (white)', 'Potatoes (Irish)']",-0.21619925078465121,['Kenya'],1
+"['Maize (white)', 'Beans (dry)']",0.4150053517171148,"['Kenya', 'Mozambique', 'Zambia']",3
+"['Maize (white)', 'Maize flour (white)']",-0.33539253539253544,['Honduras'],1
+"['Maize (white)', 'Cowpeas']",0.4441180122508309,['Mozambique'],1
+"['Maize (white)', 'Wheat flour (local)']",-0.4773358866485924,['Mozambique'],1
+"['Maize (white)', 'Maize meal (white, first grade)']",-0.4180110893088715,['Mozambique'],1
+"['Maize (white)', 'Oil (vegetable, local)']",0.2845330064523577,['Mozambique'],1
+"['Maize (white)', 'Sugar (brown, local)']",0.1308619173331295,['Mozambique'],1
+"['Maize (white)', 'Groundnuts (Mix)']",0.28615540181703913,['Mozambique'],1
+"['Maize (white)', 'Groundnuts (large, shelled)']",0.5562252165127193,['Mozambique'],1
+"['Maize (white)', 'Groundnuts (small, shelled)']",0.37784008774707234,['Mozambique'],1
+"['Maize (white)', 'Maize meal (white, with bran)']",0.36254568767730067,['Mozambique'],1
+"['Maize (white)', 'Maize meal (white, roller)']",0.3464303321360318,['Zambia'],1
+"['Maize (white)', 'Maize meal (white, breakfast)']",0.41491463879319623,['Zambia'],1
+"['Maize', 'Millet']",0.44263282664656334,"['Benin', 'Burkina Faso', 'Central African Republic', 'Gambia', 'Guinea-Bissau', 'Mali', 'Niger', 'Nigeria', 'Zimbabwe']",9
+"['Maize', 'Beans (niebe)']",0.44828975056421755,"['Burkina Faso', 'Cameroon', 'Niger', 'Nigeria']",4
+"['Maize', 'Rice']",0.2799697949365977,"['Burkina Faso', 'Central African Republic', 'Kyrgyzstan', 'Malawi', 'Rwanda', 'Tajikistan', 'United Republic of Tanzania']",7
+"['Maize', 'Beans']",0.3158076187834687,"['Democratic Republic of the Congo', 'Malawi', 'United Republic of Tanzania', 'Zimbabwe']",4
+"['Maize', 'Cassava flour']",0.4513020654776046,"['Democratic Republic of the Congo', 'Rwanda']",2
+"['Maize', 'Sweet potatoes']",-0.20809747199083484,"['Democratic Republic of the Congo', 'Gambia', 'Rwanda']",3
+"['Maize', 'Rice (imported, Tanzanian)']",-0.11439095811080069,['Rwanda'],1
+"['Maize', 'Rice (local)']",0.40536891425329935,"['Cameroon', ""Cote d'Ivoire"", 'Democratic Republic of the Congo', 'Ghana', 'Guinea-Bissau', 'Mali', 'Niger', 'Nigeria', 'Rwanda', 'Timor-Leste']",10
+"['Maize', 'Groundnuts (shelled)']",0.4500291230518894,"['Cameroon', 'Democratic Republic of the Congo', 'Gambia', 'Malawi', 'Nigeria', 'Rwanda', 'Zimbabwe']",7
+"['Maize', 'Sorghum (red)']",0.4285058664057539,['Cameroon'],1
+"['Maize', 'Sorghum (white)']",0.5076347515561688,"['Cameroon', 'Nigeria']",2
+"['Maize', 'Soybeans']",0.40151471719963683,"['Cameroon', 'Myanmar', 'Rwanda']",3
+"['Maize', 'Cassava (cossette)']",0.3411303908153131,"['Cameroon', 'Central African Republic', 'Democratic Republic of the Congo']",3
+"['Maize', 'Maize flour']",0.3470434299620873,"['Democratic Republic of the Congo', 'Gambia', 'Rwanda']",3
+"['Maize', 'Plantains']",0.18451294715010133,"[""Cote d'Ivoire"", 'Democratic Republic of the Congo']",2
+"['Maize', 'Fish (dry)']",0.40894767612146626,"[""Cote d'Ivoire"", 'Gambia']",2
+"['Maize', 'Salt']",0.0638773557060038,"['Democratic Republic of the Congo', 'Gambia', 'Guinea-Bissau', 'Kyrgyzstan', 'Myanmar', 'Tajikistan']",6
+"['Maize', 'Rice (paddy)']",0.37150961509048797,['Mali'],1
+"['Maize', 'Bananas']",-0.2537300081612277,"['Gambia', 'Rwanda']",2
+"['Maize', 'Spinach']",-0.4179865699635679,['Rwanda'],1
+"['Maize', 'Papaya']",-0.4390527282214033,['Rwanda'],1
+"['Maize', 'Mangoes']",0.444015444015444,['Rwanda'],1
+"['Maize', 'Cassava (fresh)']",0.29430493837766447,"[""Cote d'Ivoire""]",1
+"['Maize', 'Fish (smoked)']",0.030740017794342895,['Democratic Republic of the Congo'],1
+"['Maize', 'Meat (chicken, frozen)']",0.2345317829994277,['Tajikistan'],1
+"['Maize', 'Fish (salted)']",-0.33438016924263153,['Democratic Republic of the Congo'],1
+"['Maize', 'Cornstarch']",0.5923152967892167,"[""Cote d'Ivoire""]",1
+"['Maize', 'Maize meal']",-0.21832916193175939,['Democratic Republic of the Congo'],1
+"['Maize', 'Cassava']",0.3048731237389107,"['Democratic Republic of the Congo', 'Gambia', 'Ghana', 'Malawi', 'Rwanda']",5
+"['Maize', 'Meat (goat, with bones)']",0.5581310422373493,['Democratic Republic of the Congo'],1
+"['Maize', 'Cassava (chikwangue)']",0.23636097688997904,['Democratic Republic of the Congo'],1
+"['Maize', 'Livestock (Goat)']",-0.36464555353570133,['Rwanda'],1
+"['Maize', 'Livestock (Sheep)']",-0.39474373814418157,['Rwanda'],1
+"['Maize', 'Meat (mutton)']",0.1940476441512889,"['Gambia', 'Kyrgyzstan', 'Rwanda', 'Tajikistan']",4
+"['Maize', 'Potatoes (Irish)']",-0.21153473346135873,"['Gambia', 'Rwanda']",2
+"['Maize', 'Beans (dry)']",0.3798210867450979,"['Gambia', 'Rwanda']",2
+"['Maize', 'Plantains (apentu)']",0.3403608479366639,['Ghana'],1
+"['Maize', 'Yam']",0.40574370257531406,"['Ghana', 'Nigeria']",2
+"['Maize', 'Fonio']",0.2901627742544699,['Guinea-Bissau'],1
+"['Maize', 'Tea (black)']",-0.21248964389586153,"['Kyrgyzstan', 'Tajikistan']",2
+"['Maize', 'Oil (cotton)']",0.2306147858890088,"['Kyrgyzstan', 'Tajikistan']",2
+"['Maize', 'Tea (green)']",-0.31583245578259483,"['Kyrgyzstan', 'Tajikistan']",2
+"['Maize', 'Wheat flour (first grade)']",0.345812615062634,"['Kyrgyzstan', 'Tajikistan']",2
+"['Maize', 'Wheat flour (high quality)']",0.31661271464238594,"['Kyrgyzstan', 'Tajikistan']",2
+"['Maize', 'Wheat flour (local)']",0.3241530967106207,['Tajikistan'],1
+"['Maize', 'Sorghum flour']",0.42694004174149636,['Rwanda'],1
+"['Maize', 'Peppers (green)']",-0.3851189537124663,['Rwanda'],1
+"['Maize', 'Eggplants']",-0.08835932027133403,['Rwanda'],1
+"['Maize', 'Passion fruit']",0.227071006348213,['Rwanda'],1
+"['Maize', 'Zucchini']",-0.31078747488013336,['Rwanda'],1
+"['Maize', 'Avocados']",-0.3804027891198552,['Rwanda'],1
+"['Maize', 'Peas (fresh)']",0.04106967834163064,['Rwanda'],1
+"['Maize', 'Meat (goat)']",0.3619854867000612,['Rwanda'],1
+"['Millet', 'Beans (niebe)']",0.422269119568219,"['Burkina Faso', 'Niger', 'Nigeria']",3
+"['Millet', 'Beans']",-0.5258346593424271,"['Uganda', 'Zimbabwe']",2
+"['Millet', 'Cassava flour']",0.30132242772929996,['Uganda'],1
+"['Millet', 'Rice (local)']",0.42326982508216615,"['Chad', 'Guinea-Bissau', 'Mali', 'Niger', 'Nigeria', 'Senegal', 'Zambia']",7
+"['Millet', 'Groundnuts (shelled)']",0.35649080099675867,"['Gambia', 'Nigeria', 'Zambia', 'Zimbabwe']",4
+"['Millet', 'Sorghum (red)']",0.6514353728758769,"['Chad', 'Djibouti']",2
+"['Millet', 'Maize flour']",0.539698210233866,"['Gambia', 'Uganda']",2
+"['Millet', 'Rice (paddy)']",0.2682917246090429,['Mali'],1
+"['Millet', 'Maize (local)']",0.5350587603852897,"['Gambia', 'Senegal']",2
+"['Millet', 'Groundnuts (unshelled)']",0.45334202055905415,['Gambia'],1
+"['Millet', 'Rice (long grain, imported)']",0.38245542775940605,['Gambia'],1
+"['Millet', 'Rice (medium grain, imported)']",0.4072246649411282,['Gambia'],1
+"['Millet', 'Rice (small grain, imported)']",0.06947328025911334,['Gambia'],1
+"['Millet', 'Oil (vegetable, imported)']",0.5153027076276835,['Guinea-Bissau'],1
+"['Millet', 'Maize (imported)']",0.3691270730257556,['Senegal'],1
+"['Millet', 'Sorghum (food aid)']",0.3694858085480924,['Sudan'],1
+"['Meat (beef, chops with bones)', 'Meat (chicken, whole)']",0.03133494202532765,"['Bolivia', 'Philippines']",2
+"['Meat (beef, chops with bones)', 'Noodles (short)']",0.04015585408275677,['Bolivia'],1
+"['Meat (beef, chops with bones)', 'Rice (estaquilla)']",0.07519052323631625,['Bolivia'],1
+"['Meat (beef, chops with bones)', 'Rice (medium grain)']",-0.49201063737344813,['Bolivia'],1
+"['Meat (beef, chops with bones)', 'Sweet potatoes']",0.1623593091717896,['Philippines'],1
+"['Meat (beef, chops with bones)', 'Garlic']",0.006408855166538663,['Philippines'],1
+"['Meat (beef, chops with bones)', 'Onions (red)']",0.36727089385507355,['Philippines'],1
+"['Meat (beef, chops with bones)', 'Onions (white)']",0.21456712540627337,['Philippines'],1
+"['Meat (beef, chops with bones)', 'Potatoes (Irish)']",0.0505956475561663,['Philippines'],1
+"['Meat (chicken, whole)', 'Noodles (short)']",-0.29581123809615256,['Bolivia'],1
+"['Meat (chicken, whole)', 'Rice (medium grain)']",-0.4836365037336749,['Bolivia'],1
+"['Meat (chicken, whole)', 'Sweet potatoes']",0.37535252055374474,['Philippines'],1
+"['Meat (chicken, whole)', 'Garlic']",0.26270936581355625,"['Jordan', 'Philippines']",2
+"['Meat (chicken, whole)', 'Onions (red)']",0.5859553484797184,['Philippines'],1
+"['Meat (chicken, whole)', 'Onions (white)']",0.7387759673367681,['Philippines'],1
+"['Meat (chicken, whole)', 'Milk (pasteurized)']",-0.3554583133251137,['Jordan'],1
+"['Meat (chicken, whole)', 'Potatoes (Irish)']",0.39858736787995785,['Philippines'],1
+"['Meat (chicken, whole)', 'Rice (regular, milled)']",0.5090326818171852,['Philippines'],1
+"['Noodles (short)', 'Bread (wheat)']",0.46392112389093915,['Bolivia'],1
+"['Noodles (short)', 'Rice (medium grain)']",0.31710061317180055,['Bolivia'],1
+"['Potatoes (Irish, imilla)', 'Rice (medium grain)']",-0.48523952616041977,['Bolivia'],1
+"['Beans (niebe)', 'Rice (local)']",0.6808100849550235,"['Cameroon', 'Niger', 'Nigeria']",3
+"['Beans (niebe)', 'Groundnuts (shelled)']",0.49100605495465877,"['Cameroon', 'Nigeria']",2
+"['Beans (niebe)', 'Sorghum (red)']",0.5009498995820443,['Cameroon'],1
+"['Beans (niebe)', 'Sorghum (white)']",0.45067526715167416,"['Cameroon', 'Nigeria']",2
+"['Rice', 'Beans']",0.15108244633200998,"['Malawi', 'United Republic of Tanzania']",2
+"['Rice', 'Cassava flour']",0.4856664786596599,['Rwanda'],1
+"['Rice', 'Sweet potatoes']",-0.04574576410214247,['Rwanda'],1
+"['Rice', 'Cassava (cossette)']",0.3737451737451738,['Central African Republic'],1
+"['Rice', 'Oil (groundnut)']",-0.4527689839504953,"['Central African Republic', 'India']",2
+"['Rice', 'Maize flour']",0.5047007923033197,['Rwanda'],1
+"['Rice', 'Beans (red)']",0.26161750400023426,['El Salvador'],1
+"['Rice', 'Salt']",0.2089345436986101,"['Kyrgyzstan', 'Swaziland', 'Tajikistan', 'Turkey']",4
+"['Rice', 'Spinach']",-0.6335270421191322,['Rwanda'],1
+"['Rice', 'Papaya']",0.3993962296928055,['Rwanda'],1
+"['Rice', 'Milk (pasteurized)']",0.4887751609539755,"['India', 'Turkey']",2
+"['Rice', 'Oil (sunflower)']",-0.17066638604765122,"['Egypt', 'India', 'Kyrgyzstan', 'Swaziland', 'Turkey', 'Ukraine']",6
+"['Rice', 'Meat (chicken, frozen)']",0.226679539402083,"['Egypt', 'Tajikistan']",2
+"['Rice', 'Cassava']",0.5039369703612823,"['Malawi', 'Rwanda']",2
+"['Rice', 'Beans (silk red)']",0.26843213578438685,['El Salvador'],1
+"['Rice', 'Livestock (Goat)']",0.0013141710381685268,['Rwanda'],1
+"['Rice', 'Livestock (Sheep)']",0.5066289139665079,['Rwanda'],1
+"['Rice', 'Tea']",0.5939431505721909,"['Syrian Arab Republic', 'Turkey']",2
+"['Rice', 'Meat (mutton)']",0.2826631240276782,"['Kyrgyzstan', 'Rwanda', 'Tajikistan', 'Turkey']",4
+"['Rice', 'Potatoes (Irish)']",-0.43057103574052047,['Rwanda'],1
+"['Rice', 'Tea (black)']",-0.28189606101548303,"['India', 'Kyrgyzstan', 'Tajikistan']",3
+"['Rice', 'Oil (mustard)']",0.4142151807917723,['India'],1
+"['Rice', 'Salt (iodised)']",-0.015760778528776824,['India'],1
+"['Rice', 'Oil (cotton)']",0.3698798997680306,"['Kyrgyzstan', 'Tajikistan']",2
+"['Rice', 'Tea (green)']",0.2948046864578995,"['Kyrgyzstan', 'Tajikistan', 'Turkey']",3
+"['Rice', 'Wheat flour (first grade)']",0.18636227345005724,"['Kyrgyzstan', 'Tajikistan', 'Ukraine']",3
+"['Rice', 'Wheat flour (high quality)']",0.337137434575121,"['Kyrgyzstan', 'Tajikistan']",2
+"['Rice', 'Bulgur']",0.5235215071068094,['Turkey'],1
+"['Rice', 'Wheat flour (local)']",0.33032600428527314,"['Syrian Arab Republic', 'Tajikistan']",2
+"['Rice', 'Ghee (artificial)']",0.3448364666494978,['Egypt'],1
+"['Rice', 'Sorghum flour']",0.3780031888836854,['Rwanda'],1
+"['Rice', 'Peppers (green)']",0.41104946450803936,['Rwanda'],1
+"['Rice', 'Eggplants']",0.41334297698140404,"['Rwanda', 'Turkey']",2
+"['Rice', 'Passion fruit']",0.45468458912219156,['Rwanda'],1
+"['Rice', 'Avocados']",-0.3604392176201854,['Rwanda'],1
+"['Rice', 'Cassava leaves']",0.43079797113054685,['Rwanda'],1
+"['Rice', 'Peas (fresh)']",-0.4470435364449795,['Rwanda'],1
+"['Rice', 'Meat (goat)']",-0.44582323306212296,['Rwanda'],1
+"['Rice', 'Beans (green, fresh)']",-0.3649319166500507,['Rwanda'],1
+"['Rice', 'Oil']",0.5679665552682946,['Syrian Arab Republic'],1
+"['Rice', 'Bread (bakery)']",-0.048200089377116326,['Syrian Arab Republic'],1
+"['Rice', 'Bread (shop)']",0.09208445646542018,['Syrian Arab Republic'],1
+"['Beans', 'Cassava flour']",0.505767980194485,"['Burundi', 'Democratic Republic of the Congo', 'Uganda']",3
+"['Beans', 'Sweet potatoes']",0.25361473897470804,"['Burundi', 'Democratic Republic of the Congo']",2
+"['Beans', 'Rice (low quality, local)']",0.4841501144118026,['Burundi'],1
+"['Beans', 'Rice (local)']",0.36280286485938484,['Democratic Republic of the Congo'],1
+"['Beans', 'Cassava (cossette)']",0.5909352714460877,['Democratic Republic of the Congo'],1
+"['Beans', 'Maize flour']",-0.008871342241174945,"['Democratic Republic of the Congo', 'Uganda']",2
+"['Beans', 'Plantains']",0.596948405849695,['Democratic Republic of the Congo'],1
+"['Beans', 'Salt']",0.4867187027401986,['Democratic Republic of the Congo'],1
+"['Beans', 'Fish (smoked)']",0.6310346386679286,['Democratic Republic of the Congo'],1
+"['Beans', 'Fish (salted)']",0.26949921775576424,['Democratic Republic of the Congo'],1
+"['Beans', 'Maize meal']",-0.10414743870384052,['Democratic Republic of the Congo'],1
+"['Beans', 'Cassava']",-0.3985019539730786,"['Democratic Republic of the Congo', 'Malawi']",2
+"['Beans', 'Meat (goat, with bones)']",0.3809709773374966,['Democratic Republic of the Congo'],1
+"['Beans', 'Cassava (chikwangue)']",-0.20232169190783977,['Democratic Republic of the Congo'],1
+"['Cassava flour', 'Sweet potatoes']",0.41856569428911006,"['Burundi', 'Democratic Republic of the Congo', 'Rwanda']",3
+"['Cassava flour', 'Rice (imported, Tanzanian)']",0.6699149868386876,"['Burundi', 'Rwanda']",2
+"['Cassava flour', 'Rice (low quality, local)']",0.5185958675551706,['Burundi'],1
+"['Cassava flour', 'Rice (local)']",-0.05056384274016178,"['Democratic Republic of the Congo', 'Mozambique', 'Rwanda']",3
+"['Cassava flour', 'Cassava (cossette)']",0.658867871605777,['Democratic Republic of the Congo'],1
+"['Cassava flour', 'Maize flour']",0.2636981460600389,"['Democratic Republic of the Congo', 'Rwanda', 'Uganda']",3
+"['Cassava flour', 'Plantains']",0.5364794772776272,"['Congo', 'Democratic Republic of the Congo']",2
+"['Cassava flour', 'Salt']",0.3958600425191655,['Democratic Republic of the Congo'],1
+"['Cassava flour', 'Bananas']",0.2754794380804571,['Rwanda'],1
+"['Cassava flour', 'Spinach']",-0.5667441242816836,['Rwanda'],1
+"['Cassava flour', 'Papaya']",0.3713666227130618,['Rwanda'],1
+"['Cassava flour', 'Mangoes']",0.4461167534382317,['Rwanda'],1
+"['Cassava flour', 'Fish (smoked)']",0.4239757114129512,"['Congo', 'Democratic Republic of the Congo']",2
+"['Cassava flour', 'Fish (salted)']",0.14296797187144072,"['Congo', 'Democratic Republic of the Congo']",2
+"['Cassava flour', 'Maize meal']",-0.31574509218188906,['Democratic Republic of the Congo'],1
+"['Cassava flour', 'Cassava']",0.5916168572604501,"['Democratic Republic of the Congo', 'Rwanda']",2
+"['Cassava flour', 'Meat (goat, with bones)']",0.43791257217828394,['Democratic Republic of the Congo'],1
+"['Cassava flour', 'Cassava (chikwangue)']",0.37302906324501234,['Democratic Republic of the Congo'],1
+"['Cassava flour', 'Livestock (Goat)']",-0.38769219369583774,['Rwanda'],1
+"['Cassava flour', 'Livestock (Sheep)']",-0.0873458085824954,['Rwanda'],1
+"['Cassava flour', 'Potatoes (Irish)']",0.03278136089683405,['Rwanda'],1
+"['Cassava flour', 'Beans (dry)']",0.10853741081769998,"['Mozambique', 'Rwanda']",2
+"['Cassava flour', 'Sorghum flour']",0.28378528238961376,['Rwanda'],1
+"['Cassava flour', 'Peppers (green)']",-0.3564621323812409,['Rwanda'],1
+"['Cassava flour', 'Eggplants']",-0.17924388434778588,['Rwanda'],1
+"['Cassava flour', 'Passion fruit']",-0.19987212033928142,['Rwanda'],1
+"['Cassava flour', 'Zucchini']",0.2677463900037564,['Rwanda'],1
+"['Cassava flour', 'Avocados']",0.45564993564993567,['Rwanda'],1
+"['Cassava flour', 'Cassava leaves']",-0.3943994873106487,['Rwanda'],1
+"['Cassava flour', 'Peas (fresh)']",-0.380952380952381,['Rwanda'],1
+"['Cassava flour', 'Meat (goat)']",-0.4608817891813539,['Rwanda'],1
+"['Sweet potatoes', 'Rice (imported, Tanzanian)']",0.39139533555384787,"['Burundi', 'Rwanda']",2
+"['Sweet potatoes', 'Rice (low quality, local)']",0.41993218463492854,['Burundi'],1
+"['Sweet potatoes', 'Maize flour']",0.3717627835744661,"['Democratic Republic of the Congo', 'Gambia', 'Rwanda']",3
+"['Sweet potatoes', 'Garlic']",0.1968307086649642,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Sweet potatoes', 'Onions (red)']",0.4864435430412293,"['Philippines', 'Rwanda']",2
+"['Sweet potatoes', 'Onions (white)']",0.5243794682226065,"['Philippines', 'Rwanda']",2
+"['Sweet potatoes', 'Bananas']",0.34388752187341215,"['Gambia', 'Rwanda']",2
+"['Sweet potatoes', 'Spinach']",-0.1599983015277249,['Rwanda'],1
+"['Sweet potatoes', 'Papaya']",0.34088654033501176,['Rwanda'],1
+"['Sweet potatoes', 'Mangoes']",0.354954954954955,['Rwanda'],1
+"['Sweet potatoes', 'Cassava']",0.3875033524630767,"['Democratic Republic of the Congo', 'Gambia', 'Rwanda']",3
+"['Sweet potatoes', 'Livestock (Goat)']",0.15258906856237173,['Rwanda'],1
+"['Sweet potatoes', 'Potatoes (Irish)']",0.26107852623667566,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Sweet potatoes', 'Beans (dry)']",0.2901928881540403,"['Gambia', 'Rwanda']",2
+"['Sweet potatoes', 'Rice (regular, milled)']",0.6424667882779656,['Philippines'],1
+"['Sweet potatoes', 'Sorghum flour']",-0.21441046033715716,['Rwanda'],1
+"['Sweet potatoes', 'Peppers (green)']",-0.3713035307367067,['Rwanda'],1
+"['Sweet potatoes', 'Eggplants']",0.007462000508515448,['Rwanda'],1
+"['Sweet potatoes', 'Passion fruit']",0.35830772062310884,['Rwanda'],1
+"['Sweet potatoes', 'Zucchini']",0.4839125040820241,['Rwanda'],1
+"['Sweet potatoes', 'Avocados']",0.505165676205358,['Rwanda'],1
+"['Sweet potatoes', 'Cassava leaves']",0.4199056199056199,['Rwanda'],1
+"['Sweet potatoes', 'Peas (fresh)']",0.39079461571862784,['Rwanda'],1
+"['Sweet potatoes', 'Meat (goat)']",0.3650198750944837,['Rwanda'],1
+"['Rice (imported, Tanzanian)', 'Cassava']",-0.3789907437664049,['Rwanda'],1
+"['Rice (imported, Tanzanian)', 'Beans (dry)']",0.41188258600367156,['Rwanda'],1
+"['Rice (imported, Tanzanian)', 'Peppers (green)']",0.3426601660282819,['Rwanda'],1
+"['Rice (imported, Tanzanian)', 'Passion fruit']",0.3668439930423802,['Rwanda'],1
+"['Rice (imported, Tanzanian)', 'Zucchini']",-0.46679152232483423,['Rwanda'],1
+"['Rice (local)', 'Groundnuts (shelled)']",0.4709179952492067,"['Cameroon', 'Democratic Republic of the Congo', 'Nigeria', 'Rwanda', 'Zambia']",5
+"['Rice (local)', 'Sorghum (red)']",0.41084509631388655,"['Cameroon', 'Chad']",2
+"['Rice (local)', 'Sorghum (white)']",0.5831879321838229,"['Cameroon', 'Chad', 'Nigeria']",3
+"['Rice (local)', 'Cassava (cossette)']",-0.1544306057500991,"['Cameroon', 'Democratic Republic of the Congo']",2
+"['Rice (local)', 'Maize flour']",0.4974194090251691,"['Democratic Republic of the Congo', 'Rwanda']",2
+"['Rice (local)', 'Plantains']",0.27025859099545047,"[""Cote d'Ivoire"", 'Democratic Republic of the Congo']",2
+"['Rice (local)', 'Salt']",-0.30104189163484507,"['Democratic Republic of the Congo', 'Guinea', 'Guinea-Bissau']",3
+"['Rice (local)', 'Rice (paddy)']",0.4805285815665234,['Mali'],1
+"['Rice (local)', 'Cassava (fresh)']",-0.21190498317783993,"[""Cote d'Ivoire""]",1
+"['Rice (local)', 'Fish (smoked)']",-0.41748035552502955,['Democratic Republic of the Congo'],1
+"['Rice (local)', 'Fish (salted)']",-0.11256413255793046,['Democratic Republic of the Congo'],1
+"['Rice (local)', 'Rice (denikassia, imported)']",0.45134696429527543,"[""Cote d'Ivoire""]",1
+"['Rice (local)', 'Peanut']",0.44699428868657265,"[""Cote d'Ivoire""]",1
+"['Rice (local)', 'Maize meal']",0.3672881530320621,['Democratic Republic of the Congo'],1
+"['Rice (local)', 'Cassava']",0.11989457223900095,"['Democratic Republic of the Congo', 'Ghana', 'Rwanda']",3
+"['Rice (local)', 'Meat (goat, with bones)']",-0.12983086782509967,['Democratic Republic of the Congo'],1
+"['Rice (local)', 'Cassava (chikwangue)']",-0.34411898330926105,['Democratic Republic of the Congo'],1
+"['Rice (local)', 'Maize (local)']",0.025678901736179344,"['Peru', 'Senegal']",2
+"['Rice (local)', 'Beans (dry)']",0.5482045505419948,"['Mozambique', 'Rwanda', 'Zambia']",3
+"['Rice (local)', 'Plantains (apentu)']",0.37654834055023567,['Ghana'],1
+"['Rice (local)', 'Yam']",0.40420003778736896,"['Ghana', 'Nigeria']",2
+"['Rice (local)', 'Sorghum (taghalit)']",-0.4222894704079772,['Mauritania'],1
+"['Rice (local)', 'Wheat flour (locally processed)']",0.23681609329157327,['Peru'],1
+"['Rice (local)', 'Maize (imported)']",-0.3050587688903892,['Senegal'],1
+"['Rice (local)', 'Maize meal (white, roller)']",0.3756586394415287,['Zambia'],1
+"['Rice (local)', 'Maize meal (white, breakfast)']",0.3913675812670101,['Zambia'],1
+"['Groundnuts (shelled)', 'Sorghum (red)']",0.33354558417150676,['Cameroon'],1
+"['Groundnuts (shelled)', 'Sorghum (white)']",-0.02148925386195147,"['Cameroon', 'Nigeria', 'South Sudan']",3
+"['Groundnuts (shelled)', 'Beans (red)']",0.4543676689138596,['South Sudan'],1
+"['Groundnuts (shelled)', 'Bananas']",0.3900869078207845,"['Gambia', 'Rwanda', 'Turkey']",3
+"['Groundnuts (shelled)', 'Maize (local)']",-0.4618460247593238,['Gambia'],1
+"['Groundnuts (shelled)', 'Groundnuts (unshelled)']",0.33015973870617576,['Gambia'],1
+"['Groundnuts (shelled)', 'Rice (long grain, imported)']",0.13618566370928387,['Gambia'],1
+"['Groundnuts (shelled)', 'Rice (medium grain, imported)']",-0.34489688136680574,['Gambia'],1
+"['Groundnuts (shelled)', 'Meat (mutton)']",0.4245896442220947,"['Gambia', 'Rwanda', 'Turkey']",3
+"['Groundnuts (shelled)', 'Beans (dry)']",0.5163529363909054,"['Gambia', 'Rwanda', 'Zambia']",3
+"['Groundnuts (shelled)', 'Oil (olive)']",0.36382363085859304,['Turkey'],1
+"['Groundnuts (shelled)', 'Bulgur']",0.37524998355894973,['Turkey'],1
+"['Groundnuts (shelled)', 'Meat (veal)']",0.5939714471607765,['Turkey'],1
+"['Groundnuts (shelled)', 'Maize meal (white, roller)']",0.38775876189609804,"['Zambia', 'Zimbabwe']",2
+"['Groundnuts (shelled)', 'Maize meal (white, breakfast)']",0.45901813757983667,['Zambia'],1
+"['Sesame', 'Sorghum (white)']",0.561479082139158,"['Cameroon', 'South Sudan']",2
+"['Sesame', 'Beans (red)']",-0.017584974960200367,['South Sudan'],1
+"['Cassava (cossette)', 'Plantains']",0.48765932422830804,['Democratic Republic of the Congo'],1
+"['Cassava (cossette)', 'Salt']",0.31773402046208943,['Democratic Republic of the Congo'],1
+"['Cassava (cossette)', 'Fish (smoked)']",0.5005023248844849,['Democratic Republic of the Congo'],1
+"['Cassava (cossette)', 'Fish (salted)']",0.15460535724219104,['Democratic Republic of the Congo'],1
+"['Cassava (cossette)', 'Maize meal']",-0.40306009665295195,['Democratic Republic of the Congo'],1
+"['Cassava (cossette)', 'Meat (goat, with bones)']",0.40579778253863585,['Democratic Republic of the Congo'],1
+"['Cassava (cossette)', 'Cassava (chikwangue)']",0.46816564258495624,['Democratic Republic of the Congo'],1
+"['Oil (groundnut)', 'Milk (pasteurized)']",-0.12460006793416367,['India'],1
+"['Oil (groundnut)', 'Oil (sunflower)']",0.6558361864593342,['India'],1
+"['Oil (groundnut)', 'Oil (mustard)']",0.26419752392922236,['India'],1
+"['Oil (groundnut)', 'Salt (iodised)']",0.40064384224815514,['India'],1
+"['Maize flour', 'Cocoa']",0.4166318174646394,['Colombia'],1
+"['Maize flour', 'Salt']",-0.46624525020946744,"['Colombia', 'Democratic Republic of the Congo', 'Gambia']",3
+"['Maize flour', 'Bananas']",0.41900522718549277,"['Colombia', 'Gambia', 'Rwanda']",3
+"['Maize flour', 'Spinach']",-0.4720003852540669,"['Colombia', 'Rwanda']",2
+"['Maize flour', 'Fish (tilapia)']",-0.3582121685263041,['Colombia'],1
+"['Maize flour', 'Papaya']",0.24604283071141764,"['Colombia', 'Rwanda']",2
+"['Maize flour', 'Mangoes']",0.3776061776061776,"['Colombia', 'Rwanda']",2
+"['Maize flour', 'Cassava']",0.2904482507709757,"['Democratic Republic of the Congo', 'Gambia', 'Rwanda']",3
+"['Maize flour', 'Livestock (Goat)']",-0.2469841375796534,['Rwanda'],1
+"['Maize flour', 'Livestock (Sheep)']",-0.3998284678115372,['Rwanda'],1
+"['Maize flour', 'Potatoes (Irish)']",-0.2637399107532228,"['Gambia', 'Rwanda']",2
+"['Maize flour', 'Beans (dry)']",-0.004639078222533816,"['Gambia', 'Rwanda']",2
+"['Maize flour', 'Sorghum flour']",0.12513440917340274,['Rwanda'],1
+"['Maize flour', 'Peppers (green)']",0.08343801038553238,['Rwanda'],1
+"['Maize flour', 'Eggplants']",0.3278025283426522,['Rwanda'],1
+"['Maize flour', 'Passion fruit']",0.5098701913849669,['Rwanda'],1
+"['Maize flour', 'Zucchini']",0.4137109498521055,['Rwanda'],1
+"['Maize flour', 'Cassava leaves']",0.42007722007722015,['Rwanda'],1
+"['Maize flour', 'Peas (fresh)']",-0.36396396396396397,['Rwanda'],1
+"['Maize flour', 'Meat (goat)']",-0.4001058754257302,['Rwanda'],1
+"['Maize flour', 'Beans (green, fresh)']",-0.4566280566280566,['Rwanda'],1
+"['Beans (red)', 'Chickpeas (imported)']",-0.4511693834160171,['Colombia'],1
+"['Beans (red)', 'Meat (beef, minced)']",0.23633814082585314,['Colombia'],1
+"['Beans (red)', 'Cassava (dry)']",0.683450018632669,"['Colombia', 'South Sudan']",2
+"['Beans (red)', 'Beans (silk red)']",0.8283471144951864,['El Salvador'],1
+"['Garlic', 'Onions (red)']",0.48333126700368717,"['Colombia', 'Egypt', 'Philippines', 'Rwanda']",4
+"['Garlic', 'Onions (white)']",0.6566618042485668,"['Colombia', 'Egypt', 'Philippines', 'Rwanda']",4
+"['Garlic', 'Oil (sunflower)']",0.34496975395718055,"['Colombia', 'Egypt', 'Turkey']",3
+"['Garlic', 'Tea']",0.38081751595177565,"['Gambia', 'Turkey']",2
+"['Garlic', 'Potatoes (Irish)']",0.3330329087073113,"['Gambia', 'Philippines', 'Rwanda']",3
+"['Garlic', 'Chickpeas']",0.3775602497567201,"['Jordan', 'Turkey']",2
+"['Garlic', 'Meat (lamb)']",-0.30561285599712945,['Jordan'],1
+"['Onions (red)', 'Onions (white)']",0.6941457766534226,"['Colombia', 'Egypt', 'Philippines', 'Rwanda']",4
+"['Onions (red)', 'Eggs (white, AA)']",-0.5684638057155456,['Colombia'],1
+"['Onions (red)', 'Potatoes (Irish)']",0.3968242792977154,"['Philippines', 'Rwanda']",2
+"['Onions (red)', 'Rice (regular, milled)']",0.6055459425562637,['Philippines'],1
+"['Onions (white)', 'Eggs (white, AA)']",-0.4968422601906187,['Colombia'],1
+"['Onions (white)', 'Potatoes (Irish)']",0.39640395886188734,"['Philippines', 'Rwanda']",2
+"['Plantains', 'Salt']",-0.4635971170570836,"['Colombia', 'Democratic Republic of the Congo', 'Guatemala']",3
+"['Plantains', 'Oranges (big size)']",0.3441884440920838,['Colombia'],1
+"['Plantains', 'Bananas']",0.2773092227729447,"['Colombia', 'Guatemala']",2
+"['Plantains', 'Fish (smoked)']",0.28984717459832754,"['Congo', 'Democratic Republic of the Congo']",2
+"['Plantains', 'Fish (salted)']",0.3808619577943424,"['Congo', 'Democratic Republic of the Congo']",2
+"['Plantains', 'Maize meal']",-0.1698506097239192,['Democratic Republic of the Congo'],1
+"['Plantains', 'Cassava']",0.4903021039001111,['Democratic Republic of the Congo'],1
+"['Plantains', 'Meat (goat, with bones)']",0.2841270543694082,['Democratic Republic of the Congo'],1
+"['Plantains', 'Cassava (chikwangue)']",0.13961740674613288,['Democratic Republic of the Congo'],1
+"['Cocoa', 'Cassava (fresh)']",0.3006785590554791,"[""Cote d'Ivoire""]",1
+"['Cocoa', 'Peanut']",-0.3872379167882633,"[""Cote d'Ivoire""]",1
+"['Coffee', 'Milk (powder)']",0.3193825748850149,['Guatemala'],1
+"['Coffee', 'Bulgur']",0.3330972028568623,['Turkey'],1
+"['Fish (dry)', 'Rice (denikassia, imported)']",0.43662608801696434,"[""Cote d'Ivoire""]",1
+"['Fish (dry)', 'Cornstarch']",0.6812847540595278,"[""Cote d'Ivoire""]",1
+"['Fish (dry)', 'Fish (appolo)']",0.49324099263102245,"[""Cote d'Ivoire""]",1
+"['Fish (dry)', 'Peanut']",-0.3223906070474148,"[""Cote d'Ivoire""]",1
+"['Salt', 'Coffee (instant)']",0.3987367689115346,"['Colombia', 'Turkey']",2
+"['Salt', 'Fish (smoked)']",0.680151007992919,['Democratic Republic of the Congo'],1
+"['Salt', 'Meat (chicken, frozen)']",-0.005161707559498315,['Tajikistan'],1
+"['Salt', 'Fish (salted)']",-0.4943269252748867,['Democratic Republic of the Congo'],1
+"['Salt', 'Maize meal']",-0.09428506169188729,"['Democratic Republic of the Congo', 'Swaziland']",2
+"['Salt', 'Cassava']",-0.5269849836129872,"['Democratic Republic of the Congo', 'Gambia']",2
+"['Salt', 'Meat (goat, with bones)']",0.38228332494690864,['Democratic Republic of the Congo'],1
+"['Salt', 'Cassava (chikwangue)']",0.2793803040604335,['Democratic Republic of the Congo'],1
+"['Salt', 'Meat (mutton)']",0.3396758906105891,"['Gambia', 'Kyrgyzstan', 'Tajikistan', 'Turkey']",4
+"['Salt', 'Milk (powder)']",-0.45102330145798875,"['Gambia', 'Guatemala', 'Lebanon']",3
+"['Salt', 'Tea (black)']",0.36483167850714693,"['Kyrgyzstan', 'Tajikistan']",2
+"['Salt', 'Pulses']",0.12517156564676218,['Myanmar'],1
+"['Salt', 'Oil (cotton)']",0.2485848389146298,"['Kyrgyzstan', 'Tajikistan']",2
+"['Salt', 'Tea (green)']",-0.134402901944558,"['Kyrgyzstan', 'Tajikistan', 'Turkey']",3
+"['Salt', 'Wheat flour (first grade)']",0.28239317082109877,"['Kyrgyzstan', 'Tajikistan']",2
+"['Salt', 'Wheat flour (high quality)']",0.21869780322323198,"['Kyrgyzstan', 'Tajikistan']",2
+"['Salt', 'Wheat flour (local)']",0.32469732835058374,['Tajikistan'],1
+"['Salt', 'Bread (common)']",0.46892607016531174,['Turkey'],1
+"['Rice (paddy)', 'Peas (green, dry)']",-0.3410862879129839,['Colombia'],1
+"['Rice (paddy)', 'Fish (tilapia)']",-0.40006976875036965,['Colombia'],1
+"['Rice (paddy)', 'Potatoes (Irish)']",-0.3941192433590424,['Philippines'],1
+"['Chickpeas (imported)', 'Eggs (white, AA)']",0.2233314434282596,['Colombia'],1
+"['Chickpeas (imported)', 'Meat (beef, minced)']",-0.6169819630633024,['Colombia'],1
+"['Chickpeas (imported)', 'Coffee (instant)']",0.4503378909004733,['Colombia'],1
+"['Eggs (white, AA)', 'Potatoes (unica)']",0.39305019305019306,['Colombia'],1
+"['Eggs (white, AA)', 'Bananas']",-0.4193427816209097,['Colombia'],1
+"['Meat (beef, minced)', 'Sugar (brown, loaf)']",-0.3601617908408548,['Colombia'],1
+"['Sugar (brown)', 'Coffee (instant)']",-0.3353234910985671,['Colombia'],1
+"['Sugar (brown)', 'Rice (ordinary, second quality)']",-0.37441543222448836,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Oil (soybean)']",0.33757498938323716,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Meat (beef, first quality)']",-0.0077393378091138165,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Meat (beef, second quality)']",-0.4620326831332336,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Meat (buffalo, first quality)']",-0.0077393378091138165,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Meat (buffalo, second quality)']",-0.11075451845842843,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Meat (pork, first quality)']",0.3605980584422523,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Meat (pork, second quality)']",0.37441543222448836,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Rice (glutinous, first quality)']",-0.5333973417587154,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Rice (glutinous, second quality)']",-0.5055158067053342,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Garlic (small)']",0.6038596398555418,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Fish (snake head)']",0.8248436851079832,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Fish (catfish)']",-0.8266783748612584,"[""Lao People's Democratic Republic""]",1
+"['Sugar (brown)', 'Fish (tilapia, farmed)']",0.1441253670000433,"[""Lao People's Democratic Republic""]",1
+"['Bananas', 'Spinach']",0.12610597547020952,"['Colombia', 'Rwanda']",2
+"['Bananas', 'Papaya']",-0.16757561873023383,"['Colombia', 'Rwanda']",2
+"['Bananas', 'Mangoes']",-0.4787744915558198,"['Colombia', 'Rwanda']",2
+"['Bananas', 'Cassava']",0.40120304587356886,"['Gambia', 'Rwanda']",2
+"['Bananas', 'Livestock (Goat)']",0.1432406719938043,['Rwanda'],1
+"['Bananas', 'Livestock (Sheep)']",0.4338664217843549,['Rwanda'],1
+"['Bananas', 'Meat (mutton)']",0.4604196164242502,"['Gambia', 'Rwanda', 'Turkey']",3
+"['Bananas', 'Potatoes (Irish)']",0.2580150009802587,"['Gambia', 'Rwanda']",2
+"['Bananas', 'Beans (dry)']",0.06852221976097841,"['Gambia', 'Rwanda']",2
+"['Bananas', 'Oil (olive)']",0.35718882739091257,"['Jordan', 'Turkey']",2
+"['Bananas', 'Meat (lamb)']",0.3415031360559985,['Jordan'],1
+"['Bananas', 'Bulgur']",0.41023361819817195,['Turkey'],1
+"['Bananas', 'Sorghum flour']",0.11355709723348381,['Rwanda'],1
+"['Bananas', 'Peppers (green)']",0.10436679676397616,['Rwanda'],1
+"['Bananas', 'Eggplants']",0.2673767131224718,"['Rwanda', 'Turkey']",2
+"['Bananas', 'Passion fruit']",0.41434981848434577,['Rwanda'],1
+"['Bananas', 'Zucchini']",0.11203226303263096,['Rwanda'],1
+"['Bananas', 'Avocados']",0.4070415687109767,['Rwanda'],1
+"['Bananas', 'Cassava leaves']",0.43171171171171174,['Rwanda'],1
+"['Bananas', 'Peas (fresh)']",-0.060389699295474386,['Rwanda'],1
+"['Bananas', 'Meat (goat)']",-0.3844054051127445,['Rwanda'],1
+"['Spinach', 'Papaya']",-0.5996312711770428,"['Colombia', 'Rwanda']",2
+"['Spinach', 'Mangoes']",-0.49272543390410983,"['Colombia', 'Rwanda']",2
+"['Spinach', 'Cassava']",-0.658943266168573,['Rwanda'],1
+"['Spinach', 'Potatoes (Irish)']",0.29511385267994833,['Rwanda'],1
+"['Spinach', 'Beans (dry)']",-0.3665121025436106,['Rwanda'],1
+"['Spinach', 'Sorghum flour']",0.14589913247100916,['Rwanda'],1
+"['Spinach', 'Peppers (green)']",0.36169952961924623,['Rwanda'],1
+"['Spinach', 'Eggplants']",0.40750414661808343,['Rwanda'],1
+"['Spinach', 'Passion fruit']",0.41095319472144204,['Rwanda'],1
+"['Spinach', 'Zucchini']",-0.4019642042218735,['Rwanda'],1
+"['Spinach', 'Avocados']",-0.39090096157139986,['Rwanda'],1
+"['Spinach', 'Cassava leaves']",-0.5060489060489061,['Rwanda'],1
+"['Spinach', 'Peas (fresh)']",0.40615116812896745,['Rwanda'],1
+"['Spinach', 'Meat (goat)']",0.5209511049546696,['Rwanda'],1
+"['Spinach', 'Beans (green, fresh)']",0.2930139220878111,['Rwanda'],1
+"['Fish (tilapia)', 'Lentils (imported)']",-0.3486423122944168,['Colombia'],1
+"['Papaya', 'Mangoes']",0.5292254532073535,"['Colombia', 'Rwanda']",2
+"['Papaya', 'Cassava']",0.5418106333415781,['Rwanda'],1
+"['Papaya', 'Livestock (Goat)']",0.48966108966108973,['Rwanda'],1
+"['Papaya', 'Livestock (Sheep)']",0.37930356904465357,['Rwanda'],1
+"['Papaya', 'Potatoes (Irish)']",0.35284014173902145,['Rwanda'],1
+"['Papaya', 'Beans (dry)']",0.17944454468167084,['Rwanda'],1
+"['Papaya', 'Sorghum flour']",-0.4807036538661647,['Rwanda'],1
+"['Papaya', 'Peppers (green)']",0.43627787954551706,['Rwanda'],1
+"['Papaya', 'Eggplants']",-0.32509297485240674,['Rwanda'],1
+"['Papaya', 'Passion fruit']",-0.3736873230372977,['Rwanda'],1
+"['Papaya', 'Zucchini']",0.5410123885725063,['Rwanda'],1
+"['Papaya', 'Avocados']",0.408465859730643,['Rwanda'],1
+"['Papaya', 'Peas (fresh)']",-0.3430090421299141,['Rwanda'],1
+"['Papaya', 'Meat (goat)']",0.08718093690925381,['Rwanda'],1
+"['Papaya', 'Beans (green, fresh)']",-0.3116594425175111,['Rwanda'],1
+"['Mangoes', 'Livestock (Goat)']",-0.46661962657403383,['Rwanda'],1
+"['Mangoes', 'Potatoes (Irish)']",0.2565156988052237,['Rwanda'],1
+"['Mangoes', 'Beans (dry)']",0.46430970092082474,['Rwanda'],1
+"['Mangoes', 'Sorghum flour']",0.33386961907091556,['Rwanda'],1
+"['Mangoes', 'Peppers (green)']",0.39588774659627685,['Rwanda'],1
+"['Mangoes', 'Eggplants']",0.049145122451030615,['Rwanda'],1
+"['Mangoes', 'Zucchini']",0.456639109649933,['Rwanda'],1
+"['Mangoes', 'Avocados']",0.4485199485199486,['Rwanda'],1
+"['Mangoes', 'Peas (fresh)']",0.3637299705067107,['Rwanda'],1
+"['Milk (pasteurized)', 'Oil (sunflower)']",0.1080450986686824,"['Colombia', 'India', 'Turkey']",3
+"['Milk (pasteurized)', 'Tea (black)']",0.22558153555708102,['India'],1
+"['Milk (pasteurized)', 'Oil (mustard)']",0.39340980774152745,['India'],1
+"['Milk (pasteurized)', 'Salt (iodised)']",0.3063343098727053,['India'],1
+"['Milk (pasteurized)', 'Chickpeas']",0.2913001764375048,"['Jordan', 'Turkey']",2
+"['Milk (pasteurized)', 'Bread (pita)']",-0.5224183137645768,"['Jordan', 'Turkey']",2
+"['Milk (pasteurized)', 'Cheese (white, boiled)']",0.50944383750767,['Jordan'],1
+"['Coffee (instant)', 'Meat (mutton)']",0.5855322435319861,['Turkey'],1
+"['Oil (sunflower)', 'Maize meal']",0.4077900207595846,"['Lesotho', 'Swaziland']",2
+"['Oil (sunflower)', 'Meat (mutton)']",0.017372573600221153,"['Kyrgyzstan', 'Turkey']",2
+"['Oil (sunflower)', 'Milk (powder)']",-0.3933075933075934,['Lebanon'],1
+"['Oil (sunflower)', 'Oil (mustard)']",0.21260538221666522,['India'],1
+"['Oil (sunflower)', 'Salt (iodised)']",-0.10845882874142512,['India'],1
+"['Oil (sunflower)', 'Bread (pita)']",0.44185597620295036,"['Lebanon', 'Turkey']",2
+"['Oil (sunflower)', 'Wheat flour (first grade)']",0.5421838378045313,"['Kyrgyzstan', 'Ukraine']",2
+"['Oil (sunflower)', 'Rice (imported, Egyptian)']",0.4857142857142857,['Lebanon'],1
+"['Oil (sunflower)', 'Cheese (picon)']",0.46077611267304464,"['Egypt', 'Lebanon']",2
+"['Oil (sunflower)', 'Meat (beef, canned)']",0.42651222651222653,['Lebanon'],1
+"['Oil (sunflower)', 'Bread (brown)']",0.4473411849297907,['Lesotho'],1
+"['Oil (sunflower)', 'Peas (split, dry)']",0.23908866546599356,['Lesotho'],1
+"['Oil (sunflower)', 'Beans (sugar-red)']",0.3006052280487978,['Lesotho'],1
+"['Cassava (fresh)', 'Rice (denikassia, imported)']",0.36548514713331304,"[""Cote d'Ivoire""]",1
+"['Cassava (fresh)', 'Cornstarch']",0.3314273388319489,"[""Cote d'Ivoire""]",1
+"['Cassava (fresh)', 'Fish (appolo)']",0.31561341184998587,"[""Cote d'Ivoire""]",1
+"['Cassava (fresh)', 'Peanut']",-0.38963470427709984,"[""Cote d'Ivoire""]",1
+"['Fish (smoked)', 'Fish (salted)']",0.547526055942867,"['Congo', 'Democratic Republic of the Congo']",2
+"['Fish (smoked)', 'Maize meal']",-0.5073943089707891,['Democratic Republic of the Congo'],1
+"['Fish (smoked)', 'Meat (goat, with bones)']",0.39622468840867797,['Democratic Republic of the Congo'],1
+"['Fish (smoked)', 'Cassava (chikwangue)']",0.33719112884754937,['Democratic Republic of the Congo'],1
+"['Meat (chicken, frozen)', 'Meat (mutton)']",0.37829159023882486,['Tajikistan'],1
+"['Meat (chicken, frozen)', 'Tea (black)']",0.11730232290879407,['Tajikistan'],1
+"['Meat (chicken, frozen)', 'Oil (cotton)']",0.15670193929638176,['Tajikistan'],1
+"['Meat (chicken, frozen)', 'Tea (green)']",-0.10296726864576754,['Tajikistan'],1
+"['Meat (chicken, frozen)', 'Wheat flour (first grade)']",0.25814161031906313,['Tajikistan'],1
+"['Meat (chicken, frozen)', 'Wheat flour (high quality)']",0.2190355137503025,['Tajikistan'],1
+"['Meat (chicken, frozen)', 'Wheat flour (local)']",0.3048314936899179,['Tajikistan'],1
+"['Fish (salted)', 'Maize meal']",-0.4555126555126556,['Democratic Republic of the Congo'],1
+"['Fish (salted)', 'Meat (goat, with bones)']",0.25904827995894186,['Democratic Republic of the Congo'],1
+"['Fish (salted)', 'Cassava (chikwangue)']",-0.1351688408726379,['Democratic Republic of the Congo'],1
+"['Beans (black)', 'Rice (milled 80-20)']",0.27117499517653876,['Costa Rica'],1
+"['Beans (black)', 'Rice (ordinary, second quality)']",0.4254610608004021,['Guatemala'],1
+"['Beans (black)', 'Tortilla (maize)']",0.19753031892058895,['Guatemala'],1
+"['Beans (black)', 'Oil (vegetable, imported)']",0.1600548113196451,['Haiti'],1
+"['Beans (black)', 'Wheat flour (imported)']",0.40349280934269,['Haiti'],1
+"['Beans (black)', 'Maize meal (local)']",0.4254538070544475,['Haiti'],1
+"['Rice (denikassia, imported)', 'Cornstarch']",0.3092929460985237,"[""Cote d'Ivoire""]",1
+"['Rice (denikassia, imported)', 'Fish (appolo)']",0.528277101352158,"[""Cote d'Ivoire""]",1
+"['Rice (denikassia, imported)', 'Peanut']",-0.5640595127465444,"[""Cote d'Ivoire""]",1
+"['Cornstarch', 'Fish (appolo)']",0.44682986812376013,"[""Cote d'Ivoire""]",1
+"['Cornstarch', 'Peanut']",-0.39620888807427673,"[""Cote d'Ivoire""]",1
+"['Fish (appolo)', 'Peanut']",-0.5598360086379622,"[""Cote d'Ivoire""]",1
+"['Maize meal', 'Meat (goat, with bones)']",-0.4127226976736568,['Democratic Republic of the Congo'],1
+"['Maize meal', 'Cassava (chikwangue)']",-0.36843992710945067,['Democratic Republic of the Congo'],1
+"['Maize meal', 'Bread (brown)']",0.1890256020237974,['Lesotho'],1
+"['Maize meal', 'Peas (split, dry)']",0.3128495509936353,['Lesotho'],1
+"['Maize meal', 'Beans (sugar-red)']",0.3831668314315548,['Lesotho'],1
+"['Cassava', 'Livestock (Sheep)']",-0.3890758539272016,['Rwanda'],1
+"['Cassava', 'Potatoes (Irish)']",-0.03782074426489526,"['Gambia', 'Rwanda']",2
+"['Cassava', 'Beans (dry)']",0.24316020707328043,"['Gambia', 'Rwanda']",2
+"['Cassava', 'Plantains (apentu)']",0.18786211773105155,['Ghana'],1
+"['Cassava', 'Yam']",0.2959658711795988,['Ghana'],1
+"['Cassava', 'Sorghum flour']",0.21502740855414407,['Rwanda'],1
+"['Cassava', 'Peppers (green)']",-0.3946143743395127,['Rwanda'],1
+"['Cassava', 'Eggplants']",-0.20273057759859647,['Rwanda'],1
+"['Cassava', 'Passion fruit']",0.24299628377683763,['Rwanda'],1
+"['Cassava', 'Zucchini']",0.5063063063063064,['Rwanda'],1
+"['Cassava', 'Avocados']",0.3587532447323321,['Rwanda'],1
+"['Cassava', 'Peas (fresh)']",0.3544401544401545,['Rwanda'],1
+"['Cassava', 'Meat (goat)']",-0.40551703755145796,['Rwanda'],1
+"['Meat (goat, with bones)', 'Cassava (chikwangue)']",0.10926581568663846,['Democratic Republic of the Congo'],1
+"['Livestock (Goat)', 'Livestock (Sheep)']",0.6002948021940929,"['Ethiopia', 'Rwanda']",2
+"['Livestock (Goat)', 'Beans (dry)']",-0.25662684078910813,['Rwanda'],1
+"['Livestock (Goat)', 'Sorghum flour']",0.09393360571032461,['Rwanda'],1
+"['Livestock (Goat)', 'Peppers (green)']",0.37756771548984847,['Rwanda'],1
+"['Livestock (Goat)', 'Eggplants']",0.36927000817578326,['Rwanda'],1
+"['Livestock (Goat)', 'Passion fruit']",0.3598735956613145,['Rwanda'],1
+"['Livestock (Goat)', 'Zucchini']",0.34527216649531794,['Rwanda'],1
+"['Livestock (Goat)', 'Avocados']",-0.2526705630789104,['Rwanda'],1
+"['Livestock (Goat)', 'Cassava leaves']",-0.453548187769647,['Rwanda'],1
+"['Livestock (Goat)', 'Meat (goat)']",0.5470625056772176,['Rwanda'],1
+"['Livestock (Sheep)', 'Potatoes (Irish)']",-0.30058349541539325,['Rwanda'],1
+"['Livestock (Sheep)', 'Beans (dry)']",-0.4584298584298585,['Rwanda'],1
+"['Livestock (Sheep)', 'Sorghum flour']",-0.13876472276676183,['Rwanda'],1
+"['Livestock (Sheep)', 'Peppers (green)']",0.38540835664469403,['Rwanda'],1
+"['Livestock (Sheep)', 'Eggplants']",0.3675640468953539,['Rwanda'],1
+"['Livestock (Sheep)', 'Zucchini']",0.46238486229611336,['Rwanda'],1
+"['Livestock (Sheep)', 'Avocados']",-0.36796613335855866,['Rwanda'],1
+"['Livestock (Sheep)', 'Cassava leaves']",-0.4163449163449164,['Rwanda'],1
+"['Livestock (Sheep)', 'Meat (goat)']",0.43250108845344537,['Rwanda'],1
+"['Beans (fava, dry)', 'Oil (olive)']",0.42369545945617554,['Jordan'],1
+"['Maize (local)', 'Groundnuts (unshelled)']",-0.03898223124508766,['Gambia'],1
+"['Maize (local)', 'Rice (long grain, imported)']",-0.39545781824520515,['Gambia'],1
+"['Maize (local)', 'Maize (imported)']",0.6586485142188229,['Senegal'],1
+"['Groundnuts (unshelled)', 'Rice (medium grain, imported)']",-0.46818136474114463,['Gambia'],1
+"['Groundnuts (unshelled)', 'Rice (small grain, imported)']",-0.3502288004072006,['Gambia'],1
+"['Rice (long grain, imported)', 'Rice (medium grain, imported)']",0.41020237291811673,['Gambia'],1
+"['Rice (long grain, imported)', 'Rice (small grain, imported)']",0.440599532856358,['Gambia'],1
+"['Rice (long grain, imported)', 'Rice (paddy, long grain, local)']",-0.3952278815806088,['Gambia'],1
+"['Rice (medium grain, imported)', 'Rice (small grain, imported)']",0.5048306162440743,['Gambia'],1
+"['Rice (small grain, imported)', 'Rice (paddy, long grain, local)']",-0.35577906713038593,['Gambia'],1
+"['Tea', 'Tea (green)']",0.3851947287788076,['Turkey'],1
+"['Tea', 'Oil']",0.4722064436014472,['Syrian Arab Republic'],1
+"['Tea', 'Bread (bakery)']",0.09633994921975211,['Syrian Arab Republic'],1
+"['Tea', 'Bread (shop)']",0.44780088414561997,['Syrian Arab Republic'],1
+"['Meat (mutton)', 'Tea (black)']",0.32895843706410316,"['Kyrgyzstan', 'Tajikistan']",2
+"['Meat (mutton)', 'Oil (cotton)']",0.45997250503088494,"['Kyrgyzstan', 'Tajikistan']",2
+"['Meat (mutton)', 'Tea (green)']",-0.002952146701545283,"['Kyrgyzstan', 'Tajikistan', 'Turkey']",3
+"['Meat (mutton)', 'Wheat flour (first grade)']",0.2566314680076479,"['Kyrgyzstan', 'Tajikistan']",2
+"['Meat (mutton)', 'Wheat flour (high quality)']",0.28844991921026963,"['Kyrgyzstan', 'Tajikistan']",2
+"['Meat (mutton)', 'Wheat flour (local)']",-0.33793386789486995,['Tajikistan'],1
+"['Meat (mutton)', 'Meat (veal)']",0.49893755562116543,['Turkey'],1
+"['Potatoes (Irish)', 'Beans (dry)']",0.3280525665643225,"['Gambia', 'Kenya', 'Rwanda']",3
+"['Potatoes (Irish)', 'Peppers (green)']",0.35175444428178143,['Rwanda'],1
+"['Potatoes (Irish)', 'Eggplants']",0.26201722700750213,['Rwanda'],1
+"['Potatoes (Irish)', 'Passion fruit']",-0.3408971708762195,['Rwanda'],1
+"['Potatoes (Irish)', 'Zucchini']",0.3940050977373222,['Rwanda'],1
+"['Potatoes (Irish)', 'Avocados']",0.4110248496810991,['Rwanda'],1
+"['Potatoes (Irish)', 'Cassava leaves']",0.38675817433421,['Rwanda'],1
+"['Potatoes (Irish)', 'Peas (fresh)']",0.38008912702919656,['Rwanda'],1
+"['Potatoes (Irish)', 'Meat (goat)']",-0.3666374716610957,['Rwanda'],1
+"['Potatoes (Irish)', 'Beans (green, fresh)']",0.36926527598220327,['Rwanda'],1
+"['Milk (powder)', 'Tortilla (maize)']",0.24926964265730925,['Guatemala'],1
+"['Milk (powder)', 'Bread (pita)']",-0.3002660900465765,['Lebanon'],1
+"['Milk (powder)', 'Bulgur']",-0.07909398760462588,['Lebanon'],1
+"['Milk (powder)', 'Meat (beef, canned)']",0.10482703719785785,['Lebanon'],1
+"['Milk (powder)', 'Fish (sardine, canned)']",0.37446512127949816,['Lebanon'],1
+"['Beans (dry)', 'Cowpeas']",0.5023489295427076,['Mozambique'],1
+"['Beans (dry)', 'Wheat flour (local)']",-0.39485406234606135,['Mozambique'],1
+"['Beans (dry)', 'Maize meal (white, first grade)']",-0.35283894564901713,['Mozambique'],1
+"['Beans (dry)', 'Oil (vegetable, local)']",0.3008848396690892,['Mozambique'],1
+"['Beans (dry)', 'Sugar (brown, local)']",0.33603373983780743,['Mozambique'],1
+"['Beans (dry)', 'Groundnuts (Mix)']",0.29847119570719854,['Mozambique'],1
+"['Beans (dry)', 'Groundnuts (large, shelled)']",0.5118210405647688,['Mozambique'],1
+"['Beans (dry)', 'Groundnuts (small, shelled)']",0.5073056515052009,['Mozambique'],1
+"['Beans (dry)', 'Sorghum flour']",0.28864023660634364,['Rwanda'],1
+"['Beans (dry)', 'Peppers (green)']",-0.10969305310050338,['Rwanda'],1
+"['Beans (dry)', 'Eggplants']",-0.0032805551790783816,['Rwanda'],1
+"['Beans (dry)', 'Passion fruit']",-0.4103343465045592,['Rwanda'],1
+"['Beans (dry)', 'Zucchini']",0.39471542473303,['Rwanda'],1
+"['Beans (dry)', 'Avocados']",0.37431017684903956,['Rwanda'],1
+"['Beans (dry)', 'Cassava leaves']",0.43180041155715676,['Rwanda'],1
+"['Beans (dry)', 'Peas (fresh)']",0.3969298159350953,['Rwanda'],1
+"['Beans (dry)', 'Beans (green, fresh)']",0.36911196911196914,['Rwanda'],1
+"['Beans (dry)', 'Maize meal (white, roller)']",0.5330844666904493,['Zambia'],1
+"['Beans (dry)', 'Maize meal (white, breakfast)']",0.44007861203806303,['Zambia'],1
+"['Plantains (apentu)', 'Yam']",0.48387706171237443,['Ghana'],1
+"['Rice (ordinary, second quality)', 'Rice (ordinary, first quality)']",0.7988958437595344,"['Guatemala', ""Lao People's Democratic Republic""]",2
+"['Rice (ordinary, second quality)', 'Meat (beef, first quality)']",-0.06298550566594535,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Meat (beef, second quality)']",-0.22977141875925322,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Meat (buffalo, first quality)']",0.162138809676067,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Meat (buffalo, second quality)']",0.12402761105404621,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Meat (pork, first quality)']",-0.8079430335798623,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Meat (pork, second quality)']",-0.7915719939927794,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Rice (glutinous, first quality)']",0.5990453872832462,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Rice (glutinous, second quality)']",0.26929892382659504,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Rice (glutinous, unmilled)']",0.10986103214180415,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Rice (ordinary, unmilled)']",0.20798424428473247,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Garlic (small)']",0.40587598148275084,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Fish (snake head)']",-0.3316250971131183,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Fish (catfish)']",0.3316250971131183,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, second quality)', 'Fish (tilapia, farmed)']",-0.3316250971131183,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Meat (beef, first quality)']",-0.13726424174528215,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Meat (beef, second quality)']",-0.2573190452825447,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Meat (buffalo, first quality)']",0.01644541501939273,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Meat (buffalo, second quality)']",-0.0672496089046335,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Meat (pork, first quality)']",-0.396323073091105,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Meat (pork, second quality)']",-0.3286706816890978,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Rice (glutinous, first quality)']",0.4263744193690627,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Rice (glutinous, second quality)']",-0.1302690689098658,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Rice (glutinous, unmilled)']",0.24331197702256302,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Rice (ordinary, unmilled)']",0.3118926876570494,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Garlic (small)']",0.5144255591688359,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Fish (snake head)']",-0.38853416659772044,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Fish (catfish)']",0.38853416659772044,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, first quality)', 'Fish (tilapia, farmed)']",-0.38853416659772044,"[""Lao People's Democratic Republic""]",1
+"['Oil (vegetable, imported)', 'Wheat flour (imported)']",0.008845916460647946,['Haiti'],1
+"['Oil (vegetable, imported)', 'Maize meal (local)']",-0.2862890787855009,['Haiti'],1
+"['Rice (tchako)', 'Wheat flour (imported)']",0.36544578867245875,['Haiti'],1
+"['Rice (tchako)', 'Maize meal (local)']",0.1907586702554493,['Haiti'],1
+"['Wheat flour (imported)', 'Maize meal (local)']",0.06762127697580168,['Haiti'],1
+"['Tea (black)', 'Oil (mustard)']",0.4604734098614507,['India'],1
+"['Tea (black)', 'Salt (iodised)']",0.5532980913287455,['India'],1
+"['Tea (black)', 'Oil (cotton)']",0.2942460821715896,"['Kyrgyzstan', 'Tajikistan']",2
+"['Tea (black)', 'Tea (green)']",0.5999029281644239,"['Kyrgyzstan', 'Tajikistan']",2
+"['Tea (black)', 'Wheat flour (first grade)']",0.015612308743542289,"['Kyrgyzstan', 'Tajikistan']",2
+"['Tea (black)', 'Wheat flour (high quality)']",0.1741563805665421,"['Kyrgyzstan', 'Tajikistan']",2
+"['Tea (black)', 'Wheat flour (local)']",-0.3248652290205731,['Tajikistan'],1
+"['Oil (mustard)', 'Salt (iodised)']",0.37144515863423433,['India'],1
+"['Oil (soybean)', 'Garlic (small)']",0.5840604027108436,"[""Lao People's Democratic Republic""]",1
+"['Oil (soybean)', 'Fish (catfish)']",0.44971201491459334,"[""Lao People's Democratic Republic""]",1
+"['Oil (soybean)', 'Fish (tilapia, farmed)']",0.40237390808147827,"[""Lao People's Democratic Republic""]",1
+"['Meat (chicken, broiler)', 'Milk (condensed)']",0.2643864157233141,['Indonesia'],1
+"['Chili (green)', 'Chili (red)']",0.5812010924397475,['Indonesia'],1
+"['Oil (olive)', 'Meat (veal)']",0.4628759873263987,['Turkey'],1
+"['Chickpeas', 'Bread (pita)']",-0.32782474304232373,"['Jordan', 'Lebanon', 'Turkey']",3
+"['Chickpeas', 'Bread (common)']",0.4693943298969072,['Turkey'],1
+"['Chickpeas', 'Cocoa (powder)']",0.3351150025106537,['Turkey'],1
+"['Bread (pita)', 'Meat (lamb)']",-0.3549909695615588,['Jordan'],1
+"['Bread (pita)', 'Cheese (white, boiled)']",-0.4884419603249546,['Jordan'],1
+"['Bread (pita)', 'Bulgur']",0.34632944263177573,"['Lebanon', 'Turkey']",2
+"['Bread (pita)', 'Tomatoes (paste)']",-0.46280566280566277,"['Lebanon', 'Turkey']",2
+"['Bread (pita)', 'Cheese (picon)']",0.4745375071800546,['Lebanon'],1
+"['Bread (pita)', 'Meat (beef, canned)']",-0.009682580448599154,['Lebanon'],1
+"['Bread (pita)', 'Fish (tuna, canned)']",0.3266391663048198,['Lebanon'],1
+"['Oil (cotton)', 'Tea (green)']",0.22183063051821586,"['Kyrgyzstan', 'Tajikistan']",2
+"['Oil (cotton)', 'Wheat flour (first grade)']",0.2577163537077324,"['Kyrgyzstan', 'Tajikistan']",2
+"['Oil (cotton)', 'Wheat flour (high quality)']",0.1336151444268713,"['Kyrgyzstan', 'Tajikistan']",2
+"['Tea (green)', 'Wheat flour (first grade)']",-0.20771813651264703,"['Kyrgyzstan', 'Tajikistan']",2
+"['Wheat flour (first grade)', 'Wheat flour (high quality)']",0.7439557634455103,"['Kyrgyzstan', 'Tajikistan']",2
+"['Wheat flour (first grade)', 'Wheat flour (local)']",0.5753007860712694,['Tajikistan'],1
+"['Wheat flour (high quality)', 'Wheat flour (local)']",0.4928869268321926,['Tajikistan'],1
+"['Meat (beef, first quality)', 'Meat (beef, second quality)']",0.8737089163733461,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Meat (buffalo, first quality)']",0.9393959287406138,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Meat (buffalo, second quality)']",0.7056088318131425,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Meat (pork, first quality)']",0.10716272195631976,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Meat (pork, second quality)']",-0.11328965155462319,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Rice (glutinous, first quality)']",-0.4964262414346441,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Rice (glutinous, second quality)']",0.33285532108088156,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Rice (glutinous, unmilled)']",0.07320944548218057,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Rice (ordinary, unmilled)']",0.10273706261510848,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Garlic (small)']",-0.6035780567007047,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Fish (snake head)']",-0.5660006921922098,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Fish (catfish)']",0.5545497365539702,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, first quality)', 'Fish (tilapia, farmed)']",0.06752280887405088,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Meat (buffalo, first quality)']",0.7943483017526242,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Meat (buffalo, second quality)']",0.7816749438003623,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Meat (pork, first quality)']",0.15005796048047132,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Meat (pork, second quality)']",0.1854037765166127,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Rice (glutinous, first quality)']",-0.5429466916189433,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Rice (glutinous, second quality)']",0.44995440556629296,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Rice (glutinous, unmilled)']",0.12208166883307467,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Rice (ordinary, unmilled)']",-0.06543275134687691,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Garlic (small)']",-0.5896245368952803,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Fish (snake head)']",-0.09582128508862048,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Fish (catfish)']",0.2752539599934502,"[""Lao People's Democratic Republic""]",1
+"['Meat (beef, second quality)', 'Fish (tilapia, farmed)']",0.5490157814462844,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Meat (buffalo, second quality)']",0.7163694699597131,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Meat (pork, first quality)']",0.7240653892223452,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Meat (pork, second quality)']",0.1213889625982377,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Rice (glutinous, first quality)']",-0.39685376519259336,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Rice (glutinous, unmilled)']",0.2198606201299249,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Rice (ordinary, unmilled)']",0.10273706261510848,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Garlic (small)']",-0.6035780567007047,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Fish (snake head)']",-0.5660006921922098,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Fish (catfish)']",0.5545497365539702,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, first quality)', 'Fish (tilapia, farmed)']",0.06752280887405088,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, second quality)', 'Meat (pork, first quality)']",0.6804476987509998,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, second quality)', 'Meat (pork, second quality)']",0.30990816969506413,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, second quality)', 'Rice (glutinous, unmilled)']",-0.14513874785815803,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, second quality)', 'Rice (ordinary, unmilled)']",-0.22179690835512067,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, second quality)', 'Garlic (small)']",-0.5787094273440774,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, second quality)', 'Fish (snake head)']",-0.5890604128357406,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, second quality)', 'Fish (catfish)']",0.5983066852686828,"[""Lao People's Democratic Republic""]",1
+"['Meat (buffalo, second quality)', 'Fish (tilapia, farmed)']",0.07217919087227426,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, first quality)', 'Meat (pork, second quality)']",0.888246171432106,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, first quality)', 'Rice (glutinous, first quality)']",-0.352423912008512,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, first quality)', 'Rice (glutinous, second quality)']",-0.5073026665907423,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, first quality)', 'Rice (glutinous, unmilled)']",-0.07131029101083747,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, first quality)', 'Rice (ordinary, unmilled)']",-0.008438574102343707,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, first quality)', 'Garlic (small)']",-0.5842845616653194,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, second quality)', 'Rice (glutinous, first quality)']",0.33038420539406105,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, second quality)', 'Rice (glutinous, second quality)']",-0.6871430965630232,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, second quality)', 'Rice (glutinous, unmilled)']",-0.012396452460996354,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, second quality)', 'Rice (ordinary, unmilled)']",0.06653109068607743,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, second quality)', 'Garlic (small)']",-0.18661764361774755,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, second quality)', 'Fish (snake head)']",0.3530202646688033,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, second quality)', 'Fish (catfish)']",-0.3530202646688033,"[""Lao People's Democratic Republic""]",1
+"['Meat (pork, second quality)', 'Fish (tilapia, farmed)']",0.35163736976645577,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, first quality)', 'Rice (glutinous, second quality)']",0.739944582158375,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, first quality)', 'Rice (glutinous, unmilled)']",0.2363087716407474,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, first quality)', 'Rice (ordinary, unmilled)']",0.20128201320849204,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, first quality)', 'Garlic (small)']",0.36503584086989765,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, first quality)', 'Fish (snake head)']",-0.13629043120842743,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, first quality)', 'Fish (catfish)']",0.1367478500011428,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, first quality)', 'Fish (tilapia, farmed)']",0.4849213208795633,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, second quality)', 'Rice (glutinous, unmilled)']",-0.08316601622696893,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, second quality)', 'Rice (ordinary, unmilled)']",-0.15995039521634374,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, second quality)', 'Garlic (small)']",-0.36340807744525117,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, second quality)', 'Fish (snake head)']",-0.11950264228226906,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, second quality)', 'Fish (catfish)']",0.12026140097259283,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, second quality)', 'Fish (tilapia, farmed)']",0.5005494862728496,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, unmilled)', 'Rice (ordinary, unmilled)']",0.7473754774543769,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, unmilled)', 'Garlic (small)']",0.5565492487208195,"[""Lao People's Democratic Republic""]",1
+"['Rice (glutinous, unmilled)', 'Fish (catfish)']",-0.4629799413953135,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, unmilled)', 'Garlic (small)']",0.4958492397388595,"[""Lao People's Democratic Republic""]",1
+"['Rice (ordinary, unmilled)', 'Fish (catfish)']",-0.4293042857641839,"[""Lao People's Democratic Republic""]",1
+"['Garlic (small)', 'Fish (snake head)']",0.45004200427087027,"[""Lao People's Democratic Republic""]",1
+"['Garlic (small)', 'Fish (catfish)']",-0.4344682528126269,"[""Lao People's Democratic Republic""]",1
+"['Garlic (small)', 'Fish (tilapia, farmed)']",-0.06860329411020566,"[""Lao People's Democratic Republic""]",1
+"['Fish (snake head)', 'Fish (catfish)']",-0.9997705895726907,"[""Lao People's Democratic Republic""]",1
+"['Fish (snake head)', 'Fish (tilapia, farmed)']",0.06068647923877579,"[""Lao People's Democratic Republic""]",1
+"['Fish (catfish)', 'Fish (tilapia, farmed)']",-0.06593540334323461,"[""Lao People's Democratic Republic""]",1
+"['Bulgur', 'Rice (imported, Egyptian)']",0.4344916344916345,['Lebanon'],1
+"['Bulgur', 'Tomatoes (paste)']",-0.37863577863577863,"['Lebanon', 'Turkey']",2
+"['Bulgur', 'Cheese (picon)']",0.40642640034737304,['Lebanon'],1
+"['Bulgur', 'Meat (beef, canned)']",0.5277898393399912,['Lebanon'],1
+"['Bulgur', 'Fish (tuna, canned)']",0.025890143291359108,['Lebanon'],1
+"['Rice (imported, Egyptian)', 'Tomatoes (paste)']",0.406949806949807,['Lebanon'],1
+"['Rice (imported, Egyptian)', 'Lettuce']",0.37733427011307885,['Lebanon'],1
+"['Rice (imported, Egyptian)', 'Cheese (picon)']",0.3125882941663389,['Lebanon'],1
+"['Tomatoes (paste)', 'Cheese (picon)']",-0.35675675675675683,['Lebanon'],1
+"['Tomatoes (paste)', 'Fish (sardine, canned)']",0.5508720006258746,['Lebanon'],1
+"['Cheese (picon)', 'Meat (beef, canned)']",0.4535976353704202,['Lebanon'],1
+"['Meat (beef, canned)', 'Fish (sardine, canned)']",-0.37698693687691276,['Lebanon'],1
+"['Meat (beef, canned)', 'Fish (tuna, canned)']",0.32056013894919666,['Lebanon'],1
+"['Bread (brown)', 'Peas (split, dry)']",0.36708120200680594,['Lesotho'],1
+"['Bread (brown)', 'Beans (sugar-red)']",0.11226157342937491,['Lesotho'],1
+"['Peas (split, dry)', 'Beans (sugar-red)']",0.35002923628317256,['Lesotho'],1
+"['Cowpeas', 'Wheat flour (local)']",-0.02444366423868908,['Mozambique'],1
+"['Cowpeas', 'Maize meal (white, first grade)']",-0.17585140779094655,['Mozambique'],1
+"['Cowpeas', 'Oil (vegetable, local)']",-0.15670230432867138,['Mozambique'],1
+"['Cowpeas', 'Sugar (brown, local)']",0.44998305458076576,['Mozambique'],1
+"['Cowpeas', 'Groundnuts (large, shelled)']",0.1755481314868801,['Mozambique'],1
+"['Cowpeas', 'Groundnuts (small, shelled)']",0.4283257707030107,['Mozambique'],1
+"['Cowpeas', 'Maize meal (white, without bran) ']",-0.34888962219045394,['Mozambique'],1
+"['Wheat flour (local)', 'Maize meal (white, first grade)']",0.3743805139583726,['Mozambique'],1
+"['Wheat flour (local)', 'Oil (vegetable, local)']",0.1867162133265118,['Mozambique'],1
+"['Wheat flour (local)', 'Sugar (brown, local)']",0.49494787913110466,['Mozambique'],1
+"['Wheat flour (local)', 'Groundnuts (large, shelled)']",-0.3713926145351276,['Mozambique'],1
+"['Wheat flour (local)', 'Groundnuts (small, shelled)']",-0.32420137887431655,['Mozambique'],1
+"['Maize meal (white, first grade)', 'Oil (vegetable, local)']",-0.1809994691454186,['Mozambique'],1
+"['Maize meal (white, first grade)', 'Sugar (brown, local)']",0.2748823590866401,['Mozambique'],1
+"['Maize meal (white, first grade)', 'Groundnuts (large, shelled)']",-0.30001833158055424,['Mozambique'],1
+"['Maize meal (white, first grade)', 'Groundnuts (small, shelled)']",-0.26211420105055216,['Mozambique'],1
+"['Maize meal (white, first grade)', 'Maize meal (white, without bran) ']",0.4551124127173666,['Mozambique'],1
+"['Maize meal (white, first grade)', 'Maize meal (white, with bran)']",0.44622614805440386,['Mozambique'],1
+"['Oil (vegetable, local)', 'Sugar (brown, local)']",0.2879008843706641,['Mozambique'],1
+"['Oil (vegetable, local)', 'Groundnuts (Mix)']",-0.28966153775151937,['Mozambique'],1
+"['Oil (vegetable, local)', 'Groundnuts (large, shelled)']",0.4630206600519806,['Mozambique'],1
+"['Oil (vegetable, local)', 'Groundnuts (small, shelled)']",0.3767284276086903,['Mozambique'],1
+"['Oil (vegetable, local)', 'Maize meal (white, without bran) ']",0.004981941174456439,['Mozambique'],1
+"['Sugar (brown, local)', 'Groundnuts (Mix)']",0.34880694604203827,['Mozambique'],1
+"['Sugar (brown, local)', 'Groundnuts (large, shelled)']",-0.25335392961922615,['Mozambique'],1
+"['Sugar (brown, local)', 'Groundnuts (small, shelled)']",-0.34733830113899494,['Mozambique'],1
+"['Groundnuts (large, shelled)', 'Groundnuts (small, shelled)']",0.7397249420898873,['Mozambique'],1
+"['Groundnuts (large, shelled)', 'Maize meal (white, with bran)']",0.5305978237068752,['Mozambique'],1
+"['Groundnuts (small, shelled)', 'Maize meal (white, without bran) ']",0.3294429668252845,['Mozambique'],1
+"['Groundnuts (small, shelled)', 'Maize meal (white, with bran)']",0.36923476089447727,['Mozambique'],1
+"['Oil (cooking)', 'Ghee (artificial)']",0.5929229531910971,['Pakistan'],1
+"['Oil (cooking)', 'Rice (basmati, broken)']",0.4100580535173631,['Pakistan'],1
+"['Oil (cooking)', 'Poultry']",0.3677404851551985,['Pakistan'],1
+"['Ghee (artificial)', 'Rice (basmati, broken)']",-0.35039052865996057,['Pakistan'],1
+"['Ghee (artificial)', 'Poultry']",0.3348314824610197,['Pakistan'],1
+"['Sorghum flour', 'Peppers (green)']",-0.3874279531156007,['Rwanda'],1
+"['Sorghum flour', 'Eggplants']",0.22205827708892378,['Rwanda'],1
+"['Sorghum flour', 'Passion fruit']",0.40188263491055587,['Rwanda'],1
+"['Sorghum flour', 'Zucchini']",0.13976816621754265,['Rwanda'],1
+"['Sorghum flour', 'Avocados']",0.28551474605629745,['Rwanda'],1
+"['Sorghum flour', 'Cassava leaves']",0.3645541221996592,['Rwanda'],1
+"['Sorghum flour', 'Peas (fresh)']",0.35801128962223183,['Rwanda'],1
+"['Sorghum flour', 'Meat (goat)']",-0.3347068481183188,['Rwanda'],1
+"['Sorghum flour', 'Beans (green, fresh)']",0.259419807002807,['Rwanda'],1
+"['Peppers (green)', 'Eggplants']",0.4556293759657655,['Rwanda'],1
+"['Peppers (green)', 'Passion fruit']",0.028634420545991954,['Rwanda'],1
+"['Peppers (green)', 'Zucchini']",0.44456433822039304,['Rwanda'],1
+"['Peppers (green)', 'Avocados']",0.3814336435921628,['Rwanda'],1
+"['Peppers (green)', 'Cassava leaves']",0.43166023166023165,['Rwanda'],1
+"['Peppers (green)', 'Beans (green, fresh)']",0.3590363427772249,['Rwanda'],1
+"['Eggplants', 'Passion fruit']",0.4070740980827614,['Rwanda'],1
+"['Eggplants', 'Zucchini']",0.4204631818980084,['Rwanda'],1
+"['Eggplants', 'Avocados']",0.010256685256677875,['Rwanda'],1
+"['Eggplants', 'Cassava leaves']",0.4339367546401717,['Rwanda'],1
+"['Eggplants', 'Peas (fresh)']",0.3338204592461094,['Rwanda'],1
+"['Eggplants', 'Meat (goat)']",-0.43124173819417483,['Rwanda'],1
+"['Passion fruit', 'Zucchini']",-0.1328467190672866,['Rwanda'],1
+"['Passion fruit', 'Peas (fresh)']",-0.144973474985875,['Rwanda'],1
+"['Passion fruit', 'Meat (goat)']",-0.448692054803933,['Rwanda'],1
+"['Zucchini', 'Avocados']",0.4368597168597169,['Rwanda'],1
+"['Zucchini', 'Cassava leaves']",0.40671857990134663,['Rwanda'],1
+"['Zucchini', 'Peas (fresh)']",0.3947025618758141,['Rwanda'],1
+"['Zucchini', 'Meat (goat)']",0.5176652304946887,['Rwanda'],1
+"['Avocados', 'Cassava leaves']",0.38814771141527027,['Rwanda'],1
+"['Avocados', 'Meat (goat)']",-0.4085280929552092,['Rwanda'],1
+"['Cassava leaves', 'Peas (fresh)']",-0.48236808236808243,['Rwanda'],1
+"['Cassava leaves', 'Meat (goat)']",-0.12462480979485686,['Rwanda'],1
+"['Cassava leaves', 'Beans (green, fresh)']",-0.39588159588159594,['Rwanda'],1
+"['Peas (fresh)', 'Meat (goat)']",0.4470686668630784,['Rwanda'],1
+"['Peas (fresh)', 'Beans (green, fresh)']",0.382638412437112,['Rwanda'],1
+"['Oil', 'Bread (bakery)']",-0.035538411847842566,['Syrian Arab Republic'],1
+"['Oil', 'Bread (shop)']",0.09818278111637832,['Syrian Arab Republic'],1
+"['Bread (bakery)', 'Bread (shop)']",0.47064881018713517,['Syrian Arab Republic'],1
+"['Bread (common)', 'Cocoa (powder)']",0.37413877105820487,['Turkey'],1
+"['Maize meal (white, roller)', 'Maize meal (white, breakfast)']",0.4502143146169421,['Zambia'],1
