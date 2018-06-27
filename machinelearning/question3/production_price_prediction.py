@@ -139,7 +139,7 @@ def save_linear_regression_line(X_Y_data, N, filename):
     # Explained variance score: 1 is perfect prediction
     print('Variance score: %.2f' % r2_score(Y_data_test, predict))
     cwd = os.getcwd()
-    os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/regression_lines')
+    os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/toPlotOnWebsite/regression_lines')
     df = pd.DataFrame({'production_data' : X_data_test.tolist(), 'predicted_price' : predict})
     df.to_csv(filename.replace('.csv', '') + 'linearmodel.csv')
     os.chdir(cwd)
@@ -156,7 +156,7 @@ def save_linear_regression_line(X_Y_data, N, filename):
 
 
 if __name__ == '__main__':
-    path = '/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/region_corr_improved'
+    path = '/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/toPlotOnWebsite/region_corr_improved'
     cwd = os.getcwd()
     os.chdir(path)
     for filename in os.listdir(path):
