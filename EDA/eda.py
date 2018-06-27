@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import datetime as dt
 import math
 import numpy  as np
+import matplotlib.dates as mdates
 from df_functions import load_production_data, load_price_data, load_linked_data, getLinkedProduct
 
 def calcMean(dataFrame, query=None):
@@ -82,7 +83,11 @@ def chartPriceHistory(dataFrame, query):
 						this_month = this_year.query("month==" + str(month))
 						month_means.append(this_month.price.mean())
 						year_months.append(dt.datetime(year=year, month=int(month), day=1))
-				plt.plot(year_months, month_means, label=product + str(currency))
+				plt.plot(year_months, month_means, label=product + " (" + str(currency)+")")
+				# plt.set_xticks(year_months)
+				# plt.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
+				# plt.xaxis.set_minor_formatter(mdates.DateFormatter("%Y-%m"))
+				# _=plt.xticks(rotation=90)
 				plt.legend()
 		else:
 			for product in this_currency._product.unique():
@@ -98,7 +103,12 @@ def chartPriceHistory(dataFrame, query):
 							this_month = this_year.query("month==" + str(month))
 							month_means.append(this_month.price.mean())
 							year_months.append(dt.datetime(year=year, month=int(month), day=1))
-				plt.plot(year_months, month_means, label=str(country)+", " + str(product))
+				fig, ax = plt.subplots()
+				ax.plot(year_months, month_means, label=str(country)+", " + str(product))
+				ax.set_xticks(year_months)
+				ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
+				ax.xaxis.set_minor_formatter(mdates.DateFormatter("%Y-%m"))
+				_=plt.xticks(rotation=90)
 				plt.legend()
 	plt.legend()
 	plt.show()
@@ -155,9 +165,10 @@ if __name__ == '__main__':
 
 	# fullEDA(df, query)
 	# boxPlot(df, query)
-	query = 'country == "El Salvador" & (_product == "Beans (red)" | _product == "Beans (silk red)")' 
-	chartPriceHistory(price_df, query)
+	# query = 'country == "El Salvador" & (_product == "Beans (red)" | _product == "Beans (silk red)")'
+	# query = '_product == "Fish (smoked)" & country == "Democratic Republic of the Congo"'
+	# chartPriceHistory(price_df, query)
 	# query = 'country == "Cote d\'Ivoire" & (_product == "Maize" | _product == "Cornstarch")'
 	# chartPriceHistory(price_df, query)
-	# query = '(_product == "Wheat flour (first grade)" | _product == "Wheat flour (high quality)")'
-	# chartPriceHistory(price_df, query)
+	query = 'country == "Kyrgyzstan" & (_product == "Wheat flour (first grade)" | _product == "Wheat flour (high quality)")'
+	chartPriceHistory(price_df, query)
