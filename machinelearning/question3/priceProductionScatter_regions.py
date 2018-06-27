@@ -58,15 +58,19 @@ def plotScatter(productionDf, priceDf, countries, priceProduct, region):
         prices = []
         for year in commonYears:
             yearlyProduction = prodPerProdDf.query('year=="' + str(year) + '"')
+
+            print(len(yearlyProduction))
             productions.append(yearlyProduction.iloc[0]['value_change'])
             prices.append(getYearMean(priceDf, year))
+            print(len(productions), len(prices))
         #print(commonYears)
 
         corr, pval = spearmanr(productions, prices)
 
-        if pval <= 0.1 and (corr > 0.4 or corr < -0.4) :
+        if pval <= 0.05 and (corr > 0.5 or corr < -0.5) :
             print('significant correlation detected between', priceProduct, 'and', productionProducts)
             print(corr, pval)
+            print(len(productions), len(prices))
             cwd = os.getcwd()
             os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/correlated_region/corr0.4pvalue0.1')
             save_df = pd.DataFrame({'production':productions, 'price': prices})

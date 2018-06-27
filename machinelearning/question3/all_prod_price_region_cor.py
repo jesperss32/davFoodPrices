@@ -69,8 +69,8 @@ def all_products_region_correlation(region, reg_name, food_data, prod_data):
         rho, pvalue=corr
         print(rho, pvalue)
         print(reg_name)
-        save_df = pd.concat([newprod['value_change'], newfood['price_change']])
-        save_df.to_csv(reg_name + '.csv')
+        # save_df = pd.concat([newprod['value_change'], newfood['price_change']])
+        # save_df.to_csv(reg_name + '.csv')
 
 
 if __name__ == '__main__':

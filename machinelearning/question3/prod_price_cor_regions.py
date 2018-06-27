@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 from df_functions import load_percentage_product_data, get_data_selection, regions,\
     getLinkedProduct, overlap_in_years, overlap_in_countries, getPriceLinkedProduct
 from operator import itemgetter
+import os
 
 def get_overlapping_data(proddf, fooddf):
     products = [p for p in fooddf._product.unique().tolist() if getLinkedProduct(p)]
@@ -98,16 +99,21 @@ def region_correlation(region, r, food_data, prod_data):
         productprod, productprice = get_overlapping_data(productprod, productprice)
 
         productprice_averaged = year_country_average(productprice, 'price_change')
-        productprod_averaged = year_average_country(productprod, 'value_change')
+        productprod_averaged = year_country_average(productprod, 'value_change')
 
         newfood, newprod = align_years(productprice_averaged, productprod_averaged)
         corr = correlation(newprod, newfood)
+
         if corr:
             rho, pvalue=corr
-            print(r)
-            print(product, linked)
-            print(rho, pvalue)
-            print(len(newprod))
+            if (rho < -0.5 or rho > 0.5) and pvalue < 0.05 and rho != 1.0:
+                print(r, '&', product, '&', round(rho,2) , '&', pvalue, '\\\\')
+                print('\\hline')
+                # cwd = os.getcwd()
+                # os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/region_corr_improved')
+                # df = pd.concat([newprod['value_change'], newfood['price_change']])
+                # df.to_csv(r.replace(' ', '') + '_' + product.replace(' ', '') + 'correlation.csv')
+                # os.chdir(cwd)
             # save_df = pd.concat([newprod['value_change'].reset_index(), newfood['price_change'].reset_index()], axis=1, ignore_index=True)
             # save_df.to_csv(r + '_'+product + '.csv')
 

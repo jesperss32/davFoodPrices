@@ -49,7 +49,7 @@ def get_data_selection(df, countries=None, years=None, products=None):
 def regions():
     middle_east = ['Afghanistan', 'Azerbaijan', 'Lebanon', 'Iran  (Islamic Republic of)', \
         'Iraq', 'Jordan', 'Syrian Arab Republic', 'Yemen', 'State of Palestine', \
-        'South Sudan', 'Kyrgyzstan', 'Tajikistan']
+         'Kyrgyzstan', 'Tajikistan']
     europe = ['Armenia', 'Georgia', 'Turkey', 'Ukraine']
     asia = ['Bangladesh', 'Cambodia', 'India', 'Indonesia', 'Lao People\'s Democratic Republic', \
         'Myanmar', 'Nepal', 'Pakistan', 'Philippines', 'Sri Lanka', 'Timor-Leste']
@@ -60,7 +60,7 @@ def regions():
         'Senegal', 'Somalia', 'Swaziland', 'Uganda', 'United Republic of Tanzania', \
         'Zambia', 'Zimbabwe', 'Sudan', 'Egypt', 'South Sudan', 'Burundi', 'Liberia', 'Lesotho']
     south_america = ['Bolivia', 'Colombia', 'Costa Rica', 'El Salvador', 'Guatemala', 'Haiti', 'Honduras', 'Panama', 'Peru']
-    return europe, middle_east, asia, africa, south_america
+    return [europe, middle_east, asia, africa, south_america]
 
 def products(df):
     products = [p.lower() for p in df._product.unique()]
@@ -91,4 +91,5 @@ def products(df):
 if __name__ == '__main__':
     food = pd.read_csv('/home/student/Documents/Projecten/davFoodPrices/data/fooddatasets/normr_country_year_average_data.csv')
     prod = load_production_data()
-    products(food)
+    for r in regions():
+        print(', '.join(r))
