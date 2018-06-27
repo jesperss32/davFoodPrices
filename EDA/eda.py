@@ -77,11 +77,12 @@ def chartPriceHistory(dataFrame, query):
 				year_months = [] 
 				for year in this_product.year.unique():
 					this_year = this_product.query("year==" + str(year))
+					print(this_year.country.unique())
 					for month in this_year.month.unique():
 						this_month = this_year.query("month==" + str(month))
 						month_means.append(this_month.price.mean())
-						year_months.append(dt.datetime(year=year, month=month, day=1))
-				plt.plot(year_months, month_means, label=product)
+						year_months.append(dt.datetime(year=year, month=int(month), day=1))
+				plt.plot(year_months, month_means, label=product + str(currency))
 				plt.legend()
 		else:
 			for product in this_currency._product.unique():
@@ -96,7 +97,7 @@ def chartPriceHistory(dataFrame, query):
 						for month in this_year.month.unique():
 							this_month = this_year.query("month==" + str(month))
 							month_means.append(this_month.price.mean())
-							year_months.append(dt.datetime(year=year, month=month, day=1))
+							year_months.append(dt.datetime(year=year, month=int(month), day=1))
 				plt.plot(year_months, month_means, label=str(country)+", " + str(product))
 				plt.legend()
 	plt.legend()
@@ -150,9 +151,13 @@ if __name__ == '__main__':
 	price_df = load_price_data()
 	prod_df = load_production_data()
 	links_df = load_linked_data()
-	chartPriceProductionHistory(price_df, prod_df, links_df, "Wheat", "India")
-	
-	# query = '_product == "Beans (red)" | _product == "Beans (silk red)"' 
+	# chartPriceProductionHistory(price_df, prod_df, links_df, "Wheat", "India")
+
 	# fullEDA(df, query)
 	# boxPlot(df, query)
+	query = 'country == "El Salvador" & (_product == "Beans (red)" | _product == "Beans (silk red)")' 
+	chartPriceHistory(price_df, query)
+	# query = 'country == "Cote d\'Ivoire" & (_product == "Maize" | _product == "Cornstarch")'
+	# chartPriceHistory(price_df, query)
+	# query = '(_product == "Wheat flour (first grade)" | _product == "Wheat flour (high quality)")'
 	# chartPriceHistory(price_df, query)

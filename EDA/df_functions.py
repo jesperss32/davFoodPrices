@@ -50,19 +50,20 @@ def get_data_selection(df, markets=None, countries=None, years=None, products=No
     return df
 
 def regions():
-    middle_east = ['Afghanistan', 'Azerbaijan', 'Lebanon', 'Iran  (Islamic Republic of)', \
-        'Iraq', 'Jordan', 'Syrian Arab Republic', 'Yemen', 'State of Palestine', \
-        'South Sudan', 'Kyrgyzstan', 'Tajikistan']
-    europe = ['Armenia', 'Georgia', 'Turkey', 'Ukraine']
-    asia = ['Bangladesh', 'Cambodia', 'India', 'Indonesia', 'Lao People\'s Democratic Republic', \
-        'Myanmar', 'Nepal', 'Pakistan', 'Philippines', 'Sri Lanka', 'Timor-Leste']
-    africa = ['Benin', 'Central African Republic', 'Chad', 'Congo', 'Djibouti', \
-        'Cameroon', 'Burkina Faso', 'Cape Verde', 'Cote d\'Ivoire', 'Democratic Republic of the Congo', \
-        'Ethiopia', 'Gambia', 'Ghana', 'Guinea-Bissau', 'Guinea', 'Kenya', 'Madagascar', \
-        'Malawi', 'Mali', 'Mauritania', 'Mozambique', 'Niger', 'Nigeria', 'Rwanda', \
-        'Senegal', 'Somalia', 'Swaziland', 'Uganda', 'United Republic of Tanzania', \
-        'Zambia', 'Zimbabwe', 'Sudan', 'Egypt', 'South Sudan', 'Burundi', 'Liberia', 'Lesotho']
-    south_america = ['Bolivia', 'Colombia', 'Costa Rica', 'El Salvador', 'Guatemala', 'Haiti', 'Honduras', 'Panama', 'Peru']
+    middle_east =   ['Afghanistan', 'Azerbaijan', 'Lebanon', 'Iran  (Islamic Republic of)', \
+                     'Iraq', 'Jordan', 'Syrian Arab Republic', 'Yemen', 'State of Palestine', \
+                     'South Sudan', 'Kyrgyzstan', 'Tajikistan']
+    europe =        ['Armenia', 'Georgia', 'Turkey', 'Ukraine']
+    asia =          ['Bangladesh', 'Cambodia', 'India', 'Indonesia', 'Lao People\'s Democratic Republic', \
+                     'Myanmar', 'Nepal', 'Pakistan', 'Philippines', 'Sri Lanka', 'Timor-Leste']
+    africa =        ['Benin', 'Central African Republic', 'Chad', 'Congo', 'Djibouti', \
+                     'Cameroon', 'Burkina Faso', 'Cape Verde', 'Cote d\'Ivoire', 'Democratic Republic of the Congo', \
+                     'Ethiopia', 'Gambia', 'Ghana', 'Guinea-Bissau', 'Guinea', 'Kenya', 'Madagascar', \
+                     'Malawi', 'Mali', 'Mauritania', 'Mozambique', 'Niger', 'Nigeria', 'Rwanda', \
+                     'Senegal', 'Somalia', 'Swaziland', 'Uganda', 'United Republic of Tanzania', \
+                     'Zambia', 'Zimbabwe', 'Sudan', 'Egypt', 'South Sudan', 'Burundi', 'Liberia', 'Lesotho']
+    south_america = ['Bolivia', 'Colombia', 'Costa Rica', 'El Salvador', 'Guatemala', 'Haiti', \
+                     'Honduras', 'Panama', 'Peru']
     return europe, middle_east, asia, africa
 
 def products(df):
