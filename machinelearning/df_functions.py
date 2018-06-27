@@ -11,8 +11,12 @@ def load_price_data():
     price_df = pd.read_csv('../data/fooddatasets/country_year_average_percentage_data.csv')
     return price_df
 
+def load_linked_data():
+    links_df = pd.read_csv('../data/Linked_products.csv', delimiter = ';')
+    return links_df
+
 def getLinkedProduct(product):
-	linked_products = pd.read_csv('/home/student/Documents/Projecten/davFoodPrices/fooddatasets/linked_products.csv', encoding='UTF-8', delimiter=";")
+	linked_products = load_linked_data()
 	prod = linked_products.query('price_df_product == \"' + product + '\"')
 	return prod.production_df_product.unique()
 
@@ -46,19 +50,20 @@ def get_data_selection(df, markets=None, countries=None, years=None, products=No
     return df
 
 def regions():
-    middle_east = ['Afghanistan', 'Azerbaijan', 'Lebanon', 'Iran  (Islamic Republic of)', \
-        'Iraq', 'Jordan', 'Syrian Arab Republic', 'Yemen', 'State of Palestine', \
-        'South Sudan', 'Kyrgyzstan', 'Tajikistan']
-    europe = ['Armenia', 'Georgia', 'Turkey', 'Ukraine']
-    asia = ['Bangladesh', 'Cambodia', 'India', 'Indonesia', 'Lao People\'s Democratic Republic', \
-        'Myanmar', 'Nepal', 'Pakistan', 'Philippines', 'Sri Lanka', 'Timor-Leste']
-    africa = ['Benin', 'Central African Republic', 'Chad', 'Congo', 'Djibouti', \
-        'Cameroon', 'Burkina Faso', 'Cape Verde', 'Cote d\'Ivoire', 'Democratic Republic of the Congo', \
-        'Ethiopia', 'Gambia', 'Ghana', 'Guinea-Bissau', 'Guinea', 'Kenya', 'Madagascar', \
-        'Malawi', 'Mali', 'Mauritania', 'Mozambique', 'Niger', 'Nigeria', 'Rwanda', \
-        'Senegal', 'Somalia', 'Swaziland', 'Uganda', 'United Republic of Tanzania', \
-        'Zambia', 'Zimbabwe', 'Sudan', 'Egypt', 'South Sudan', 'Burundi', 'Liberia', 'Lesotho']
-    south_america = ['Bolivia', 'Colombia', 'Costa Rica', 'El Salvador', 'Guatemala', 'Haiti', 'Honduras', 'Panama', 'Peru']
+    middle_east =   ['Afghanistan', 'Azerbaijan', 'Lebanon', 'Iran  (Islamic Republic of)', \
+                     'Iraq', 'Jordan', 'Syrian Arab Republic', 'Yemen', 'State of Palestine', \
+                     'South Sudan', 'Kyrgyzstan', 'Tajikistan']
+    europe =        ['Armenia', 'Georgia', 'Turkey', 'Ukraine']
+    asia =          ['Bangladesh', 'Cambodia', 'India', 'Indonesia', 'Lao People\'s Democratic Republic', \
+                     'Myanmar', 'Nepal', 'Pakistan', 'Philippines', 'Sri Lanka', 'Timor-Leste']
+    africa =        ['Benin', 'Central African Republic', 'Chad', 'Congo', 'Djibouti', \
+                     'Cameroon', 'Burkina Faso', 'Cape Verde', 'Cote d\'Ivoire', 'Democratic Republic of the Congo', \
+                     'Ethiopia', 'Gambia', 'Ghana', 'Guinea-Bissau', 'Guinea', 'Kenya', 'Madagascar', \
+                     'Malawi', 'Mali', 'Mauritania', 'Mozambique', 'Niger', 'Nigeria', 'Rwanda', \
+                     'Senegal', 'Somalia', 'Swaziland', 'Uganda', 'United Republic of Tanzania', \
+                     'Zambia', 'Zimbabwe', 'Sudan', 'Egypt', 'South Sudan', 'Burundi', 'Liberia', 'Lesotho']
+    south_america = ['Bolivia', 'Colombia', 'Costa Rica', 'El Salvador', 'Guatemala', 'Haiti', \
+                     'Honduras', 'Panama', 'Peru']
     return europe, middle_east, asia, africa
 
 def products(df):
