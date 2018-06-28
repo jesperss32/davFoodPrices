@@ -58,7 +58,7 @@ def align_X_Y_data(food_data, prod_data):
     return X_Y_data
 
 
-def linear_regression(X_Y_data, N):
+def linear_regression(X_Y_data, N,filename):
     ''' Takes 2xn numpy array containing data and label in each column and
         predicts nth-order regression model '''
     # trainyears, testyears = years_train_test_split(X_Y_data, 0.8)
@@ -81,28 +81,29 @@ def linear_regression(X_Y_data, N):
     regr.fit(transform_train, Y_data_train)
     predict_test = regr.predict(transform_test)
     predict_train = regr.predict(transform_train)
-    print('Coefficients: \n', regr.coef_)
+    #print('Coefficients: \n', regr.coef_)
     # The mean squared error
-    print("Mean squared error: %.2f"
-          % mean_squared_error(Y_data_test, predict_test))
-    # Explained variance score: 1 is perfect prediction
-    print('Variance score: %.2f' % r2_score(Y_data_test, predict_test))
-
+    # print("Mean squared error: %.2f"
+    #       % mean_squared_error(Y_data_test, predict_test))
+    # # Explained variance score: 1 is perfect prediction
+    # print('Variance score: %.2f' % r2_score(Y_data_test, predict_test))
+    print(mean_squared_error(Y_data_test, predict_test), '&', r2_score(Y_data_test, predict_test), '\\\\')
     # Plot outputs
     f, (ax1, ax2) = plt.subplots(1, 2, sharex='all', sharey='all')
     ax1.scatter(X_data_test, Y_data_test,  color='black')
     ax1.plot(X_data_test, predict_test, color='blue', linewidth=2)
-    ax1.set_xlabel('production value')
-    ax1.set_ylabel('price')
+    ax1.set_xlabel('Production value change (%)')
+    ax1.set_ylabel('Price change (%)')
     ax2.scatter(X_data_train, Y_data_train, color='black')
     ax2.plot(X_data_train, predict_train, color='blue', linewidth=2)
+    ax1.set_title('Lentils in Asia: prediction')
+    ax2.set_title('Lentils in Asia: fit')
+    f.savefig(filename + 'plot.jpeg')
 
-    ax1.set_title('Wheat in India: prediction')
-    ax2.set_title('Wheat in India: fit')
     # plt.xticks(())
     # plt.yticks(())
 
-    plt.show()
+    #plt.show()
     return predict_test
 
 def save_linear_regression_line(X_Y_data, N, filename):
@@ -126,7 +127,6 @@ def save_linear_regression_line(X_Y_data, N, filename):
 
     regr = linear_model.LinearRegression()
 
-
     poly = PolynomialFeatures(N)
     transform_train = poly.fit_transform(X_data_train)
     transform_test = poly.fit_transform(X_data_test)
@@ -140,10 +140,9 @@ def save_linear_regression_line(X_Y_data, N, filename):
     print('Variance score: %.2f' % r2_score(Y_data_test, predict))
     cwd = os.getcwd()
     os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/toPlotOnWebsite/regression_lines')
-    df = pd.DataFrame({'production_data' : X_data_test.tolist(), 'predicted_price' : predict})
+    df = pd.DataFrame({'production_data' : X_data_test.T[0], 'predicted_price' : predict})
     df.to_csv(filename.replace('.csv', '') + 'linearmodel.csv')
     os.chdir(cwd)
-    # Plot outputs
     # plt.scatter(X_data_test, Y_data_test,  color='black')
     # plt.plot(X_data_test, predict, color='blue', linewidth=2)
     # plt.xlabel('production value')
@@ -154,19 +153,58 @@ def save_linear_regression_line(X_Y_data, N, filename):
     plt.show()
     return predict
 
+def meanstatistics(X_Y_data, N):
+    total_msq = 0
+    total_var = 0
+    for i in range(5000):
+        traindata, testdata = years_train_test_split(X_Y_data, 0.8)
+        X_data_train = traindata[:,0].reshape(-1,1)
+        Y_data_train = traindata[:,1]
+        X_data_test = testdata[:,0].reshape(-1,1)
+        Y_data_test = testdata[:,1]
+
+        regr = linear_model.LinearRegression()
+
+
+        poly = PolynomialFeatures(N)
+        transform_train = poly.fit_transform(X_data_train)
+        transform_test = poly.fit_transform(X_data_test)
+        regr.fit(transform_train, Y_data_train)
+        predict_test = regr.predict(transform_test)
+        predict_train = regr.predict(transform_train)
+        total_msq += mean_squared_error(Y_data_test, predict_test)
+        #print(mean_squared_error(Y_data_test, predict_test))
+        total_var += r2_score(Y_data_test, predict_test)
+    print(total_msq/5000, '&', total_var/5000, '\\\\')
+    print('\\hline')
+        # # Plot outputs
+        # f, (ax1, ax2) = plt.subplots(1, 2, sharex='all', sharey='all')
+        # ax1.scatter(X_data_test, Y_data_test,  color='black')
+        # ax1.plot(X_data_test, predict_test, color='blue', linewidth=2)
+        # ax1.set_xlabel('production value')
+        # ax1.set_ylabel('price')
+        # ax2.scatter(X_data_train, Y_data_train, color='black')
+        # ax2.plot(X_data_train, predict_train, color='blue', linewidth=2)
+
+
+
 
 if __name__ == '__main__':
-    path = '/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/toPlotOnWebsite/region_corr_improved'
+    path = '/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/toPlotOnWebsite/correlated_country'
     cwd = os.getcwd()
     os.chdir(path)
+    files = ['asia_Lentilscorrelation.csv', 'asia_Chickpeascorrelation.csv', 'asia_Cabbagesandotherbrassicascorrelation.csv', 'europe_Applescorrelation.csv']
+
     for filename in os.listdir(path):
         print(filename)
         df = pd.read_csv(filename)
-        print(len(df))
-        X_data = df.ix[:,0]
+        #print(df)
+        X_data = df.ix[:,2]
         Y_data = df.ix[:,1]
+        #print(X_data, Y_data)
         X_Y_data = np.array(pd.concat([X_data, Y_data], axis=1))
-        save_linear_regression_line(X_Y_data, 1, filename)
+        #linear_regression(X_Y_data, 1, 'asia_Lentilscorrelation')
+        meanstatistics(X_Y_data, 1)
     os.chdir(cwd)
 #
 # if __name__ == '__main__':
