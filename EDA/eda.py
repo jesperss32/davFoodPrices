@@ -70,47 +70,48 @@ def chartPriceHistory(dataFrame, query):
 		this_currency = dataFrame.query("currency == \"" + currency + "\"")
 		unique_products = this_currency._product.unique()
 
-		if len(unique_products) > 1:
-			for product in unique_products:
-				this_product = this_currency.query("_product==\"" + product + "\"")
-				this_product = this_product.sort_values(by=['year', 'month'])
-				month_means = []
-				year_months = [] 
-				for year in this_product.year.unique():
-					this_year = this_product.query("year==" + str(year))
-					print(this_year.country.unique())
-					for month in this_year.month.unique():
-						this_month = this_year.query("month==" + str(month))
-						month_means.append(this_month.price.mean())
-						year_months.append(dt.datetime(year=year, month=int(month), day=1))
-				plt.plot(year_months, month_means, label=product + " (" + str(currency)+")")
-				# plt.set_xticks(year_months)
-				# plt.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
-				# plt.xaxis.set_minor_formatter(mdates.DateFormatter("%Y-%m"))
-				# _=plt.xticks(rotation=90)
-				plt.legend()
-		else:
-			for product in this_currency._product.unique():
-				this_product = this_currency.query("_product==\"" + product + "\"")
-				for country in this_product.country.unique():
-					this_country = this_product.query("country==\"" + country + "\"")
-					this_country = this_country.sort_values(by=['year', 'month'])
-					month_means = []
-					year_months = []
-					for year in this_country.year.unique():
-						this_year = this_country.query("year==" + str(year))
-						for month in this_year.month.unique():
-							this_month = this_year.query("month==" + str(month))
-							month_means.append(this_month.price.mean())
-							year_months.append(dt.datetime(year=year, month=int(month), day=1))
-				fig, ax = plt.subplots()
-				ax.plot(year_months, month_means, label=str(country)+", " + str(product))
-				ax.set_xticks(year_months)
-				ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
-				ax.xaxis.set_minor_formatter(mdates.DateFormatter("%Y-%m"))
-				_=plt.xticks(rotation=90)
-				plt.legend()
-	plt.legend()
+		# if len(unique_products) > 1:
+		for product in unique_products:
+			this_product = this_currency.query("_product==\"" + product + "\"")
+			this_product = this_product.sort_values(by=['year', 'month'])
+			month_means = []
+			year_months = [] 
+			for year in this_product.year.unique():
+				this_year = this_product.query("year==" + str(year))
+				print(this_year.country.unique())
+				for month in this_year.month.unique():
+					this_month = this_year.query("month==" + str(month))
+					month_means.append(this_month.price.mean())
+					year_months.append(dt.datetime(year=year, month=int(month), day=1))
+			fig, ax = plt.subplots()
+			plt.plot(year_months, month_means, label=product + " (" + str(currency)+")")
+			ax.set_xticks(year_months)
+			ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
+			ax.xaxis.set_minor_formatter(mdates.DateFormatter("%Y-%m"))
+			_=plt.xticks(rotation=90)
+			plt.legend()
+		# else:
+		# 	for product in this_currency._product.unique():
+		# 		this_product = this_currency.query("_product==\"" + product + "\"")
+		# 		for country in this_currency.country.unique():
+		# 			this_country = this_currency.query("country==\"" + country + "\"")
+		# 			this_country = this_country.sort_values(by=['year', 'month'])
+		# 			month_means = []
+		# 			year_months = []
+		# 			for year in this_country.year.unique():
+		# 				this_year = this_country.query("year==" + str(year))
+		# 				for month in this_year.month.unique():
+		# 					this_month = this_year.query("month==" + str(month))
+		# 					month_means.append(this_month.price.mean())
+		# 					year_months.append(dt.datetime(year=year, month=int(month), day=1))
+		# 		# fig, ax = plt.subplots()
+		# 		plt.plot(year_months, month_means, label=product + " (" + str(currency)+")")
+		# 		# ax.set_xticks(year_months)
+		# 		# ax.xaxis.set_major_formatter(mdates.DateFormatter("%Y-%m"))
+		# 		# ax.xaxis.set_minor_formatter(mdates.DateFormatter("%Y-%m"))
+		# 		# _=plt.xticks(rotation=90)
+		# 		plt.legend()
+	# plt.legend()
 	plt.show()
 	return
 
@@ -170,5 +171,12 @@ if __name__ == '__main__':
 	# chartPriceHistory(price_df, query)
 	# query = 'country == "Cote d\'Ivoire" & (_product == "Maize" | _product == "Cornstarch")'
 	# chartPriceHistory(price_df, query)
-	query = 'country == "Kyrgyzstan" & (_product == "Wheat flour (first grade)" | _product == "Wheat flour (high quality)")'
+	# query = 'country == "Kyrgyzstan" & (_product == "Wheat flour (first grade)" | _product == "Wheat flour (high quality)")'
+	# chartPriceHistory(price_df, query)
+	# query = '_product == "Wheat" | _product == "Rice"' 
+	# chartPriceHistory(price_df, query)
+	query = 'country == "Democratic Republic of the Congo"'
 	chartPriceHistory(price_df, query)
+	# query = 'product == "Wheat" & country == "India"'
+	# chartPriceProductionHistory(price_df, prod_df, links_df, "Wheat", "India")
+	print(len(price_df._product.unique().tolist()))
