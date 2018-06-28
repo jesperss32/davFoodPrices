@@ -1,0 +1,294 @@
+,commonYears,country,priceProduct,productionProduct
+0,23,India,Wheat,Wheat
+1,23,Niger,Maize,Maize
+2,23,Niger,Sorghum,Sorghum
+3,17,Senegal,Maize (imported),Maize
+4,17,Senegal,Sorghum,Sorghum
+5,16,Nepal,Wheat,Wheat
+6,15,Burkina Faso,Maize,Maize
+7,15,Burkina Faso,Sorghum,Sorghum
+8,15,Tajikistan,Cabbage,Cabbages and other brassicas
+9,15,Tajikistan,Carrots,Carrots and turnips
+10,15,Tajikistan,Maize,Maize
+11,15,Tajikistan,Potatoes,Potatoes
+12,15,Tajikistan,Wheat,Wheat
+13,14,Afghanistan,Wheat,Wheat
+14,14,Benin,Sorghum,Sorghum
+15,14,Burundi,Cassava flour,Cassava
+16,14,Burundi,Sweet potatoes,Sweet potatoes
+17,14,Chad,Maize (white),Maize
+18,14,Chad,Sorghum (red),Sorghum
+19,14,Guatemala,Maize (white),Maize
+20,14,Guatemala,Maize (yellow),Maize
+21,14,Malawi,Maize,Maize
+22,14,Mali,Maize,Maize
+23,14,Mali,Sorghum,Sorghum
+24,14,Mozambique,Maize (white),Maize
+25,14,Nigeria,Maize,Maize
+26,14,Nigeria,Sorghum,Sorghum
+27,14,Zambia,Maize (white),Maize
+28,13,Central African Republic,Cassava (cossette),Cassava
+29,13,Central African Republic,Maize,Maize
+30,13,Mozambique,Beans (dry),"Beans, dry"
+31,13,Swaziland,Maize (white),Maize
+32,13,Tajikistan,Onions,"Onions, dry"
+33,12,Bangladesh,Lentils (masur),Lentils
+34,12,Colombia,Lentils (imported),Lentils
+35,12,Colombia,Maize (white),Maize
+36,12,El Salvador,Maize (white),Maize
+37,12,Ethiopia,Maize (white),Maize
+38,12,Ethiopia,Sorghum,Sorghum
+39,12,Ethiopia,Wheat,Wheat
+40,12,Kyrgyzstan,Potatoes,Potatoes
+41,11,Gambia,Groundnuts (shelled),"Groundnuts, with shell"
+42,11,Gambia,Sorghum,Sorghum
+43,11,Kenya,Beans (dry),"Beans, dry"
+44,11,Kenya,Maize (white),Maize
+45,11,Kenya,Potatoes (Irish),Potatoes
+46,11,Kenya,Sorghum,Sorghum
+47,11,Kyrgyzstan,Wheat,Wheat
+48,11,Peru,Maize (local),Maize
+49,11,Peru,Potatoes,Potatoes
+50,11,United Republic of Tanzania,Maize,Maize
+51,10,Benin,Cassava meal (gari),Cassava
+52,10,Benin,Maize,Maize
+53,10,Benin,Maize (white),Maize
+54,10,Burundi,Maize (white),Maize
+55,10,Costa Rica,Maize (white),Maize
+56,10,Guinea-Bissau,Maize,Maize
+57,10,Guinea-Bissau,Sorghum,Sorghum
+58,10,Honduras,Maize (white),Maize
+59,10,Honduras,Sorghum (white),Sorghum
+60,10,Indonesia,Chili (green),"Chillies and peppers, green"
+61,10,Senegal,Maize (local),Maize
+62,9,Democratic Republic of the Congo,Cassava flour,Cassava
+63,9,Democratic Republic of the Congo,Maize,Maize
+64,9,Democratic Republic of the Congo,Plantains,Plantains and others
+65,9,Gambia,Maize (local),Maize
+66,9,Ghana,Cassava,Cassava
+67,9,Ghana,Maize,Maize
+68,9,Ghana,Plantains (apentu),Plantains and others
+69,9,Ghana,Yam,Yams
+70,9,Liberia,Cassava (fresh),Cassava
+71,9,Mauritania,Sorghum (taghalit),Sorghum
+72,9,Mauritania,Wheat,Wheat
+73,9,Myanmar,Chickpeas (local),Chick peas
+74,9,Panama,Maize (yellow),Maize
+75,9,Philippines,Cabbage,Cabbages and other brassicas
+76,9,Philippines,Carrots,Carrots and turnips
+77,9,Philippines,Sweet potatoes,Sweet potatoes
+78,8,Colombia,Potatoes (unica),Potatoes
+79,8,Guinea-Bissau,Oil (palm),"Oil, palm"
+80,8,Kyrgyzstan,Cabbage,Cabbages and other brassicas
+81,8,Kyrgyzstan,Carrots,Carrots and turnips
+82,8,Liberia,Oil (palm),"Oil, palm"
+83,8,Mali,Rice (paddy),"Rice, paddy"
+84,8,Philippines,Garlic,Garlic
+85,8,Philippines,Potatoes (Irish),Potatoes
+86,8,Philippines,Tomatoes,Tomatoes
+87,8,Rwanda,Bananas,Bananas
+88,8,Rwanda,Beans (dry),"Beans, dry"
+89,8,Rwanda,Cassava,Cassava
+90,8,Rwanda,Cassava flour,Cassava
+91,8,Rwanda,Maize,Maize
+92,8,Rwanda,Potatoes (Irish),Potatoes
+93,8,Rwanda,Sorghum,Sorghum
+94,8,Rwanda,Sweet potatoes,Sweet potatoes
+95,8,Rwanda,Wheat,Wheat
+96,8,Yemen,Wheat,Wheat
+97,7,Democratic Republic of the Congo,Oil (palm),"Oil, palm"
+98,7,Egypt,Garlic,Garlic
+99,7,Egypt,Potatoes,Potatoes
+100,7,Egypt,Tomatoes,Tomatoes
+101,7,Guatemala,Bananas,Bananas
+102,7,Guatemala,Coffee,"Coffee, green"
+103,7,Guatemala,Onions,"Onions, dry"
+104,7,Guatemala,Plantains,Plantains and others
+105,7,Guatemala,Potatoes,Potatoes
+106,7,Guatemala,Tomatoes,Tomatoes
+107,7,Rwanda,Eggplants,Eggplants (aubergines)
+108,7,Uganda,Cassava flour,Cassava
+109,7,Zimbabwe,Maize,Maize
+110,6,Cameroon,Cassava (cossette),Cassava
+111,6,Cameroon,Groundnuts (shelled),"Groundnuts, with shell"
+112,6,Cameroon,Maize,Maize
+113,6,Cameroon,Onions,"Onions, dry"
+114,6,Cameroon,Sesame,Sesame seed
+115,6,Cameroon,Sorghum (red),Sorghum
+116,6,Cameroon,Sorghum (white),Sorghum
+117,6,Congo,Cassava (fresh),Cassava
+118,6,Congo,Cassava flour,Cassava
+119,6,Democratic Republic of the Congo,Cassava,Cassava
+120,6,Democratic Republic of the Congo,Cassava (chikwangue),Cassava
+121,6,Democratic Republic of the Congo,Cassava (cossette),Cassava
+122,6,Kyrgyzstan,Onions,"Onions, dry"
+123,6,Mozambique,Cowpeas,"Cow peas, dry"
+124,6,Mozambique,"Groundnuts (small, shelled)","Groundnuts, with shell"
+125,6,Mozambique,"Groundnuts (large, shelled)","Groundnuts, with shell"
+126,6,Timor-Leste,Maize,Maize
+127,6,Uganda,Maize (white),Maize
+128,6,Uganda,Sorghum,Sorghum
+129,5,Armenia,Apples (red),Apples
+130,5,Armenia,Cabbage,Cabbages and other brassicas
+131,5,Armenia,Carrots,Carrots and turnips
+132,5,Armenia,Cucumbers (greenhouse),Cucumbers and gherkins
+133,5,Armenia,Onions,"Onions, dry"
+134,5,Armenia,Potatoes,Potatoes
+135,5,Armenia,Tomatoes,Tomatoes
+136,5,Colombia,Plantains,Plantains and others
+137,5,Colombia,Potatoes,Potatoes
+138,5,Colombia,Rice (paddy),"Rice, paddy"
+139,5,Colombia,Tomatoes,Tomatoes
+140,5,Guinea,Oil (palm),"Oil, palm"
+141,5,India,Lentils (masur),Lentils
+142,5,India,Onions,"Onions, dry"
+143,5,India,Potatoes,Potatoes
+144,5,India,Tomatoes,Tomatoes
+145,5,Jordan,Apples (red),Apples
+146,5,Jordan,Bananas,Bananas
+147,5,Jordan,Chickpeas,Chick peas
+148,5,Jordan,Cucumbers,Cucumbers and gherkins
+149,5,Jordan,Garlic,Garlic
+150,5,Jordan,Onions,"Onions, dry"
+151,5,Jordan,Oranges (big size),Oranges
+152,5,Jordan,Potatoes,Potatoes
+153,5,Jordan,Tomatoes,Tomatoes
+154,5,Liberia,Cocoa,"Cocoa, beans"
+155,5,Malawi,Groundnuts (shelled),"Groundnuts, with shell"
+156,5,Mozambique,Cassava flour,Cassava
+157,5,Philippines,Rice (paddy),"Rice, paddy"
+158,5,Rwanda,"Beans (green, fresh)","Beans, green"
+159,5,Rwanda,Mangoes,"Mangoes, mangosteens, guavas"
+160,5,Rwanda,Papaya,Papayas
+161,5,Somalia,Sorghum (white),Sorghum
+162,5,South Sudan,Groundnuts (shelled),"Groundnuts, with shell"
+163,5,South Sudan,Maize (white),Maize
+164,5,South Sudan,Sesame,Sesame seed
+165,5,South Sudan,Sorghum (white),Sorghum
+166,5,Sudan,Sorghum,Sorghum
+167,5,Sudan,Sorghum (food aid),Sorghum
+168,5,Yemen,Onions,"Onions, dry"
+169,5,Yemen,Potatoes,Potatoes
+170,5,Yemen,Tomatoes,Tomatoes
+171,5,Zambia,Cassava meal,Cassava
+172,5,Zambia,Groundnuts (shelled),"Groundnuts, with shell"
+173,5,Zambia,Sorghum,Sorghum
+174,4,Cameroon,Soybeans,Soybeans
+175,4,Colombia,Bananas,Bananas
+176,4,Colombia,Carrots,Carrots and turnips
+177,4,Colombia,Cassava (dry),Cassava
+178,4,Colombia,Chickpeas (imported),Chick peas
+179,4,Colombia,Cocoa,"Cocoa, beans"
+180,4,Colombia,Coffee,"Coffee, green"
+181,4,Colombia,Maize (yellow),Maize
+182,4,Colombia,Oranges (big size),Oranges
+183,4,Congo,Groundnuts (shelled),"Groundnuts, with shell"
+184,4,Gambia,Cassava,Cassava
+185,4,Guinea,Cassava meal (gari),Cassava
+186,4,India,Tea (black),Tea
+187,4,Kyrgyzstan,Maize,Maize
+188,4,Lebanon,Cabbage,Cabbages and other brassicas
+189,4,Lebanon,Lettuce,Lettuce and chicory
+190,4,Lebanon,Tomatoes (paste),Tomatoes
+191,4,Malawi,Cassava,Cassava
+192,4,Myanmar,Garlic,Garlic
+193,4,Myanmar,Maize,Maize
+194,4,Myanmar,Onions,"Onions, dry"
+195,4,Myanmar,Potatoes,Potatoes
+196,4,Myanmar,Soybeans,Soybeans
+197,4,Pakistan,Lentils (masur),Lentils
+198,4,Pakistan,Wheat,Wheat
+199,4,Rwanda,Avocados,Avocados
+200,4,Rwanda,Cabbage,Cabbages and other brassicas
+201,4,Rwanda,Carrots,Carrots and turnips
+202,4,Rwanda,Groundnuts (shelled),"Groundnuts, with shell"
+203,4,Rwanda,Oranges (big size),Oranges
+204,4,Rwanda,Peas (dry),"Peas, dry"
+205,4,Rwanda,Soybeans,Soybeans
+206,4,Rwanda,Tomatoes,Tomatoes
+207,4,Turkey,Apples (red),Apples
+208,4,Turkey,Bananas,Bananas
+209,4,Turkey,Cabbage,Cabbages and other brassicas
+210,4,Turkey,Cauliflower,Cauliflowers and broccoli
+211,4,Turkey,Chickpeas,Chick peas
+212,4,Turkey,Cucumbers (greenhouse),Cucumbers and gherkins
+213,4,Turkey,Garlic,Garlic
+214,4,Turkey,Groundnuts (shelled),"Groundnuts, with shell"
+215,4,Turkey,Onions,"Onions, dry"
+216,4,Turkey,Oranges,Oranges
+217,4,Turkey,Tea,Tea
+218,4,Turkey,Tea (green),Tea
+219,4,Turkey,Tomatoes,Tomatoes
+220,3,Azerbaijan,Potatoes,Potatoes
+221,3,Chad,Sorghum (berbere),Sorghum
+222,3,Chad,Sorghum (white),Sorghum
+223,3,Colombia,Apples (red),Apples
+224,3,Colombia,Cabbage,Cabbages and other brassicas
+225,3,Colombia,Cauliflower,Cauliflowers and broccoli
+226,3,Colombia,Cucumbers (greenhouse),Cucumbers and gherkins
+227,3,Colombia,Garlic,Garlic
+228,3,Congo,Oil (palm),"Oil, palm"
+229,3,Democratic Republic of the Congo,Groundnuts (shelled),"Groundnuts, with shell"
+230,3,Democratic Republic of the Congo,Sweet potatoes,Sweet potatoes
+231,3,Gambia,Cashew,"Cashew nuts, with shell"
+232,3,Gambia,Maize,Maize
+233,3,Kyrgyzstan,Apples,Apples
+234,3,Nigeria,Cowpeas (brown),"Cow peas, dry"
+235,3,Nigeria,Cowpeas (white),"Cow peas, dry"
+236,3,Nigeria,Groundnuts (shelled),"Groundnuts, with shell"
+237,3,Nigeria,Maize (white),Maize
+238,3,Nigeria,Maize (yellow),Maize
+239,3,Nigeria,Sorghum (brown),Sorghum
+240,3,Nigeria,Sorghum (white),Sorghum
+241,3,Nigeria,Wheat,Wheat
+242,3,Nigeria,Yam,Yams
+243,3,Nigeria,Yam (Abuja),Yams
+244,3,Somalia,Maize (white),Maize
+245,3,South Sudan,Cassava (dry),Cassava
+246,3,Syrian Arab Republic,Tomatoes,Tomatoes
+247,3,Timor-Leste,Cassava,Cassava
+248,3,Ukraine,Buckwheat grits,Buckwheat
+249,3,Ukraine,Cabbage,Cabbages and other brassicas
+250,3,Ukraine,Carrots,Carrots and turnips
+251,3,Ukraine,Onions,"Onions, dry"
+252,3,Ukraine,Potatoes,Potatoes
+253,3,Zimbabwe,Groundnuts (shelled),"Groundnuts, with shell"
+254,3,Zimbabwe,Sorghum,Sorghum
+255,3,Zimbabwe,Wheat,Wheat
+256,2,Algeria,Apples,Apples
+257,2,Algeria,Bananas,Bananas
+258,2,Algeria,Carrots,Carrots and turnips
+259,2,Algeria,Onions,"Onions, dry"
+260,2,Algeria,Potatoes,Potatoes
+261,2,Algeria,Tomatoes,Tomatoes
+262,2,Central African Republic,Oil (palm),"Oil, palm"
+263,2,Central African Republic,Sesame,Sesame seed
+264,2,Central African Republic,Sorghum,Sorghum
+265,2,Colombia,Broccoli,Cauliflowers and broccoli
+266,2,Colombia,Mangoes,"Mangoes, mangosteens, guavas"
+267,2,Colombia,Papaya,Papayas
+268,2,Colombia,Pumpkin,"Pumpkins, squash and gourds"
+269,2,Colombia,Spinach,Spinach
+270,2,Congo,Plantains,Plantains and others
+271,2,Gambia,Oil (palm),"Oil, palm"
+272,2,Guinea,Potatoes,Potatoes
+273,2,India,Lentils (moong),Lentils
+274,2,India,Lentils (urad),Lentils
+275,2,Lebanon,Chickpeas,Chick peas
+276,2,Lebanon,Cucumbers (greenhouse),Cucumbers and gherkins
+277,2,Lebanon,Spinach,Spinach
+278,2,Madagascar,Rice (paddy),"Rice, paddy"
+279,2,Pakistan,Lentils (moong),Lentils
+280,2,Somalia,Sorghum (red),Sorghum
+281,2,South Sudan,Cassava,Cassava
+282,2,Syrian Arab Republic,Chickpeas,Chick peas
+283,2,Syrian Arab Republic,Tomatoes (paste),Tomatoes
+284,2,Turkey,Eggplants,Eggplants (aubergines)
+285,2,Turkey,Potatoes,Potatoes
+286,2,Turkey,Spinach,Spinach
+287,2,Turkey,Tomatoes (paste),Tomatoes
+288,1,Guinea,Maize,Maize
+289,1,Haiti,Sorghum,Sorghum
+290,1,Jordan,Spinach,Spinach
+291,1,Nigeria,Oil (palm),"Oil, palm"
+292,1,Syrian Arab Republic,Dates,Dates
