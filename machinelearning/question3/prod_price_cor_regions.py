@@ -103,17 +103,17 @@ def region_correlation(region, r, food_data, prod_data):
 
         newfood, newprod = align_years(productprice_averaged, productprod_averaged)
         corr = correlation(newprod, newfood)
-
+        print(product)
         if corr:
             rho, pvalue=corr
             if (rho < -0.5 or rho > 0.5) and pvalue < 0.05 and rho != 1.0:
                 print(r, '&', product, '&', round(rho,2) , '&', pvalue, '\\\\')
                 print('\\hline')
-                # cwd = os.getcwd()
-                # os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/region_corr_improved')
-                # df = pd.concat([newprod['value_change'], newfood['price_change']])
-                # df.to_csv(r.replace(' ', '') + '_' + product.replace(' ', '') + 'correlation.csv')
-                # os.chdir(cwd)
+                cwd = os.getcwd()
+                os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/toPlotOnWebsite/region_corr_improved')
+                df = pd.concat([newprod['value_change'].reset_index(), newfood['price_change'].reset_index()], axis=1).drop('index', axis=1)
+                df.to_csv(r.replace(' ', '') + '_' + product.replace(' ', '') + 'correlation.csv')
+                os.chdir(cwd)
             # save_df = pd.concat([newprod['value_change'].reset_index(), newfood['price_change'].reset_index()], axis=1, ignore_index=True)
             # save_df.to_csv(r + '_'+product + '.csv')
 

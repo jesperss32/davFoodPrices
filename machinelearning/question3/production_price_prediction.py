@@ -97,8 +97,8 @@ def linear_regression(X_Y_data, N):
     ax2.scatter(X_data_train, Y_data_train, color='black')
     ax2.plot(X_data_train, predict_train, color='blue', linewidth=2)
 
-    ax1.set_title('Wheat in India: prediction')
-    ax2.set_title('Wheat in India: fit')
+    ax1.set_title('Apples in Europe: prediction')
+    ax2.set_title('Apples in Europe: fit')
     # plt.xticks(())
     # plt.yticks(())
 
@@ -126,7 +126,6 @@ def save_linear_regression_line(X_Y_data, N, filename):
 
     regr = linear_model.LinearRegression()
 
-
     poly = PolynomialFeatures(N)
     transform_train = poly.fit_transform(X_data_train)
     transform_test = poly.fit_transform(X_data_test)
@@ -140,10 +139,9 @@ def save_linear_regression_line(X_Y_data, N, filename):
     print('Variance score: %.2f' % r2_score(Y_data_test, predict))
     cwd = os.getcwd()
     os.chdir('/home/student/Documents/Projecten/davFoodPrices/machinelearning/question3/toPlotOnWebsite/regression_lines')
-    df = pd.DataFrame({'production_data' : X_data_test.tolist(), 'predicted_price' : predict})
+    df = pd.DataFrame({'production_data' : X_data_test.T[0], 'predicted_price' : predict})
     df.to_csv(filename.replace('.csv', '') + 'linearmodel.csv')
     os.chdir(cwd)
-    # Plot outputs
     # plt.scatter(X_data_test, Y_data_test,  color='black')
     # plt.plot(X_data_test, predict, color='blue', linewidth=2)
     # plt.xlabel('production value')
@@ -162,9 +160,10 @@ if __name__ == '__main__':
     for filename in os.listdir(path):
         print(filename)
         df = pd.read_csv(filename)
-        print(len(df))
-        X_data = df.ix[:,0]
-        Y_data = df.ix[:,1]
+        #print(df)
+        X_data = df.ix[:,1]
+        Y_data = df.ix[:,2]
+        #print(Y_data)
         X_Y_data = np.array(pd.concat([X_data, Y_data], axis=1))
         save_linear_regression_line(X_Y_data, 1, filename)
     os.chdir(cwd)
